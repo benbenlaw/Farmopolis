@@ -22,7 +22,13 @@ local/
 logs/
 crash-reports/
 saves/
+debug/
 journeymap/
+blueprints/benbenlaw/
+dynamic-resource-pack-cache/
+waypoints/
+fancymenu_data/
+DiscordIntegration-Data/
 emojiful/
 .mixin/
 realms_persistence.json
