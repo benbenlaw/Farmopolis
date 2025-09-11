@@ -5,7 +5,6 @@ Changelog
 - All Experiance can now be used to craft experiance seeds 
 - Architect Cutter is now working again
 - Added Create: Bells and Whistles
-- Added Create: Misc and Things
 - Fixed Twilight Forest Upgrade not being placeable inside the cloche
 - Added OfficialServerEvents scripts
 
