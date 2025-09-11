@@ -1,0 +1,826 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "brewery"
+	group: "36E95858203D2717"
+	hide_quest_until_deps_complete: true
+	icon: {
+		id: "drinkbeer:empty_beer_mug"
+	}
+	id: "0632FA4FFA8C7199"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "57D7674E6381203F"
+			tasks: [{
+				id: "11188600F0EF02D7"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["57D7674E6381203F"]
+			id: "5B85D7DA9F739D88"
+			tasks: [{
+				id: "702BCABA28E6E084"
+				item: { count: 1, id: "drinkbeer:beer_barrel" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["57D7674E6381203F"]
+			id: "74B9945FE3FAFA04"
+			tasks: [{
+				id: "4276B91B0BA94586"
+				item: { count: 1, id: "create_winery:wine_cellar" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5B85D7DA9F739D88"]
+			hide_dependent_lines: true
+			id: "797606D71AC4EE5E"
+			rewards: [
+				{
+					id: "67D6108E8F24E7DF"
+					item: {
+						count: 1
+						id: "opolisutilities:b_bucks"
+					}
+					type: "item"
+				}
+				{
+					id: "74254186FEF43947"
+					item: {
+						count: 1
+						id: "opolisutilities:b_bucks"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "17E915F244E51ED2"
+				item: { count: 1, id: "drinkbeer:empty_beer_mug" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["797606D71AC4EE5E"]
+			id: "53A81ED54038DEF1"
+			rewards: [
+				{
+					id: "6CA697C1AFC435E7"
+					item: {
+						count: 1
+						id: "opolisutilities:b_bucks"
+					}
+					type: "item"
+				}
+				{
+					id: "5F534623C5EBFF89"
+					item: {
+						count: 1
+						id: "opolisutilities:b_bucks"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "20A4A1DD630C7DF9"
+				item: { count: 1, id: "drinkbeer:beer_mug_apple_lambic" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["797606D71AC4EE5E"]
+			id: "52AB03DBB5AAA297"
+			rewards: [
+				{
+					id: "0CA244E9772581D9"
+					item: {
+						count: 1
+						id: "opolisutilities:b_bucks"
+					}
+					type: "item"
+				}
+				{
+					id: "5FA412086B2C9301"
+					item: {
+						count: 1
+						id: "opolisutilities:b_bucks"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "73FE72B146647FF4"
+				item: { count: 1, id: "drinkbeer:beer_mug_frothy_pink_eggnog" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["797606D71AC4EE5E"]
+			id: "1E85E73FDDC2C87F"
+			rewards: [
+				{
+					id: "312B604AADC49019"
+					item: {
+						count: 1
+						id: "opolisutilities:b_bucks"
+					}
+					type: "item"
+				}
+				{
+					id: "6CD6657AD30E822A"
+					item: {
+						count: 1
+						id: "opolisutilities:b_bucks"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "402D6E4C25E0BE34"
+				item: { count: 1, id: "drinkbeer:beer_mug_haars_icey_pale_lager" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["797606D71AC4EE5E"]
+			id: "794489E687115CFD"
+			rewards: [
+				{
+					id: "125A7D08CA9294E8"
+					item: {
+						count: 1
+						id: "opolisutilities:b_bucks"
+					}
+					type: "item"
+				}
+				{
+					id: "4C97F6867542C950"
+					item: {
+						count: 1
+						id: "opolisutilities:b_bucks"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "37B9FDCA57A9AE1C"
+				item: { count: 1, id: "drinkbeer:beer_mug_night_howl_kvass" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["797606D71AC4EE5E"]
+			id: "73F87EC16ED8B3A0"
+			rewards: [
+				{
+					id: "254EB5D055660A78"
+					item: {
+						count: 1
+						id: "opolisutilities:b_bucks"
+					}
+					type: "item"
+				}
+				{
+					id: "789C8E3C9EC2D52C"
+					item: {
+						count: 1
+						id: "opolisutilities:b_bucks"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "1A6943C90A322B11"
+				item: { count: 1, id: "drinkbeer:beer_mug_blaze_milk_stout" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["797606D71AC4EE5E"]
+			icon: {
+				id: "drinkbeer:beer_mug_blaze_stout"
+			}
+			id: "33D37EC1F86EC683"
+			rewards: [
+				{
+					id: "11A4AA6F81BEB8EF"
+					item: {
+						count: 1
+						id: "opolisutilities:b_bucks"
+					}
+					type: "item"
+				}
+				{
+					id: "4711876289E852DE"
+					item: {
+						count: 1
+						id: "opolisutilities:b_bucks"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "070F1183F0682D1E"
+				item: { count: 1, id: "drinkbeer:beer_mug_blaze_stout" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["797606D71AC4EE5E"]
+			id: "03C7F3CB01E9894C"
+			rewards: [
+				{
+					id: "5128602C7C96CBDB"
+					item: {
+						count: 1
+						id: "opolisutilities:b_bucks"
+					}
+					type: "item"
+				}
+				{
+					id: "06BD2B6F89F57256"
+					item: {
+						count: 1
+						id: "opolisutilities:b_bucks"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "288CFEB8C12BEBAE"
+				item: { count: 1, id: "drinkbeer:beer_mug_sweet_berry_kriek" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["797606D71AC4EE5E"]
+			id: "6171F8DB01C648FF"
+			rewards: [
+				{
+					id: "642B38EA2B47E0E3"
+					item: {
+						count: 1
+						id: "opolisutilities:b_bucks"
+					}
+					type: "item"
+				}
+				{
+					id: "21ED7AD56F64BF0C"
+					item: {
+						count: 1
+						id: "opolisutilities:b_bucks"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "3B7856CB187971C7"
+				item: { count: 1, id: "drinkbeer:beer_mug" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["797606D71AC4EE5E"]
+			id: "5BC20AFD503E09A6"
+			rewards: [
+				{
+					id: "1DE550468339A58F"
+					item: {
+						count: 1
+						id: "opolisutilities:b_bucks"
+					}
+					type: "item"
+				}
+				{
+					id: "368D7D64E7DE9E6B"
+					item: {
+						count: 1
+						id: "opolisutilities:b_bucks"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "75C0549E8BAA97EF"
+				item: { count: 1, id: "drinkbeer:beer_mug_pumpkin_kvass" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["74B9945FE3FAFA04"]
+			id: "08226FF760A8F81C"
+			tasks: [{
+				id: "68F89548EFA5F8AA"
+				item: { count: 1, id: "create_winery:white_grape_pomace" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["74B9945FE3FAFA04"]
+			id: "051E295BE1E9DA33"
+			tasks: [{
+				id: "01098B8CFA88F3D5"
+				item: { count: 1, id: "create_winery:red_grape_pomace" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["74B9945FE3FAFA04"]
+			id: "67AC3C0E41F80EA7"
+			tasks: [{
+				id: "0F939E44596D09F6"
+				item: { count: 1, id: "create_winery:apple_must" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"08226FF760A8F81C"
+				"051E295BE1E9DA33"
+			]
+			dependency_requirement: "one_completed"
+			id: "18625D82C27EFF84"
+			rewards: [
+				{
+					id: "10B2CCCA717162F9"
+					item: {
+						count: 1
+						id: "opolisutilities:b_bucks"
+					}
+					type: "item"
+				}
+				{
+					id: "2E2DE2BAB5417C6D"
+					item: {
+						count: 1
+						id: "opolisutilities:b_bucks"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "619F601FEB248AD7"
+				item: { count: 1, id: "create_winery:grape_juice" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["67AC3C0E41F80EA7"]
+			id: "3F5BA943E60CD502"
+			rewards: [
+				{
+					id: "4C5489D7C6C5F7A5"
+					item: {
+						count: 1
+						id: "opolisutilities:b_bucks"
+					}
+					type: "item"
+				}
+				{
+					id: "4405B0F3EB0729C9"
+					item: {
+						count: 1
+						id: "opolisutilities:b_bucks"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "01209495101F67B7"
+				item: { count: 1, id: "create_winery:apple_juice" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["67AC3C0E41F80EA7"]
+			id: "0B4DA4E1E77938E4"
+			rewards: [
+				{
+					id: "03E5F0CFB444688A"
+					item: {
+						count: 1
+						id: "opolisutilities:b_bucks"
+					}
+					type: "item"
+				}
+				{
+					id: "4E5FE91342FEE9E9"
+					item: {
+						count: 1
+						id: "opolisutilities:b_bucks"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "19B66FBD475EA138"
+				item: { count: 1, id: "create_winery:cider" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["08226FF760A8F81C"]
+			id: "07E9B7A565AED63B"
+			rewards: [
+				{
+					id: "1C9CF48E33DD29B8"
+					item: {
+						count: 1
+						id: "opolisutilities:b_bucks"
+					}
+					type: "item"
+				}
+				{
+					id: "56BB81522EF47435"
+					item: {
+						count: 1
+						id: "opolisutilities:b_bucks"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 32L
+				id: "4C3AB92C05F1A6F8"
+				item: { count: 1, id: "create_winery:riesling" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["08226FF760A8F81C"]
+			id: "75709A3A33F14B06"
+			rewards: [
+				{
+					id: "2761478F8B463433"
+					item: {
+						count: 1
+						id: "opolisutilities:b_bucks"
+					}
+					type: "item"
+				}
+				{
+					id: "634BD8DC8A6C45AE"
+					item: {
+						count: 1
+						id: "opolisutilities:b_bucks"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 32L
+				id: "2348033E65347B50"
+				item: { count: 1, id: "create_winery:chardonnay" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["08226FF760A8F81C"]
+			id: "5412EF42DC478CF2"
+			rewards: [
+				{
+					id: "7D2DA64404B82BC3"
+					item: {
+						count: 1
+						id: "opolisutilities:b_bucks"
+					}
+					type: "item"
+				}
+				{
+					id: "033D9381CB214CF9"
+					item: {
+						count: 1
+						id: "opolisutilities:b_bucks"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 32L
+				id: "04C35B68D9217633"
+				item: { count: 1, id: "create_winery:champaign" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["051E295BE1E9DA33"]
+			id: "1A9A66FCE5ED1C01"
+			rewards: [
+				{
+					id: "6BD355891FA90770"
+					item: {
+						count: 1
+						id: "opolisutilities:b_bucks"
+					}
+					type: "item"
+				}
+				{
+					id: "68AFE964AF572C65"
+					item: {
+						count: 1
+						id: "opolisutilities:b_bucks"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 24L
+				id: "1634856D769BED1C"
+				item: { count: 1, id: "create_winery:merlot" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["051E295BE1E9DA33"]
+			id: "39CFDD3C67752C45"
+			rewards: [
+				{
+					id: "186D43B0FCBDD1FB"
+					item: {
+						count: 1
+						id: "opolisutilities:b_bucks"
+					}
+					type: "item"
+				}
+				{
+					id: "27CE6FCEEB1FB7E8"
+					item: {
+						count: 1
+						id: "opolisutilities:b_bucks"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 24L
+				id: "6C567080F7C48502"
+				item: { count: 1, id: "create_winery:cabernet_sauvignon" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["051E295BE1E9DA33"]
+			id: "541E76C13E471FA7"
+			rewards: [
+				{
+					id: "3EA6A216CD8AB2F0"
+					item: {
+						count: 1
+						id: "opolisutilities:b_bucks"
+					}
+					type: "item"
+				}
+				{
+					id: "102385D40176783D"
+					item: {
+						count: 1
+						id: "opolisutilities:b_bucks"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 24L
+				id: "5540B23744ACF23C"
+				item: { count: 1, id: "create_winery:pinot_noir" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["051E295BE1E9DA33"]
+			id: "4611F2891A23330A"
+			rewards: [
+				{
+					id: "768106D6F9F55A14"
+					item: {
+						count: 1
+						id: "opolisutilities:b_bucks"
+					}
+					type: "item"
+				}
+				{
+					id: "326429E5CFAF691E"
+					item: {
+						count: 1
+						id: "opolisutilities:b_bucks"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 24L
+				id: "155579C4A64D6E89"
+				item: { count: 1, id: "create_winery:zinfandel" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["051E295BE1E9DA33"]
+			id: "6C03D77EC3024FC2"
+			rewards: [
+				{
+					id: "3DCB4BC798580E7E"
+					item: {
+						count: 1
+						id: "opolisutilities:b_bucks"
+					}
+					type: "item"
+				}
+				{
+					id: "49E6E814A5D221CD"
+					item: {
+						count: 1
+						id: "opolisutilities:b_bucks"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 24L
+				id: "427183ADA9301C08"
+				item: { count: 1, id: "create_winery:bordeaux" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"051E295BE1E9DA33"
+				"08226FF760A8F81C"
+			]
+			id: "492861C5BF4E85B8"
+			rewards: [
+				{
+					id: "7DB9C27CBB0AECD4"
+					item: {
+						count: 1
+						id: "opolisutilities:b_bucks"
+					}
+					type: "item"
+				}
+				{
+					id: "7DAA79886A36E235"
+					item: {
+						count: 1
+						id: "opolisutilities:b_bucks"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "04E98A16723604B2"
+				item: { count: 1, id: "create_winery:rose" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"73F87EC16ED8B3A0"
+				"39CFDD3C67752C45"
+				"5412EF42DC478CF2"
+				"1E85E73FDDC2C87F"
+				"5BC20AFD503E09A6"
+				"1A9A66FCE5ED1C01"
+				"52AB03DBB5AAA297"
+				"794489E687115CFD"
+				"0B4DA4E1E77938E4"
+				"4611F2891A23330A"
+				"6171F8DB01C648FF"
+				"53A81ED54038DEF1"
+				"3F5BA943E60CD502"
+				"07E9B7A565AED63B"
+				"18625D82C27EFF84"
+				"492861C5BF4E85B8"
+				"75709A3A33F14B06"
+				"6C03D77EC3024FC2"
+				"33D37EC1F86EC683"
+				"541E76C13E471FA7"
+				"03C7F3CB01E9894C"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "farmopolis:brewing_license"
+			}
+			id: "12C4EEBE99D13FCD"
+			rewards: [{
+				id: "0C0FCF409FF0963D"
+				item: {
+					count: 1
+					id: "farmopolis:brewing_license"
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "02CFE83B16C17D5D"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["12C4EEBE99D13FCD"]
+			id: "0B5FCC1DDCC4FF50"
+			tasks: [{
+				id: "6F487DD6F67BE4E9"
+				item: { count: 1, id: "farmopolis:brewing_bucks" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.5d
+		}
+	]
+}

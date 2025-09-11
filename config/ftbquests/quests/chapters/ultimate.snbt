@@ -1,0 +1,61 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ultimate"
+	group: "45905A413BE5A25B"
+	id: "7D101B9203A67317"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["072662C071AE008F"]
+			id: "4D4B76213F24324B"
+			tasks: [{
+				count: 16L
+				id: "1F99030017BDDDA6"
+				item: { count: 1, id: "farmopolis:ultimate_apple" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"4D4B76213F24324B"
+				"18FA77936F189499"
+				"3825EC5DBCB2B661"
+			]
+			id: "7670883ADB03AA8F"
+			tasks: [{
+				id: "0DFC7C0F75E2A077"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["072662C071AE008F"]
+			id: "3825EC5DBCB2B661"
+			tasks: [{
+				count: 16L
+				id: "2404F69CA1B254E2"
+				item: { count: 1, id: "farmopolis:ultimate_bread" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["072662C071AE008F"]
+			id: "18FA77936F189499"
+			tasks: [{
+				count: 16L
+				id: "303D2321771EE0D3"
+				item: { count: 1, id: "farmopolis:ultimate_chocolate" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+	]
+}

@@ -1,0 +1,16 @@
+{
+    "replace": false,
+    "values": [
+      "#c:is_forest",
+      "#c:is_plains",
+      "#c:is_jungle",
+      "#c:is_desert",
+      "#c:is_taiga",
+      "#c:is_badlands",
+      "#c:is_dry/overworld",
+      "#c:is_cold/overworld",
+      "#c:is_mountain",
+      "#c:is_snowy",
+      "#c:is_windswept"
+    ]
+  }

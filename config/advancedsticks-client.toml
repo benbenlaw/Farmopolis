@@ -1,0 +1,6 @@
+#General
+[general]
+	#Activate the Update-Checker
+	update-checker = true
+	#Shows you the stick type under the tool
+	show_stick_type = true

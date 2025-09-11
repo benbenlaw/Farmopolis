@@ -1,0 +1,249 @@
+Changelog
+# 2.0
+- Updated mods 
+- Updated to neoforge 21.1.208
+- All Experiance can now be used to craft experiance seeds 
+- Architect Cutter is now working again
+- Added Create: Bells and Whistles
+- Added Create: Misc and Things
+- Fixed Twilight Forest Upgrade not being placeable inside the cloche
+- Added OfficialServerEvents scripts
+
+# 1.0
+- Updated Yuki Textures
+- Updated Mods
+- Added Tips
+- Added Clumps
+- Removed Just Zoom button from pause menu
+- Fixed Roost to Chicken Roost, temp fix using in world recipes until mod dev fixes
+- Unified Fried Eggs 
+- Added Glowstone Essence and Brass Essence Melting Recipes
+- Added Nether and Twilight License seeling recipe
+- Added final quests 
+- All Saplings can now be purchased in the catalogue
+- Added Calcite to the Resource Generator
+- Almond leaves can now be bone mealed into almond leaves with the almond
+- ISSUE: Compressed furnace extracting from slots that it shouldn't with RS
+
+# B7.0
+- Updated Mods
+- Added Mystical Customization
+- Added Slice & Dice
+- Added Incubation
+- Added Better Compatibillity Checker
+- Added Extended Crafting
+- Added b bucks rewards to resource quests
+- Tweaked TIAB Charger rate to charge a bit faster and use less power
+- Added Missing license quests 
+- Added Ultimate Foods, currently apple, bread and chocolate ultimate food added 
+- Minecolonies breads can now be made without minecolonies
+- Hoglins can now be summoned 
+- Added some endgame quest 
+- There will be missing textures don't worry 
+
+# B6.0
+- Updated Mods
+- Gravestones can only be broken by the player that died
+- Fixed functional storage issue with ftbchunks 
+- Massive improvements to casting performance
+- Added ender tanks
+
+# B5.0
+- Updated Mods
+- Gravestones can only be broken by the player that died
+- Fixed functional storage issue with ftbchunks 
+- Massive improvements to casting performance
+- Added ender tanks
+
+# B4.0
+- Added Smart Crafting Table this replaces the Opolis Utilities Versions, supports crafting and stonecutter recipes
+- Added some licenses and bucks these are used in the Factories questlines 
+- This does create a way of getting bucks which can be uised to buy things
+- Added Simple Quarries
+- Adjusted Dark Mode Everywhere button
+- Removed FTB Backups and replaced with Simple Backups
+- Crushed Create Ores can now be crushed again into essence
+- Removed other crushed create recipes
+- Lava walker now works better with My Nethers Delight lava logged plants
+
+# B3.1
+- Updated SWISS, fixed server issues
+- Added additional wire recipes 
+
+# B3.0
+- Updated Mods
+- Updated Neoforge 21.1.187
+- Added Bad Wither No Cookie - Reloaded
+- Removed Simple Backup 
+- Added FTB Backups 3
+- Added Enhanced Celestials
+- Adds various moon phases including blood moons, blue moons and harvest moons
+- Updated to create 6.0.6
+- Enabled animal net to catch villagers
+- Increase durability of the animal net
+- Added quest for animal net
+- Fixed Pasta recipe only working on ghast dough
+- Added GuideME
+- Updated Casting to show information inside GuideME about multiblocks and equipment modifiers (UPDATE)
+- Added cheese curd recipe to Farmers Delight
+- Removed Cloche recipe
+- Added Breads factory quest line (WIP FINISH BEN)
+- Fixed Ores not dropping essence when using create drills
+- Removed Actually Additions Horse armor crushing recipes causing dupes
+- Added SWISS, Simple Wireless Interface Storage System WIP mod 
+- Added recipes and quests
+- Factories questlines now have b bucks rewards
+- Fixed Mystical crops producing the wrong items in cloches
+- Black Quartz can be grown in the cloche
+
+# B2.0
+- Updated Mods
+- Enabled Random Flower Bone Meal mod 
+- Replaced Crafting Table item in recipes with tag
+- Replaced Dye items in recipes with dye tags
+- Removed Cheese Curd smelting and smoking recipe
+- Added Hexlands II, new world type 
+
+# B1.0
+
+- Added Better Advancements
+- Added some more information to some quests
+- Added Netherite essence recipe in casting
+- Changed Snad recipes 
+- Bonemeal not being used up (https://github.com/Potion-Studios/Oh-The-Biomes-Weve-Gone/issues/295)
+- Silk touch now works with ores
+- Change ethetic green block recipe to use copper instead of verdium
+- Added Chargers
+- Increased energy capacity for refined storage wireless termials
+- Increased range of wireless transmitter to 32
+- Fixed molten enriched iron recipe not producing enough enriched iron
+- Fixed some farmers delight crops not producing the correct outputs in the cloche
+
+# A8.0
+- Updated Mods
+- Added Simple Discord Link Bot
+- Added Simple Backups
+- Added Enders Delight
+- Added Moogs End Structures
+- Added More Dragon Eggs
+- Added End Remastered
+- Added Snad
+- Changed map focus recipe to use any feather
+- Fixed more casting bugs
+- Added Molten Quartz Enriched Iron
+- Added Official server connection details (Not Open Yet)
+- Added Bumblezone
+- Added Stylecolonies
+- Added extra storage 
+- Lantersn now longer catch fire when they fall
+- Slightly buffed compressed generators
+- Reduced the power requirement of infinity booster cards 
+- Removed Extra Disks
+- Removed Productive Bees (Not needed)
+- Removed Natures Aura (Feels out of place in a farming / exploration style pack )
+- Removed Aether and other mods for the aether
+
+# A7.0
+- Updated Mods
+- Moved to CF Casting
+- Various fixes to casting
+- Wither now drops loot
+- RS controller can now hold 1000000 RF
+- Re-enabled Minecolonies crop drops 
+- Fixed Essence Vessel quest having the wrong value 
+- Minecolonies tomatos added to the tomato tag
+- Minecolonies onions added to the onion tag
+- Increase viewing range of other structure when places new structures with minecolonies
+- Mystical Experience Essence can now be melted to create molten experience
+- Added most resource to dust recipes using crushing wheels
+- Added Glassential 
+- Fixed Farmopolis overworld_not_water tag including some nether and end biomes, fixes some
+    structures spawning in The End
+- Enabled BBL Core Void Protection
+- Updated Opolis Utilities
+- Added FTB Ranks and set up ranks for official public server
+
+# A6.0
+- Updated Mods
+- Increase aluminum spawning again
+- Slightly decrease diamond spawning
+- Fixed Inferium and Prosperity Ores not spawning in the nether 
+- Added Dirt to the Resource Generator
+- Added Natures Compass, recipe tweaked
+- Added Essence Vessel recipe
+- Reduces the amount of black quartz needed for the empowerer
+- Changed Reinforced Obsidian recipe to use iridum, platinum, diamond and lead essence, give additional uses
+- Minecolonies now continue to work in the Rain
+- Casting now has molten experience, melt ancient debris in a multiblock controller to get experience
+- Tweaked Powdery Cannon recipe
+- Increase Miner chance of getting a lucky block (ore)
+- Added Framed blocks
+- JourneyMap Integration, 
+- Durability Tooltip
+- Refined Storage, Curios Integration
+- Enchantment Descriptions
+- Showcase Item
+- Emojiful
+- Extra Cells
+- Rain Shield
+- What Are They Up To (Watut)
+- Random Bone Meal Flowers
+- Experience Seeds now craftable
+- Removed the ban on minecolonies foods
+
+
+
+
+# A5.0
+- Updated Mods
+- Updated Yuki Textures
+- Fixed farmopolis translation 
+- Gamerule allowBanditRaids is now set to false
+- Gamerule doInsomnia is now set to false, no phantoms
+- Updated /modpack command
+- Updated /discord command
+- Removed Iris & Oculus Flywheel Compat, this was incompatable with our create version
+- Fixed some melting recipes making lead
+
+# A4.0
+- Added window logo
+- Removed Waystone
+- Fixed Beheading Modifier
+- Balance flight block (wip)
+- Updated Title Window to Farmopolis
+- Added Iris Shaders
+- Added Iris Shaders Flywheel Optimization
+- Added Chat Heads
+- Banned Minecolonies Supply blocks 
+- Removed Prosperity and Inferium Essence ores from the overworld
+- Changed andesite alloy recipe to use casting
+- Added Actually Additions Canola Oil recipes into in world recipes
+- Changed Oil Generator recipe
+- Changed Reinforced Obsidian recipe
+- Changed Blank Gemstone recipe 
+- Changed Fire, Water, Air and Earth seed and agglomeratio recipes
+- Fixed bread and some other missing vanilla foods
+
+# A3.0
+
+- ruby saphire  peridot essence to fluid recipes (done)
+- Added Simple Font Resource Pack
+- Added BBL Colors Connected Textures
+- Added black quartz recipe (not working)
+- Added Mouse Tweaks, FindMe, Controlling, Comforts, Toast Control, Fusion, Configured, Curio API, Torchmaster, Iron Chests, Compressed Furnace, Connected Glass, Jade Addons, Entity Culling, Ferricore, Sodium, Sodium Dynamic Lights, Sodium Options, Lightning, ModernFix 
+- Added black quartz plant 
+- Removed Create Chromatic return
+- Removed FTB Quest Optimizer
+- Removed blank gem to ruby, sapphire and peridot
+- Removed All The Ores Hammer recipes
+- Removed Inventory Tweaks
+- Removed default In World Recipes
+- Removed lens of the miner
+- Fixed some missing loottables for ores
+- Fixed error on world loads, dont use // event.remove({input: '#farmopolis:banned_items'}) //
+- Fixed platinum
+- Changed molten quartz melting to the new casting amount
+- Essences that make ingots eg iron can now be smelted into nuggets 
+- Banned Tiny Coal and Tiny Charcoal
+- Ores now effected by fortune, slightly decrease essence drop from (1 to 3) to (1 to 2)
+- Reworked ore world gen and added new vanilla ore nodes

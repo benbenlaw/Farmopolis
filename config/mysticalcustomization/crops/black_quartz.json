@@ -1,0 +1,13 @@
+{
+    "name": "Black Quartz",
+    "type": "mysticalagriculture:resource",
+    "tier": "mysticalagriculture:3",
+    "ingredient": {
+        "item": "actuallyadditions:black_quartz"
+    },
+    "color": "586e75",
+    "textures": {
+        "flower": "mysticalagriculture:blocks/flower_dust",
+        "crop": "mysticalagriculture:blocks/essence_gem"
+    }
+}

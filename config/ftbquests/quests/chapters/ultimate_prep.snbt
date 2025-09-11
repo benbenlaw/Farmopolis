@@ -1,0 +1,116 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ultimate_prep"
+	group: "45905A413BE5A25B"
+	id: "217BD5D64957ABF3"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"2867FBE9920A8A18"
+				"793840112F2EF4F8"
+				"0B5FCC1DDCC4FF50"
+				"06AC673B5AD15229"
+				"7FDAAF5E6D97B312"
+			]
+			id: "5BD565DC34E604F1"
+			tasks: [{
+				id: "49538A845FD8D475"
+				item: { count: 1, id: "extendedcrafting:black_iron_ingot" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5BD565DC34E604F1"]
+			id: "1BAAA4DE34E85E54"
+			tasks: [{
+				id: "7804354FAB80A5E7"
+				item: { count: 1, id: "extendedcrafting:black_iron_slate" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1BAAA4DE34E85E54"]
+			id: "449284BE31267C2B"
+			tasks: [{
+				id: "2C21902C9EC6734C"
+				item: { count: 1, id: "extendedcrafting:luminessence" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["449284BE31267C2B"]
+			id: "7396D4367A262C1B"
+			tasks: [{
+				id: "244E4B1ADD7D8BBE"
+				item: { count: 1, id: "extendedcrafting:basic_component" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7396D4367A262C1B"]
+			id: "6F0ABE8D8A8A5B1E"
+			tasks: [{
+				id: "345644631B566BFB"
+				item: { count: 1, id: "extendedcrafting:basic_catalyst" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6F0ABE8D8A8A5B1E"]
+			id: "7FE717A6B07EF00B"
+			tasks: [{
+				id: "721581873E20BB71"
+				item: { count: 1, id: "extendedcrafting:basic_table" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7FE717A6B07EF00B"]
+			id: "0535EFCB99F011F8"
+			tasks: [{
+				id: "73D1B1E7EEC2D6E9"
+				item: { count: 1, id: "extendedcrafting:advanced_table" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0535EFCB99F011F8"]
+			id: "09013118EE9226B2"
+			tasks: [{
+				id: "29F64C232E9E9943"
+				item: { count: 1, id: "extendedcrafting:elite_table" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["09013118EE9226B2"]
+			id: "072662C071AE008F"
+			tasks: [{
+				id: "2CD3A2A0D23E832B"
+				item: { count: 1, id: "extendedcrafting:ultimate_table" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 6.0d
+		}
+	]
+}

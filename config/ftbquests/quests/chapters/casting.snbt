@@ -1,0 +1,325 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "casting"
+	group: "68613860435A9BC1"
+	icon: {
+		id: "casting:controller"
+	}
+	id: "17A8103A34CA81F7"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6B46B78B76CBD2D5"]
+			id: "2C333618A470DFDA"
+			tasks: [{
+				id: "0DFDCDD4CABD0397"
+				item: { count: 1, id: "casting:black_brick" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3A21A965D18326BD"]
+			id: "6B46B78B76CBD2D5"
+			tasks: [{
+				id: "6225F10A313436FA"
+				item: { count: 1, id: "minecraft:brick" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -4.0d
+		}
+		{
+			id: "3A21A965D18326BD"
+			tasks: [{
+				id: "2CE53ECADA3E32BE"
+				item: { count: 1, id: "minecraft:clay_ball" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["2C333618A470DFDA"]
+			id: "2A8E4A49386A5840"
+			tasks: [{
+				id: "4051FDB874979200"
+				item: { count: 1, id: "casting:black_bricks" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2A8E4A49386A5840"]
+			id: "03C9C6C76857507E"
+			tasks: [{
+				id: "23F6636600B42E33"
+				item: { count: 1, id: "casting:controller" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3A21A965D18326BD"]
+			id: "00EDC4815155A180"
+			tasks: [{
+				id: "3DD026F63F3FC28F"
+				item: { count: 1, id: "ceramicbucket:unfired_clay_bucket" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["00EDC4815155A180"]
+			id: "690B29E3654D7740"
+			tasks: [{
+				id: "3CB8F67685969188"
+				item: { count: 1, id: "ceramicbucket:ceramic_bucket" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"03C9C6C76857507E"
+				"690B29E3654D7740"
+			]
+			id: "1AC400A3692C5BBD"
+			tasks: [{
+				id: "71CCCCDD15333DF9"
+				item: { count: 1, id: "casting:tank" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["03C9C6C76857507E"]
+			id: "1E4C371BD7A7347D"
+			tasks: [{
+				id: "78968828F9BB955F"
+				item: { count: 1, id: "casting:solidifier" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1E4C371BD7A7347D"]
+			id: "1CCDA79F1E75B7D7"
+			optional: true
+			tasks: [{
+				id: "62800FA0775BB20E"
+				item: { count: 1, id: "casting:ingot_mold" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6B5F3A4E6657E5EC"]
+			id: "3E00247CFE7A59C7"
+			tasks: [{
+				id: "4CE87B4EACFF8373"
+				item: { count: 1, id: "pipez:item_pipe" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1CCDA79F1E75B7D7"]
+			id: "238028421A0BC296"
+			tasks: [{
+				id: "071690A2E50F56CA"
+				item: { count: 1, id: "pipez:fluid_pipe" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1CCDA79F1E75B7D7"]
+			id: "6EC1930AFE7FDBA9"
+			tasks: [{
+				id: "64560912491FFED0"
+				item: { count: 1, id: "pipez:energy_pipe" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1AC400A3692C5BBD"]
+			id: "2948215295540D96"
+			tasks: [{
+				id: "3DDD362A926AA20B"
+				item: { count: 1, id: "casting:mixer" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1E4C371BD7A7347D"]
+			id: "7F19C834C895302F"
+			tasks: [{
+				id: "47E85B3CBE18A259"
+				item: { count: 1, id: "casting:gem_mold" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1E4C371BD7A7347D"]
+			id: "45C60953E19F358B"
+			tasks: [{
+				id: "46FACED8B2E0BA52"
+				item: { count: 1, id: "casting:multiblock_controller" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2948215295540D96"]
+			id: "6B5F3A4E6657E5EC"
+			tasks: [{
+				id: "05F645FA13024B38"
+				item: { count: 1, id: "alltheores:bronze_ingot" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1E4C371BD7A7347D"]
+			id: "12C32650FBA52565"
+			tasks: [{
+				id: "6D44B5ACFC9EEA89"
+				item: { count: 1, id: "casting:dust_mold" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1E4C371BD7A7347D"]
+			id: "405356AA19360B7B"
+			tasks: [{
+				id: "417F4DDE9918B5D8"
+				item: { count: 1, id: "casting:block_mold" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1E4C371BD7A7347D"]
+			id: "172BC17392D20C2C"
+			tasks: [{
+				id: "6FCDFDA732E9BDDC"
+				item: { count: 1, id: "create:andesite_alloy" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["172BC17392D20C2C"]
+			id: "25DCA177C34A3B42"
+			tasks: [{
+				id: "370A66E2A74DDA66"
+				item: { count: 1, id: "create:shaft" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["25DCA177C34A3B42"]
+			id: "1D7DBC62BBD33C82"
+			tasks: [{
+				id: "631F2A8F2C4687AE"
+				item: { count: 1, id: "create:cogwheel" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["25DCA177C34A3B42"]
+			id: "7A6F9876B89906BC"
+			tasks: [{
+				id: "4750559CB8C93588"
+				item: { count: 1, id: "create:hand_crank" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["172BC17392D20C2C"]
+			id: "606B641C38C38FC9"
+			tasks: [{
+				id: "35F2D6A2E275CF61"
+				item: { count: 1, id: "create:andesite_casing" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["606B641C38C38FC9"]
+			id: "097791CC514375AE"
+			tasks: [{
+				id: "5046B7DE1076F202"
+				item: { count: 1, id: "create:millstone" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["25DCA177C34A3B42"]
+			id: "10E8BE7DF84194AA"
+			tasks: [{
+				id: "722D97DB7DC815E8"
+				item: { count: 1, id: "create:belt_connector" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["606B641C38C38FC9"]
+			id: "28ADB027D80C9DC4"
+			tasks: [{
+				id: "635C37B67A6D2038"
+				item: { count: 1, id: "market:market" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7F19C834C895302F"]
+			id: "2E1A297559F3C47D"
+			tasks: [{
+				id: "2C1FEF7C6E69EC6D"
+				item: { count: 1, id: "squarry:fuel_quarry" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.5d
+		}
+	]
+}

@@ -1,0 +1,28 @@
+{
+  "bookGuiScale": 0,
+  "clickedVisualize": false,
+  "bookData": {
+    "productivebees:guide": {
+      "viewedEntries": [
+        "productivebees:guide/start",
+        "productivebees:misc/performance"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    },
+    "naturesaura:book": {
+      "viewedEntries": [
+        "naturesaura:intro/aura"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    },
+    "twilightdelight:twilight_guide": {
+      "viewedEntries": [
+        "twilightdelight:tricks/maze_stove"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    }
+  }
+}

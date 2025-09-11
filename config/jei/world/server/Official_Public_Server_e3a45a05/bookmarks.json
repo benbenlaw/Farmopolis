@@ -1,0 +1,18 @@
+[
+  {"version":2},
+  {"ingredient":{"id":"minecraft:clay_ball"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:cobblestone"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"mysticalagriculture:inferium_essence"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"opolisutilities:mini_charcoal"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:sand"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"create:mechanical_press"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"actuallyadditions:coal_generator"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"actuallyadditions:atomic_reconstructor"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"create:mechanical_harvester"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:wheat_seeds"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"actuallyadditions:canola_press"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"biomeswevegone:orange_amaranth"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"actuallyadditions:fermenting_barrel"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"mysticalagriculture:redstone_essence"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"biomeswevegone:green_enchanted_log"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

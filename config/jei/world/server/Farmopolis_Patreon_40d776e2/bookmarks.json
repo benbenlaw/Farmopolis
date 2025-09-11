@@ -1,0 +1,6 @@
+[
+  {"version":2},
+  {"ingredient":{"id":"minecolonies:blockhutfletcher"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecolonies:assistanthammer_iron"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"actuallyadditions:laser_relay"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

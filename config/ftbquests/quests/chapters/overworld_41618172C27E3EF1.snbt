@@ -1,0 +1,745 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "overworld_41618172C27E3EF1"
+	group: "65BA5B44E454276E"
+	icon: {
+		id: "minecraft:grass_block"
+	}
+	id: "41618172C27E3EF1"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "752FF5C28E7B7F5D"
+			tasks: [{
+				id: "2C194A5D813F8DE4"
+				item: { count: 1, id: "chococraft:gysahl_green" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["752FF5C28E7B7F5D"]
+			id: "075076B14F083A4E"
+			tasks: [{
+				id: "14E5978A41C30B4B"
+				item: { count: 1, id: "chococraft:gysahl_green_seeds" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["075076B14F083A4E"]
+			id: "3CCEA3655037EA25"
+			rewards: [{
+				id: "60F81F9DBE6105BB"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1300FCE857304A35"
+				item: { count: 1, id: "chococraft:loverly_gysahl_green" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["075076B14F083A4E"]
+			id: "4DCFC0676EE6EC23"
+			rewards: [{
+				id: "5D10427C8025BCBE"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "61416A71D01F845C"
+				item: { count: 1, id: "chococraft:gold_gysahl" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["075076B14F083A4E"]
+			id: "01B678991AF17C47"
+			rewards: [{
+				id: "50488E055F257826"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "46487437C29235CD"
+				item: { count: 1, id: "chococraft:red_gysahl" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["075076B14F083A4E"]
+			id: "177AC27C0B68BB34"
+			rewards: [{
+				id: "3C838FBF55DD84B2"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "33D7F03CDB2C57A8"
+				item: { count: 1, id: "chococraft:pink_gysahl" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["752FF5C28E7B7F5D"]
+			id: "1745E13D1F830545"
+			rewards: [{
+				id: "394F7C1F263FC8D1"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5A34DF662D32625D"
+				item: { count: 1, id: "chococraft:pickled_gysahl_raw" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["752FF5C28E7B7F5D"]
+			id: "22B2C83284B4F37C"
+			rewards: [{
+				id: "6447021D95E58299"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "65228D0420F20844"
+				item: { count: 1, id: "chococraft:pickled_gysahl_cooked" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["752FF5C28E7B7F5D"]
+			id: "3ECC682997D42043"
+			rewards: [{
+				id: "49B9F5314B1BED47"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7779EB067CDC284E"
+				item: { count: 1, id: "chococraft:gysahl_cake" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"747D53BE241255D8"
+				"129C4477C62EAA5F"
+			]
+			dependency_requirement: "one_completed"
+			id: "2266D712116D6637"
+			rewards: [{
+				id: "351C47B4AF13DC84"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6B722D260093681B"
+				item: { count: 1, id: "minecraft:sugar" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			id: "747D53BE241255D8"
+			rewards: [{
+				id: "464053EAC563B957"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3798141F5C99245C"
+				item: { count: 1, id: "minecraft:sugar_cane" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			id: "129C4477C62EAA5F"
+			rewards: [{
+				id: "191E17529DB91203"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "447701CDA6A75AAD"
+				item: { count: 1, id: "minecraft:honey_bottle" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			id: "05BDA6698A629034"
+			tasks: [{
+				id: "59D68A5E2B0E5963"
+				item: { count: 1, id: "minecraft:honeycomb" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			id: "7A6A5D1F81B87EE9"
+			rewards: [{
+				id: "1C4D58AE569727DE"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5E49CCFA45CDE454"
+				item: { count: 1, id: "minecraft:oak_sapling" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7A6A5D1F81B87EE9"]
+			id: "2C24D058AFA83D85"
+			rewards: [{
+				id: "780B16B96C8CD51C"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4BA242469F8FEAFB"
+				item: { count: 1, id: "minecraft:apple" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.5d
+		}
+		{
+			id: "08AFE1F4E256202C"
+			rewards: [{
+				id: "1BE3845B2EDB670D"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5445BA4C08AEBA9C"
+				item: { count: 1, id: "create_chocolate:almond_sapling" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["08AFE1F4E256202C"]
+			id: "0C2014B5AEAA2F00"
+			rewards: [{
+				id: "7C9F81BCCDE1CFAE"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2892A46F3115AAE6"
+				item: { count: 1, id: "create_chocolate:almond" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.5d
+		}
+		{
+			id: "537BB6CDE193B7D9"
+			tasks: [{
+				id: "25D8F494FF57B858"
+				item: { count: 1, id: "create_chocolate:vanilla_seed" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["537BB6CDE193B7D9"]
+			id: "007AA16B03829939"
+			rewards: [{
+				id: "5E7A5A7E45E71930"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3D5D1B5EA3497960"
+				item: { count: 1, id: "create_chocolate:vanilla_lusk" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			id: "701280F387A77D73"
+			rewards: [{
+				id: "32E228EE483E50A4"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "351C6D655F007248"
+				item: { count: 1, id: "minecraft:jungle_sapling" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["701280F387A77D73"]
+			id: "67327090A8D2C531"
+			rewards: [{
+				id: "7A84CD7BB6A7F066"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "766E7C2CFBCD678C"
+				item: { count: 1, id: "minecraft:cocoa_beans" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			id: "07648384DF95AA5F"
+			rewards: [{
+				id: "47F02A2E9974B5F9"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "10815AFC57E0A726"
+				item: { count: 1, id: "minecraft:sweet_berries" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -6.0d
+		}
+		{
+			id: "18A77B5DC9AA2181"
+			rewards: [{
+				id: "4B11F30E9AD1ECC5"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "48A943F4177DEFBC"
+				item: { count: 1, id: "minecraft:pumpkin" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -3.5d
+		}
+		{
+			id: "6AC3F0A6BB1A0CC3"
+			tasks: [{
+				id: "517C7DFD445E6625"
+				item: { count: 1, id: "minecraft:beetroot_seeds" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6AC3F0A6BB1A0CC3"]
+			id: "3E9B11DD6177B5BB"
+			rewards: [{
+				id: "3077E0FD753179BE"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "47F75EA1107595CA"
+				item: { count: 1, id: "minecraft:beetroot" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -2.5d
+		}
+		{
+			id: "1F5817FCC1E82738"
+			rewards: [{
+				id: "0FE05D6303090ECF"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "60497FCDBE8E770A"
+				item: { count: 1, id: "create_winery:white_grapes" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -5.0d
+		}
+		{
+			id: "55AA8CD5E016118F"
+			rewards: [{
+				id: "0D963EA910C0E02C"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0D6293DA3F1D8515"
+				item: { count: 1, id: "create_winery:red_grapes" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			id: "7AD2A0A43E4BEEF2"
+			tasks: [{
+				id: "3CCFEA4045A16861"
+				type: "checkmark"
+			}]
+			x: -8.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["7AD2A0A43E4BEEF2"]
+			id: "24B565444F3D3607"
+			rewards: [{
+				id: "4515DD39AE7A54BD"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "51E90DC0077771C1"
+				item: { count: 1, id: "minecraft:milk_bucket" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -5.5d
+		}
+		{
+			id: "266B6F7ED7CBF4CC"
+			tasks: [{
+				id: "72225E48BC96B942"
+				type: "checkmark"
+			}]
+			x: -7.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["266B6F7ED7CBF4CC"]
+			id: "413F44878CDC706A"
+			rewards: [{
+				id: "2343653D27DB9C3B"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7F90462C79482380"
+				item: { count: 1, id: "minecraft:egg" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["266B6F7ED7CBF4CC"]
+			id: "3D5CE385A330E135"
+			rewards: [{
+				id: "75ED8E43A2BA0B16"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2F3146D3033F5702"
+				item: { count: 1, id: "minecraft:chicken" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["7AD2A0A43E4BEEF2"]
+			id: "5B83D894F70E76D0"
+			rewards: [{
+				id: "443D44801297D879"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6713745B482236EC"
+				item: { count: 1, id: "minecraft:beef" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -7.5d
+		}
+		{
+			id: "25D4D7FACF33CA1F"
+			rewards: [{
+				id: "04D3D49DB8133850"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "179BA726C266B2C5"
+				item: { count: 1, id: "minecraft:bamboo" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			id: "22CC2C457CF5E869"
+			rewards: [{
+				id: "4491A8B805335A6B"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1D18C534B9DF6D08"
+				item: { count: 1, id: "minecolonies:durum" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: -7.5d
+		}
+		{
+			id: "1244633DBF3F9DBB"
+			rewards: [{
+				id: "5308434F02DDC632"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "22980D5AB6ABEFAB"
+				item: { count: 1, id: "minecolonies:eggplant" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -7.5d
+		}
+		{
+			id: "3C4CC19DC61522C5"
+			rewards: [{
+				id: "515822E7CF436E75"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "62C37385F0F40064"
+				item: { count: 1, id: "minecolonies:garlic" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -7.5d
+		}
+		{
+			id: "119A524BCB0367BF"
+			rewards: [{
+				id: "59A3854944B2BFF5"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "738EB276E3DFCB0A"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:foods/tomato)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -7.5d
+		}
+		{
+			id: "09E8030E26664078"
+			rewards: [{
+				id: "24120E1C97E88ECE"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7ACDB4AE27C47F76"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:foods/onion)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -7.5d
+		}
+		{
+			id: "06EBB5AF3F4CC57D"
+			rewards: [{
+				id: "063E1BA4D9343785"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "040FE8FDF9036D10"
+				item: { count: 1, id: "minecolonies:mint" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -7.5d
+		}
+		{
+			id: "1224A39C077A22CA"
+			rewards: [{
+				id: "71795DE7A63282E5"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "32B9E245251E9355"
+				item: { count: 1, id: "minecolonies:corn" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -7.5d
+		}
+		{
+			id: "656AD4FB654B0FF6"
+			tasks: [{
+				id: "11043CF91E432BBA"
+				item: { count: 1, id: "minecraft:wheat_seeds" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["656AD4FB654B0FF6"]
+			id: "7764704BE570A8AD"
+			rewards: [{
+				id: "66C85E0B77803226"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2593D4F3C9F6D537"
+				item: { count: 1, id: "minecraft:wheat" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.5d
+		}
+	]
+}

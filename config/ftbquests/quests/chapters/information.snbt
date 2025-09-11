@@ -1,0 +1,100 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "information"
+	group: ""
+	id: "109C9AE9256FC721"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6CDB919F3ABC2FCF"]
+			id: "0F387908069C9863"
+			tasks: [{
+				id: "2B8C1AC9493FC880"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6CDB919F3ABC2FCF"]
+			id: "6A7EF5C24FE0FB9B"
+			tasks: [{
+				id: "77D262B11F6B7E08"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6CDB919F3ABC2FCF"]
+			id: "2488EED5EBCCB56E"
+			tasks: [{
+				id: "46524E3CDE09565D"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6CDB919F3ABC2FCF"]
+			id: "2EEBDBC34F8503E5"
+			tasks: [{
+				id: "68869D445B40A4A2"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6CDB919F3ABC2FCF"]
+			id: "3F5A079B77BE83A6"
+			tasks: [{
+				id: "3CE653D532231339"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6CDB919F3ABC2FCF"]
+			id: "5A5049B71685F111"
+			tasks: [{
+				id: "1B1F0D348422B565"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6CDB919F3ABC2FCF"]
+			id: "3D5EE488C3473055"
+			tasks: [{
+				id: "26CEBBB887A1E976"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6CDB919F3ABC2FCF"]
+			id: "4DD8189E032A1012"
+			tasks: [{
+				id: "1C388068FD8F6D5E"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			id: "6CDB919F3ABC2FCF"
+			tasks: [{
+				id: "2483B1C059925F22"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+	]
+}

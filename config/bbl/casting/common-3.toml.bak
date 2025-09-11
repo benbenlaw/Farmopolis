@@ -1,0 +1,4 @@
+#Casting Startup Config
+[Casting]
+	#The multiplier for ores, default = 1.5
+	"Ore Multiplier" = 1.5

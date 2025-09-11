@@ -1,0 +1,319 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "other"
+	group: "65BA5B44E454276E"
+	icon: {
+		id: "minecraft:chorus_fruit"
+	}
+	id: "36223C32372BA321"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "7B2B70215ED2EB5B"
+			tasks: [{
+				id: "2C66C65C48F968B6"
+				item: { count: 1, id: "minecraft:nether_wart" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2DA5A3FD52CD7ACF"]
+			id: "7DEB2F9F4D6386CA"
+			tasks: [{
+				id: "720A2037474831D3"
+				item: { count: 1, id: "mynethersdelight:ghasta" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1C2FDDC9C8A083FE"]
+			id: "5114BEF6CDD160B1"
+			tasks: [{
+				id: "528B214F8EAA4B26"
+				item: { count: 1, id: "mynethersdelight:hoglin_loin" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1C2FDDC9C8A083FE"]
+			id: "4C6F18566281FE46"
+			tasks: [{
+				id: "20F8DE65E2BED79D"
+				item: { count: 1, id: "farmersdelight:ham" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: -1.5d
+		}
+		{
+			id: "1C2FDDC9C8A083FE"
+			tasks: [{
+				id: "01B74AA39367EFBD"
+				type: "checkmark"
+			}]
+			x: -9.0d
+			y: -2.5d
+		}
+		{
+			id: "2DA5A3FD52CD7ACF"
+			tasks: [{
+				id: "354DB5DAA123E42D"
+				type: "checkmark"
+			}]
+			x: -10.0d
+			y: -2.5d
+		}
+		{
+			id: "2905487C8D146236"
+			tasks: [{
+				id: "6550E8BA1E18BD6F"
+				type: "checkmark"
+			}]
+			x: -8.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2905487C8D146236"]
+			id: "48DB556C52BD263D"
+			tasks: [{
+				id: "169EB8E9B98D1C12"
+				item: { count: 1, id: "mynethersdelight:strider_slice" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2905487C8D146236"]
+			id: "4E221F278DDB1E58"
+			tasks: [{
+				id: "2B0260C642E2F6DA"
+				item: { count: 1, id: "mynethersdelight:strider_rock" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -3.5d
+		}
+		{
+			id: "462BD7A300873E9F"
+			tasks: [{
+				id: "05F4E022037F1C38"
+				item: { count: 1, id: "mynethersdelight:powder_cannon" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["462BD7A300873E9F"]
+			id: "62CA57CB19A14124"
+			tasks: [{
+				id: "26417049703AEA0C"
+				item: { count: 1, id: "mynethersdelight:bullet_pepper" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			id: "1B71705DA0DDBF82"
+			tasks: [{
+				id: "5C09C95BFB6E1EE1"
+				item: { count: 1, id: "minecraft:crimson_fungus" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: -3.0d
+		}
+		{
+			id: "05E22630C9E1696B"
+			tasks: [{
+				id: "743FFEFCBE2CE612"
+				item: { count: 1, id: "minecraft:warped_fungus" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["05E22630C9E1696B"]
+			id: "5C52A4277F3700AC"
+			tasks: [{
+				id: "51596F6B4CBE9680"
+				item: { count: 1, id: "minecraft:twisting_vines" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1B71705DA0DDBF82"]
+			id: "31385204F50A4A10"
+			tasks: [{
+				id: "3D4770617FCB1B94"
+				item: { count: 1, id: "minecraft:weeping_vines" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: -2.0d
+		}
+		{
+			id: "6E208D5CFF6D8B97"
+			tasks: [{
+				id: "43D010B5B583F5EC"
+				type: "checkmark"
+			}]
+			x: -9.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["6E208D5CFF6D8B97"]
+			id: "1A51057C2BF27F1B"
+			tasks: [{
+				id: "0AF9BD53ECF0F67F"
+				item: { count: 1, id: "twilightforest:cooked_venison" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: -5.5d
+		}
+		{
+			id: "554A2FB74A5591EE"
+			tasks: [{
+				id: "3CD8CDE4B853F963"
+				type: "checkmark"
+			}]
+			x: -8.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["554A2FB74A5591EE"]
+			id: "045A32691C7A43F8"
+			tasks: [{
+				id: "1D13CF00DE227097"
+				item: { count: 1, id: "twilightforest:raw_meef" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: -5.5d
+		}
+		{
+			id: "2E5C7D536AB35919"
+			tasks: [{
+				id: "27869E8AEFF1F4C0"
+				item: { count: 1, id: "endersdelight:voidpepper" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: -6.5d
+		}
+		{
+			id: "5E8DCD1A6FD5B1EE"
+			tasks: [{
+				id: "515810634E3C30C4"
+				item: { count: 1, id: "endersdelight:amberveil" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -6.5d
+		}
+		{
+			id: "55B993FCAF31E13F"
+			tasks: [{
+				id: "6779915CDECB023A"
+				item: { count: 1, id: "endersdelight:ethereal_saffron" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -6.5d
+		}
+		{
+			id: "24FAA904FC171C64"
+			tasks: [{
+				id: "1F6136E5AAA7E3D4"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["24FAA904FC171C64"]
+			id: "1E0B0E1D28D915FA"
+			tasks: [{
+				id: "01F751770CAE3024"
+				item: { count: 1, id: "endersdelight:shulker_mollusk" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -5.5d
+		}
+		{
+			id: "7D30B20705CFDDF1"
+			tasks: [{
+				id: "16578D81868CBE37"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["7D30B20705CFDDF1"]
+			id: "36E291A7DA112011"
+			tasks: [{
+				id: "750EE6AB9317DB53"
+				item: { count: 1, id: "endersdelight:enderman_sight" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -5.5d
+		}
+		{
+			id: "5D03DB5A6E5F057B"
+			tasks: [{
+				id: "1077A3E1F3B4CFAE"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["5D03DB5A6E5F057B"]
+			id: "051A5254A2394695"
+			tasks: [{
+				id: "02B3850CF0BAEEC2"
+				item: { count: 1, id: "endersdelight:mite_crust" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -5.5d
+		}
+		{
+			id: "3254D1944BE73611"
+			tasks: [{
+				id: "5DC9D927FECAF7F3"
+				item: { count: 1, id: "minecraft:chorus_fruit" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -6.5d
+		}
+		{
+			id: "543D6029E6A10A25"
+			tasks: [{
+				id: "1A690AA7D459C132"
+				item: { count: 1, id: "minecraft:chorus_flower" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -6.5d
+		}
+	]
+}

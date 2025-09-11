@@ -1,0 +1,14 @@
+{
+  "additional_elements": true,
+  "speedypath": {
+    "minecraft:dirt_path": {
+      "speed": 1
+    },
+    "speedypath:stone_path": {
+      "speed": 2
+    },
+    "speedypath:brick_path": {
+      "speed": 3
+    }
+  }
+}

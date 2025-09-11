@@ -1,0 +1,666 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "twilight"
+	group: "36E95858203D2717"
+	hide_quest_until_deps_complete: true
+	id: "405B048D7B63C770"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["71F04A58FDE3A1BB"]
+			id: "7EFDB43A3691E80D"
+			tasks: [{
+				id: "7C78845CDC1BDE66"
+				item: { count: 1, id: "farmopolis:ur_ghast_essence" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7EFDB43A3691E80D"]
+			id: "08CD2D49D0F07021"
+			tasks: [{
+				id: "1F3AD075D228E0B5"
+				item: { count: 1, id: "twilightdelight:experiment_113" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7EFDB43A3691E80D"]
+			id: "6181CE4F480A9AAE"
+			tasks: [{
+				id: "1421EEB0C898BD36"
+				item: { count: 1, id: "twilightdelight:experiment_110" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"6181CE4F480A9AAE"
+				"73E20285BD6067D0"
+			]
+			id: "5082898A55FD0946"
+			rewards: [{
+				id: "460C40B20ADF5F64"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 8L
+				id: "2D21E813FDE9D0D6"
+				item: { count: 1, id: "twilightdelight:ghast_brain_salad" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"7EFDB43A3691E80D"
+				"3D5C665864F99A13"
+				"284A81A1C6FE69D1"
+				"6C842DD0E8765100"
+				"4452FEF7A807FA47"
+				"27CFD4EC8A07B0DF"
+				"6C6508023B2EDE34"
+				"6984AF5F33962F86"
+				"7AD01D5AC573871A"
+			]
+			id: "76E2C0A5DF0FC171"
+			tasks: [{
+				id: "66418850A84E85A6"
+				item: { count: 1, id: "twilightforest:transformation_powder" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["76E2C0A5DF0FC171"]
+			id: "370A22C3DD64972F"
+			tasks: [{
+				id: "0A5A42E4079267C3"
+				item: { count: 1, id: "twilightforest:infested_towerwood" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["370A22C3DD64972F"]
+			id: "73E20285BD6067D0"
+			tasks: [{
+				id: "03DF22987AF6FA18"
+				item: { count: 1, id: "twilightforest:borer_essence" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["08CD2D49D0F07021"]
+			id: "0644DF4AA78AD6F8"
+			rewards: [{
+				id: "74D4D494BF15933B"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "36D40C91F49F83D6"
+				item: { count: 1, id: "twilightdelight:chocolate_113" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["08CD2D49D0F07021"]
+			id: "048BE5B9D02F70EA"
+			rewards: [{
+				id: "51139945F40F600B"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "7AC14FB5CD5CB4AE"
+				item: { count: 1, id: "twilightdelight:glow_113" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["08CD2D49D0F07021"]
+			id: "78B049DCB418C39B"
+			rewards: [{
+				id: "0F5A7388C3069C0A"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "39C2BDBE41139868"
+				item: { count: 1, id: "twilightdelight:honey_113" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["08CD2D49D0F07021"]
+			id: "6289AB1E721453E2"
+			rewards: [{
+				id: "1461C04AFAAEA3CC"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "2821BFED0E8D88D0"
+				item: { count: 1, id: "twilightdelight:milky_113" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["41EB6AB92373783C"]
+			id: "40383384CB699ABF"
+			rewards: [{
+				id: "2DD49E635CC15A62"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "212C8745DDEAD154"
+				item: { count: 1, id: "twilightdelight:aurora_pie" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["71F04A58FDE3A1BB"]
+			id: "0CFF6AEA068AB7FD"
+			tasks: [{
+				id: "7DF701084EAA20F0"
+				item: { count: 1, id: "twilightforest:thorn_rose" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["0CFF6AEA068AB7FD"]
+			id: "0DB11F1092E2C933"
+			rewards: [{
+				id: "291D07236C656368"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "6FF3BF27356BB596"
+				item: { count: 1, id: "twilightdelight:thorn_rose_tea" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["48ECD43CCF7C4263"]
+			id: "5EC8B754F9A6DD10"
+			rewards: [{
+				id: "4A9C1AC8D840FF9E"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "33F841F43B3E166B"
+				item: { count: 1, id: "twilightdelight:torchberry_juice" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["3C21647ABE074DC3"]
+			id: "596503C95D3BC08B"
+			rewards: [{
+				id: "6138572D9C9CAF08"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "224FDAC528E5D9DE"
+				item: { count: 1, id: "twilightdelight:phytochemical_juice" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["31AA927E74B9EA0C"]
+			id: "3C21647ABE074DC3"
+			tasks: [{
+				id: "1F432C72B045EE6F"
+				item: { count: 1, id: "twilightforest:liveroot" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["415343D227D82630"]
+			id: "31AA927E74B9EA0C"
+			tasks: [{
+				id: "3B6B7B8D87834C29"
+				item: { count: 1, id: "twilightforest:liveroot_block" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["71F04A58FDE3A1BB"]
+			id: "415343D227D82630"
+			tasks: [{
+				id: "01B7CA379891EEEE"
+				item: { count: 1, id: "twilightforest:root" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -8.5d
+		}
+		{
+			id: "557BC5376165091F"
+			rewards: [{
+				id: "64AEC4A3BC46CCB0"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "3756D082BEE5F37B"
+				item: { count: 1, id: "twilightdelight:glacier_ice_tea" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["3C21647ABE074DC3"]
+			id: "3D6E7199A7CDEA87"
+			rewards: [{
+				id: "0F1F389D3964CC5A"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "256EC81D6867B349"
+				item: { count: 1, id: "twilightdelight:twilight_spring" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["006989A86C6AA4BD"]
+			id: "745A5E14084E9BDB"
+			rewards: [{
+				id: "453D28332E7A2A50"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "31D42129415FD241"
+				item: { count: 1, id: "twilightdelight:tear_drink" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["71F04A58FDE3A1BB"]
+			id: "3D5C665864F99A13"
+			tasks: [{
+				id: "090AA6CF80E735AC"
+				item: { count: 1, id: "farmopolis:ur_ghast_essence" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["2F13FE47A49C80CB"]
+			id: "7DBE6CB5CA548628"
+			rewards: [{
+				id: "5C1295209094A779"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 32L
+				id: "5B2DF596CDA1A8B1"
+				item: { count: 1, id: "twilightdelight:naga_chip" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["284A81A1C6FE69D1"]
+			id: "2F13FE47A49C80CB"
+			tasks: [{
+				id: "6B75688A072493A4"
+				item: { count: 1, id: "twilightforest:naga_scale" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["71F04A58FDE3A1BB"]
+			id: "284A81A1C6FE69D1"
+			tasks: [{
+				id: "6C12FADBF6F7D75D"
+				item: { count: 1, id: "farmopolis:naga_essence" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["71F04A58FDE3A1BB"]
+			id: "6C842DD0E8765100"
+			tasks: [{
+				id: "19789953CA6B2C11"
+				item: { count: 1, id: "farmopolis:minoshroom_essence" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["6C842DD0E8765100"]
+			id: "28B275682FE6489B"
+			tasks: [{
+				id: "4FBB21E25A171C2F"
+				item: { count: 1, id: "twilightforest:raw_meef" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["28B275682FE6489B"]
+			id: "27FB34D13250842C"
+			rewards: [{
+				id: "3109DF6F3621A929"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "383A01B15DFC15FA"
+				item: { count: 1, id: "twilightdelight:meef_wellington_block" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["71F04A58FDE3A1BB"]
+			id: "4452FEF7A807FA47"
+			tasks: [{
+				id: "635A56868AFAA7F9"
+				item: { count: 1, id: "farmopolis:snow_queen_essence" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4452FEF7A807FA47"]
+			id: "41EB6AB92373783C"
+			tasks: [{
+				id: "33F4E6CC219C266F"
+				item: { count: 1, id: "twilightforest:aurora_block" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["71F04A58FDE3A1BB"]
+			id: "27CFD4EC8A07B0DF"
+			tasks: [{
+				id: "2DD16405BF5E2C68"
+				item: { count: 1, id: "farmopolis:quest_ram_essence" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["71F04A58FDE3A1BB"]
+			id: "6C6508023B2EDE34"
+			tasks: [{
+				id: "36B30B27AE69FE27"
+				item: { count: 1, id: "farmopolis:knight_phantom_essence" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["71F04A58FDE3A1BB"]
+			id: "6984AF5F33962F86"
+			tasks: [{
+				id: "491FD4073A92A7B3"
+				item: { count: 1, id: "farmopolis:hydra_essence" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6984AF5F33962F86"]
+			id: "4A03729A64D5AEB1"
+			tasks: [{
+				id: "125815FA79B3895E"
+				item: { count: 1, id: "twilightforest:hydra_chop" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3D5C665864F99A13"]
+			id: "006989A86C6AA4BD"
+			tasks: [{
+				id: "7E4F7E1FFCA64375"
+				item: { count: 1, id: "twilightforest:fiery_tears" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6984AF5F33962F86"]
+			id: "62A775763F46078F"
+			tasks: [{
+				id: "6A794BBC500CF5AF"
+				item: { count: 1, id: "twilightforest:fiery_blood" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"62A775763F46078F"
+				"4A03729A64D5AEB1"
+			]
+			id: "327B6153E9074656"
+			rewards: [{
+				id: "75F616E70A7D4124"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 8L
+				id: "72F839B2663E393A"
+				item: { count: 1, id: "twilightdelight:fiery_snakes_block" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["71F04A58FDE3A1BB"]
+			id: "7AD01D5AC573871A"
+			tasks: [{
+				id: "0D6F7E31512DB081"
+				item: { count: 1, id: "farmopolis:lich_essence" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: -4.0d
+		}
+		{
+			hide_dependent_lines: true
+			id: "71F04A58FDE3A1BB"
+			tasks: [{
+				id: "4FBCB09445F01DE1"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: -8.5d
+		}
+		{
+			dependencies: [
+				"6289AB1E721453E2"
+				"40383384CB699ABF"
+				"5EC8B754F9A6DD10"
+				"78B049DCB418C39B"
+				"0DB11F1092E2C933"
+				"5082898A55FD0946"
+				"27FB34D13250842C"
+				"557BC5376165091F"
+				"048BE5B9D02F70EA"
+				"7DBE6CB5CA548628"
+				"327B6153E9074656"
+				"745A5E14084E9BDB"
+				"0644DF4AA78AD6F8"
+				"596503C95D3BC08B"
+				"3D6E7199A7CDEA87"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "farmopolis:brewing_license"
+			}
+			id: "5E44030313799E08"
+			rewards: [{
+				id: "534D37F3FFC8B7D3"
+				item: {
+					count: 1
+					id: "farmopolis:twilight_license"
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "682A772FC1AF25A3"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["5E44030313799E08"]
+			id: "2867FBE9920A8A18"
+			tasks: [{
+				id: "5C80391A53973AFC"
+				item: { count: 1, id: "farmopolis:twilight_bucks" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -11.5d
+		}
+	]
+}

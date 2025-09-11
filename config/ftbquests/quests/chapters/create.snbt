@@ -1,0 +1,418 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create"
+	group: "68613860435A9BC1"
+	icon: {
+		id: "actuallyadditions:crystallized_canola_seed"
+	}
+	id: "155D8844F84DD181"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["537E869F07755702"]
+			id: "683719AC9295E5EF"
+			tasks: [{
+				id: "3C05D368C62DAA3C"
+				item: { count: 1, id: "create:mechanical_harvester" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"2856B47AE015B4C0"
+				"683719AC9295E5EF"
+			]
+			id: "45476593B1D1BC35"
+			tasks: [{
+				id: "25AA84ADE35FACAE"
+				item: { count: 1, id: "actuallyadditions:farmer" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["415916EA6A9F96F8"]
+			id: "086CC0EA1F5AA947"
+			tasks: [{
+				id: "349CCDDD61101F61"
+				item: { count: 1, id: "actuallyadditions:coal_generator" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["606B641C38C38FC9"]
+			id: "415916EA6A9F96F8"
+			tasks: [{
+				id: "1D6A1A994A018832"
+				item: { count: 1, id: "actuallyadditions:iron_casing" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["415916EA6A9F96F8"]
+			id: "46777EE04E501DB8"
+			tasks: [{
+				id: "53F2700EF046962C"
+				item: { count: 1, id: "actuallyadditions:atomic_reconstructor" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"086CC0EA1F5AA947"
+				"46777EE04E501DB8"
+			]
+			id: "222E5CECB2ABF915"
+			tasks: [{
+				id: "611811FD2DED38B8"
+				item: { count: 1, id: "actuallyadditions:enori_crystal" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["222E5CECB2ABF915"]
+			id: "2856B47AE015B4C0"
+			tasks: [{
+				id: "4F659BC09F2431FF"
+				item: { count: 1, id: "actuallyadditions:enori_crystal_block" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1E4C371BD7A7347D"]
+			id: "537E869F07755702"
+			tasks: [{
+				id: "34477A9A8FECD0AC"
+				item: { count: 1, id: "alltheores:iron_plate" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1EA313FE19597F5B"]
+			id: "6C30EC56B830DA52"
+			tasks: [{
+				id: "2E419E6B9BF3B578"
+				item: { count: 1, id: "create:wrench" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1E4C371BD7A7347D"]
+			id: "1EA313FE19597F5B"
+			tasks: [{
+				id: "0584956633FB3DD5"
+				item: { count: 1, id: "alltheores:gold_plate" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1EA313FE19597F5B"]
+			id: "4D8231B38240187E"
+			tasks: [{
+				id: "6479777ABFAE6274"
+				item: { count: 1, id: "create:goggles" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["086CC0EA1F5AA947"]
+			id: "1969ACF2C5DCA188"
+			optional: true
+			tasks: [{
+				id: "18AB3CE0378F2742"
+				item: { count: 1, id: "actuallyadditions:oil_generator" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["222E5CECB2ABF915"]
+			id: "074EC8C6841B38B7"
+			tasks: [{
+				id: "02CD94AE40831B99"
+				item: { count: 1, id: "actuallyadditions:canola_press" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["074EC8C6841B38B7"]
+			id: "6DEF0C8D80DDB64B"
+			tasks: [{
+				id: "01D727B2A6C7FE6B"
+				item: { count: 1, id: "actuallyadditions:fermenting_barrel" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6DEF0C8D80DDB64B"]
+			id: "23B665FA4AAF70C2"
+			tasks: [{
+				id: "5DDED7FC882ABDD8"
+				item: { count: 1, id: "actuallyadditions:crystallized_canola_seed" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0FE481B81661FE4E"]
+			id: "772899FD7118CAC2"
+			tasks: [{
+				id: "137735766AC0873F"
+				item: { count: 1, id: "actuallyadditions:empowerer" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["23B665FA4AAF70C2"]
+			id: "22EC29634C57415C"
+			tasks: [{
+				id: "32E82FC4B88D829A"
+				item: { count: 1, id: "actuallyadditions:ethetic_green_block" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["23B665FA4AAF70C2"]
+			id: "67E5ECBBE4C94ADB"
+			tasks: [{
+				id: "6C8585FFF67613E7"
+				item: { count: 1, id: "actuallyadditions:ethetic_white_block" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"22EC29634C57415C"
+				"67E5ECBBE4C94ADB"
+			]
+			id: "0FE481B81661FE4E"
+			tasks: [{
+				id: "75840FC01F055F43"
+				item: { count: 1, id: "actuallyadditions:display_stand" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["772899FD7118CAC2"]
+			id: "172E5A77A2B281CD"
+			tasks: [{
+				id: "05EEEB62F5B83B75"
+				item: { count: 1, id: "actuallyadditions:empowered_canola_seed" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["772899FD7118CAC2"]
+			id: "78D115959D555FA4"
+			tasks: [{
+				id: "44F6E0973718CB7F"
+				item: { count: 1, id: "mysticalagriculture:air_agglomeratio" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["772899FD7118CAC2"]
+			id: "607565773041AC93"
+			tasks: [{
+				id: "3F73DA2612009CB0"
+				item: { count: 1, id: "mysticalagriculture:water_agglomeratio" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["772899FD7118CAC2"]
+			id: "1FE2A372479FFE98"
+			tasks: [{
+				id: "6B9B6CD2650D7166"
+				item: { count: 1, id: "mysticalagriculture:fire_agglomeratio" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["772899FD7118CAC2"]
+			id: "3A3D0D4A528114E1"
+			tasks: [{
+				id: "34AAD7ED76BBBC13"
+				item: { count: 1, id: "mysticalagriculture:earth_agglomeratio" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"78D115959D555FA4"
+				"172E5A77A2B281CD"
+			]
+			id: "653CECD546CDB473"
+			tasks: [{
+				icon: {
+					id: "mysticalagriculture:air_seeds"
+				}
+				id: "121F7D648C0E6BBF"
+				observe_type: 0
+				timer: 0L
+				to_observe: "mysticalagriculture:air_crop"
+				type: "observation"
+			}]
+			x: -1.0d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"607565773041AC93"
+				"172E5A77A2B281CD"
+			]
+			id: "0F4F8CB6586DC128"
+			tasks: [{
+				icon: {
+					id: "mysticalagriculture:water_seeds"
+				}
+				id: "177AB8F358F86BE8"
+				observe_type: 0
+				timer: 0L
+				to_observe: "mysticalagriculture:water_crop"
+				type: "observation"
+			}]
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"1FE2A372479FFE98"
+				"172E5A77A2B281CD"
+			]
+			id: "3C1D35456510FBAA"
+			tasks: [{
+				icon: {
+					id: "mysticalagriculture:fire_seeds"
+				}
+				id: "06ED0E23174E427B"
+				observe_type: 0
+				timer: 0L
+				to_observe: "mysticalagriculture:fire_crop"
+				type: "observation"
+			}]
+			x: 1.0d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"3A3D0D4A528114E1"
+				"172E5A77A2B281CD"
+			]
+			id: "291AEBE2F5217309"
+			tasks: [{
+				icon: {
+					id: "mysticalagriculture:earth_seeds"
+				}
+				id: "3108B74F5348179D"
+				observe_type: 0
+				timer: 0L
+				to_observe: "mysticalagriculture:earth_crop"
+				type: "observation"
+			}]
+			x: 2.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["48C45E2422615BC2"]
+			id: "1B0CF25CA7969C76"
+			tasks: [{
+				id: "0ADA7358A1963ABE"
+				item: { count: 1, id: "swiss:storage_item_panel" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1B0CF25CA7969C76"]
+			id: "1DD3BE91468DB482"
+			tasks: [{
+				id: "3B19C6DBCC2F609A"
+				item: { count: 1, id: "swiss:exporter_item_interface" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1B0CF25CA7969C76"]
+			id: "37F1CA60C2A176C2"
+			tasks: [{
+				id: "7AEB4B3992050996"
+				item: { count: 1, id: "swiss:storage_item_interface" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1B0CF25CA7969C76"]
+			id: "1E69C149BA8399B4"
+			tasks: [{
+				id: "384FC64B725D7ACA"
+				item: { count: 1, id: "swiss:importer_item_interface" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["222E5CECB2ABF915"]
+			id: "48C45E2422615BC2"
+			tasks: [{
+				id: "1E73587E96718153"
+				type: "checkmark"
+			}]
+			x: -5.5d
+			y: 0.5d
+		}
+	]
+}

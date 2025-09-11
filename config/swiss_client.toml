@@ -1,0 +1,5 @@
+["SWISS Client Config"]
+	#Number of rows visible in the GUI (default: 3)
+	# Default: 3
+	# Range: 3 ~ 12
+	visibleRows = 3

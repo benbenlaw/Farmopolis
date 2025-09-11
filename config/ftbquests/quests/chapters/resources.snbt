@@ -1,0 +1,624 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "resources"
+	group: "68613860435A9BC1"
+	icon: {
+		id: "mysticalagriculture:iron_essence"
+	}
+	id: "02A8FC37820C8C89"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "403130FF333D5D74"
+			tasks: [{
+				id: "3688CBFEB977F816"
+				item: { count: 1, id: "mysticalagriculture:lapis_lazuli_essence" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: 0.5d
+		}
+		{
+			id: "30A904DC1E170BC2"
+			tasks: [{
+				id: "570E8082BAEFFFA9"
+				item: { count: 1, id: "mysticalagriculture:iron_essence" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: -2.0d
+		}
+		{
+			id: "18E675CE7075AA27"
+			tasks: [{
+				id: "7E5D1716BD2B3B44"
+				item: { count: 1, id: "mysticalagriculture:inferium_essence" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: 3.5d
+		}
+		{
+			id: "158EEA269F2C025E"
+			tasks: [{
+				id: "3D529E66D29EDBF7"
+				item: { count: 1, id: "mysticalagriculture:zinc_essence" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: -2.0d
+		}
+		{
+			id: "51AE367CB176F81A"
+			tasks: [{
+				id: "5784432D5AB51434"
+				item: { count: 1, id: "mysticalagriculture:tin_essence" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: -2.0d
+		}
+		{
+			id: "2C6E63309475FB21"
+			tasks: [{
+				id: "329E0257CF5EEB23"
+				item: { count: 1, id: "mysticalagriculture:copper_essence" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: -2.0d
+		}
+		{
+			id: "18AB98A7372E4AE5"
+			tasks: [{
+				id: "5312C581CD4918B8"
+				item: { count: 1, id: "opolisutilities:ender_pearl_fragment" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			id: "4F38D05E4B0933A6"
+			tasks: [{
+				id: "36CC2639C4F20DC7"
+				item: { count: 1, id: "mysticalagriculture:coal_essence" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: 0.5d
+		}
+		{
+			id: "45F6A1EB30CD14D7"
+			tasks: [{
+				id: "4372C830453EAA19"
+				item: { count: 1, id: "mysticalagriculture:ruby_essence" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			id: "4DBBD39157FA3BF5"
+			tasks: [{
+				id: "0E186E3D6B80A6A4"
+				item: { count: 1, id: "mysticalagriculture:sapphire_essence" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			id: "66E61CF155EBAFAE"
+			tasks: [{
+				id: "15252708D7255E52"
+				item: { count: 1, id: "mysticalagriculture:peridot_essence" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			id: "3578E5C5CD125F4B"
+			tasks: [{
+				id: "627E0318A836F828"
+				item: { count: 1, id: "mysticalagriculture:prosperity_shard" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: 3.5d
+		}
+		{
+			id: "178750E1911C29C4"
+			tasks: [{
+				id: "39D973BB0CA3B12D"
+				item: { count: 1, id: "mysticalagriculture:diamond_essence" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.5d
+		}
+		{
+			id: "5E84F707BAA28FA1"
+			tasks: [{
+				id: "3BB2FE5DB754AAEA"
+				item: { count: 1, id: "mysticalagriculture:redstone_essence" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["45F6A1EB30CD14D7"]
+			id: "71F85D306B479A9D"
+			rewards: [{
+				id: "68BA1BB5C97D5CFE"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0D4D05BC94EC4B00"
+				item: { count: 1, id: "alltheores:ruby" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4DBBD39157FA3BF5"]
+			id: "19CADED6FB65C888"
+			rewards: [{
+				id: "7AF7E1BE392BE6D0"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2FC0FF111BC3E1BB"
+				item: { count: 1, id: "alltheores:sapphire" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["66E61CF155EBAFAE"]
+			id: "417185F112DB2AC7"
+			rewards: [{
+				id: "4AE8F6AC257AC7DE"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3154B953F5C1673D"
+				item: { count: 1, id: "alltheores:peridot" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			id: "56AE19AFD247C43C"
+			tasks: [{
+				id: "3D409806053D5725"
+				item: { count: 1, id: "mysticalagriculture:gold_essence" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.0d
+		}
+		{
+			id: "6F5BD66D860965EA"
+			tasks: [{
+				id: "346C21FE7FA64922"
+				item: { count: 1, id: "mysticalagriculture:lead_essence" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: -2.0d
+		}
+		{
+			id: "336BA0D6E53C4F0E"
+			tasks: [{
+				id: "49551D0277F2B2D9"
+				item: { count: 1, id: "mysticalagriculture:nether_quartz_essence" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2C6E63309475FB21"]
+			id: "6F909D126F691915"
+			rewards: [{
+				id: "4E30D943A04A739F"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "41A71171CE954D9A"
+				item: { count: 1, id: "minecraft:copper_ingot" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["51AE367CB176F81A"]
+			id: "356E1D38FCEF1D1C"
+			rewards: [{
+				id: "6CCA603366FB87D3"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4DA2733A62C92495"
+				item: { count: 1, id: "alltheores:tin_ingot" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["30A904DC1E170BC2"]
+			id: "09E9FF8F07AA19D7"
+			rewards: [{
+				id: "6169F764BBE5612D"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "714ABF0F711EBE3C"
+				item: { count: 1, id: "minecraft:iron_ingot" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["158EEA269F2C025E"]
+			id: "0BDCC8428E21DDEF"
+			rewards: [{
+				id: "44B56CA3BA9DB10E"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4C82E407E666A672"
+				item: { count: 1, id: "alltheores:zinc_ingot" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6F5BD66D860965EA"]
+			id: "3DD7428AC04E7539"
+			rewards: [{
+				id: "24ACD35E43B2BA82"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1A7F42839AC02AC3"
+				item: { count: 1, id: "alltheores:lead_ingot" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["56AE19AFD247C43C"]
+			id: "20B40C4AE3117D39"
+			rewards: [{
+				id: "24325C8E89B99B6F"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6BC7037DEF392D23"
+				item: { count: 1, id: "minecraft:gold_ingot" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			id: "4E45177FD2B9F5B6"
+			tasks: [{
+				id: "7350B085FECD1A01"
+				item: { count: 1, id: "mysticalagriculture:aluminum_essence" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4E45177FD2B9F5B6"]
+			id: "1DB675029662DE89"
+			rewards: [{
+				id: "1968078EF68EB4C6"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4EA562AF868836E6"
+				item: { count: 1, id: "alltheores:aluminum_ingot" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			id: "1714EB7218BD35D7"
+			tasks: [{
+				id: "1DD07702F1704E72"
+				item: { count: 1, id: "mysticalagriculture:emerald_essence" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.5d
+		}
+		{
+			id: "3A94C0A90EF9BC07"
+			tasks: [{
+				id: "5AEF8C69D1C1B4A4"
+				item: { count: 1, id: "mysticalagriculture:platinum_essence" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			id: "1774C4F0219813B1"
+			tasks: [{
+				id: "4702D8B42ADABBFC"
+				item: { count: 1, id: "mysticalagriculture:iridium_essence" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			id: "0C630F1153896461"
+			tasks: [{
+				id: "33ACBA99CA607E4D"
+				item: { count: 1, id: "mysticalagriculture:black_quartz_essence" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1714EB7218BD35D7"]
+			id: "4A07284D79FB329B"
+			rewards: [{
+				id: "07BA3AD5EBD906DE"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4E16B0D2A86B50BE"
+				item: { count: 1, id: "minecraft:emerald" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["178750E1911C29C4"]
+			id: "11DC7224E7F546A0"
+			rewards: [{
+				id: "2DD389DEDBE6E390"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3F7147D5428E8484"
+				item: { count: 1, id: "minecraft:diamond" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5E84F707BAA28FA1"]
+			id: "7D96F2BF0559D02C"
+			rewards: [{
+				id: "076BDD8E093742E3"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "431A686DAE89BB4D"
+				item: { count: 1, id: "minecraft:redstone" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["403130FF333D5D74"]
+			id: "5C470588ED3071B7"
+			rewards: [{
+				id: "3F6350D623ED301E"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0604613A02B197FB"
+				item: { count: 1, id: "minecraft:lapis_lazuli" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4F38D05E4B0933A6"]
+			id: "2C3993095092A70B"
+			rewards: [{
+				id: "2482633BE49770D8"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "58798B5C2629C70E"
+				item: { count: 1, id: "minecraft:coal" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0C630F1153896461"]
+			id: "1BD05EEE677F561C"
+			rewards: [{
+				id: "15B349F1C020F5C6"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "465CC56773D51451"
+				item: { count: 1, id: "actuallyadditions:black_quartz" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3A94C0A90EF9BC07"]
+			id: "3C437F37372B737E"
+			rewards: [{
+				id: "06556253414033A4"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7718CAFF8EC730B8"
+				item: { count: 1, id: "alltheores:platinum_ingot" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1774C4F0219813B1"]
+			id: "4238BF8736543BD0"
+			rewards: [{
+				id: "5054E228B39043E2"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3A2AD8BEF6061AD2"
+				item: { count: 1, id: "alltheores:iridium_ingot" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["18AB98A7372E4AE5"]
+			id: "253C8B16AC13E658"
+			rewards: [{
+				id: "09ADCFA544DCAB03"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "41F0F7E2F4F243D3"
+				item: { count: 1, id: "minecraft:ender_pearl" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			id: "443D74CE0A7C785B"
+			tasks: [{
+				id: "7D8145C05F2AB555"
+				item: { count: 1, id: "minecraft:ancient_debris" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["336BA0D6E53C4F0E"]
+			id: "30A503B9D8B69E34"
+			rewards: [{
+				id: "121D8C820E43E90D"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "146DECD791B79203"
+				item: { count: 1, id: "minecraft:quartz" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: 4.5d
+		}
+	]
+}

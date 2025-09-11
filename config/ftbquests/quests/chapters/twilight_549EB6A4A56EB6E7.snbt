@@ -1,0 +1,274 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "twilight_549EB6A4A56EB6E7"
+	group: "68613860435A9BC1"
+	icon: {
+		id: "twilightforest:lich_trophy"
+	}
+	id: "549EB6A4A56EB6E7"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2D6815D3B0A10A3F"]
+			id: "678DFE4959A67F55"
+			tasks: [{
+				id: "505FBE6D1FF9A810"
+				item: { count: 1, id: "twilightforest:magic_map" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"5ADF7951B7FA4713"
+				"48ECD43CCF7C4263"
+			]
+			id: "2D6815D3B0A10A3F"
+			tasks: [{
+				id: "4F372F3DFB4720C0"
+				item: { count: 1, id: "twilightforest:magic_map_focus" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["678DFE4959A67F55"]
+			id: "5E663A2FAC0D2650"
+			tasks: [{
+				id: "7C9B2721AE1F7277"
+				item: { count: 1, id: "twilightforest:naga_trophy" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5E663A2FAC0D2650"]
+			id: "1604A86A6CB3646A"
+			tasks: [{
+				id: "0C99297DAC4DDD55"
+				item: { count: 1, id: "twilightforest:lich_trophy" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1604A86A6CB3646A"]
+			id: "24EE46C8376718A3"
+			tasks: [{
+				id: "0DC8F9A97F3CA2E9"
+				item: { count: 1, id: "twilightforest:minoshroom_trophy" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["24EE46C8376718A3"]
+			id: "2A80D1F27099E59D"
+			tasks: [{
+				id: "1F4E5B6B6E25A7AE"
+				item: { count: 1, id: "twilightforest:meef_stroganoff" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2A80D1F27099E59D"]
+			id: "09C00C40F921F8E7"
+			tasks: [{
+				id: "46312FFEA4F3FDB6"
+				item: { count: 1, id: "twilightforest:hydra_trophy" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1604A86A6CB3646A"]
+			id: "0AC90376D8487F1A"
+			tasks: [{
+				id: "7FCDEC4175953912"
+				item: { count: 1, id: "twilightforest:knight_phantom_trophy" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0AC90376D8487F1A"]
+			id: "13F3FF9F55D01537"
+			tasks: [{
+				id: "54499993B0B11EEA"
+				item: { count: 1, id: "twilightforest:ur_ghast_trophy" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1604A86A6CB3646A"]
+			id: "59EAE20AA9894E8A"
+			tasks: [{
+				id: "2C8344BFC38A45B5"
+				item: { count: 1, id: "twilightforest:alpha_yeti_trophy" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["59EAE20AA9894E8A"]
+			id: "6184E0B2CBE5C195"
+			tasks: [{
+				id: "17FB7DAE57633542"
+				item: { count: 1, id: "twilightforest:snow_queen_trophy" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"09C00C40F921F8E7"
+				"6184E0B2CBE5C195"
+				"13F3FF9F55D01537"
+			]
+			id: "24BCDC32380D01EF"
+			tasks: [
+				{
+					id: "783BFE68ECB8A3F0"
+					item: { count: 1, id: "twilightforest:magic_beans" }
+					type: "item"
+				}
+				{
+					id: "1E88F98D71954A82"
+					item: { count: 1, id: "twilightforest:uberous_soil" }
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["24BCDC32380D01EF"]
+			id: "3FE00ED9B527A2F9"
+			tasks: [{
+				id: "1ACD408D772D906A"
+				item: { count: 1, id: "twilightforest:giant_pickaxe" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3FE00ED9B527A2F9"]
+			id: "47745C8BEC5B2AD7"
+			tasks: [{
+				id: "6CC76B76A4DC8FD4"
+				item: { count: 1, id: "twilightforest:lamp_of_cinders" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["678DFE4959A67F55"]
+			hide_dependency_lines: true
+			id: "029CB44DEDA9A496"
+			tasks: [{
+				id: "0EE8200A631F6517"
+				item: { count: 1, id: "twilightforest:quest_ram_trophy" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7E3E31E5FC927C11"]
+			id: "4D5CE34CF467ED65"
+			tasks: [{
+				id: "6EC6C64132DE4E30"
+				item: { count: 1, id: "mysticalagriculture:awakened_supremium_gemstone" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["4D5CE34CF467ED65"]
+			id: "513B7EB2872ACF7D"
+			tasks: [{
+				dimension: "twilightforest:twilight_forest"
+				id: "5CE3004FCD5D7928"
+				type: "dimension"
+			}]
+			x: -1.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["513B7EB2872ACF7D"]
+			id: "5ADF7951B7FA4713"
+			tasks: [{
+				id: "20F36217C3423721"
+				item: { count: 1, id: "twilightforest:raven_feather" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["513B7EB2872ACF7D"]
+			id: "48ECD43CCF7C4263"
+			tasks: [{
+				id: "4BDA7DF8E46DA49C"
+				item: { count: 1, id: "twilightforest:torchberries" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"47745C8BEC5B2AD7"
+				"029CB44DEDA9A496"
+			]
+			id: "0FBE3A1DDC89AEE3"
+			tasks: [{
+				id: "229DE8AF14CBEC5B"
+				item: { count: 1, id: "farmopolis:twilight_top_key" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0FBE3A1DDC89AEE3"]
+			id: "32344D9D6B29D7F7"
+			tasks: [{
+				id: "5E56DEFA0C4019C1"
+				item: { count: 1, id: "farmopolis:reinforced_glowstone" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["32344D9D6B29D7F7"]
+			id: "43D677EA54CF7DF4"
+			tasks: [{
+				dimension: "the_bumblezone:the_bumblezone"
+				id: "40C1CABA5030BB88"
+				type: "dimension"
+			}]
+			x: -2.0d
+			y: 6.0d
+		}
+	]
+}
