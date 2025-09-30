@@ -42,3 +42,8 @@ ESM/
 debug/disconnect-2025-07-17_08.33.43-client.txt
 config/ftbchunks-client.snbt
 config/worldedit/worldedit.properties
+fabricloader.log
+patchouli_data.json
+servers.dat
+servers.dat_old
+user-prefs.json
