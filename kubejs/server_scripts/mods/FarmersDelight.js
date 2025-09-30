@@ -61,4 +61,19 @@ ServerEvents.recipes(event => {
             "id": "create:dough"
         }
     }).id('farmopolis:dough')
+
+        event.custom({
+        "type": "farmersdelight:cooking",
+        "experience": 1.0,
+        "ingredients": [
+            {
+            "item": "minecraft:water_bucket"
+            }
+        ],
+        "recipe_book_tab": "drinks",
+        "result": {
+            "count": 4,
+            "id": "alltheores:salt"
+        }
+    }).id('farmopolis:dough')
 })

@@ -36,8 +36,6 @@ ServerEvents.recipes(event => {
       .outputBlockState("create_chocolate:almond_leaves[full=true, persistent=true, waterlogged=false]")
       .id('farmopolis:inworldrecipes/almond_leaves')
     
-  //Almond Leaves Harvest
-
   //Empowered Canola Oil
   event.custom({
     "type": "inworldrecipes:drop_item_in_fluid_converts_fluid",
@@ -63,30 +61,6 @@ ServerEvents.recipes(event => {
     "new_fluid": "actuallyadditions:crystallized_oil",
 	  "destroy_items": true
   }).id('farmopolis:inworldrecipes/crystallized_oil')
-
-  //TEMP Chicken Roost Fix until the mod fixes it 
-  event.custom({
-    "type": "inworldrecipes:right_click_on_entity_transforms_item",
-    "held_item":
-      {
-        "item": "create_integrated_farming:roost",
-        "count": 1
-      }
-    ,
-    "entity": "minecraft:chicken",
-    "damage_held_item": false,
-    "consume_held_item": true,
-    "destroy_entity": true,
-    "pop_item": false,
-    "results": [
-      {
-        "item": {
-          "count": 1,
-          "id": "create_integrated_farming:chicken_roost"
-        }
-      }
-    ]
-  })
 
   //Removed Default Recipe
   event.remove({mod: 'inworldrecipes'})

@@ -360,59 +360,5 @@
 			x: 2.0d
 			y: 7.5d
 		}
-		{
-			dependencies: ["48C45E2422615BC2"]
-			id: "1B0CF25CA7969C76"
-			tasks: [{
-				id: "0ADA7358A1963ABE"
-				item: { count: 1, id: "swiss:storage_item_panel" }
-				type: "item"
-			}]
-			x: -7.5d
-			y: 0.5d
-		}
-		{
-			dependencies: ["1B0CF25CA7969C76"]
-			id: "1DD3BE91468DB482"
-			tasks: [{
-				id: "3B19C6DBCC2F609A"
-				item: { count: 1, id: "swiss:exporter_item_interface" }
-				type: "item"
-			}]
-			x: -8.5d
-			y: 0.5d
-		}
-		{
-			dependencies: ["1B0CF25CA7969C76"]
-			id: "37F1CA60C2A176C2"
-			tasks: [{
-				id: "7AEB4B3992050996"
-				item: { count: 1, id: "swiss:storage_item_interface" }
-				type: "item"
-			}]
-			x: -8.0d
-			y: -0.5d
-		}
-		{
-			dependencies: ["1B0CF25CA7969C76"]
-			id: "1E69C149BA8399B4"
-			tasks: [{
-				id: "384FC64B725D7ACA"
-				item: { count: 1, id: "swiss:importer_item_interface" }
-				type: "item"
-			}]
-			x: -8.0d
-			y: 1.5d
-		}
-		{
-			dependencies: ["222E5CECB2ABF915"]
-			id: "48C45E2422615BC2"
-			tasks: [{
-				id: "1E73587E96718153"
-				type: "checkmark"
-			}]
-			x: -5.5d
-			y: 0.5d
-		}
 	]
 }

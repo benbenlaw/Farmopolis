@@ -1,5 +1,8 @@
 ServerEvents.recipes(event => {
 
+    //Remove 
+    event.remove({id: 'magic_vibe_decorations:spider_1rec_2'})
+
     //Nether Fish Platter
     event.shapeless('farmopolis:nether_fish_platter', ['netherdepthsupgrade:soulsucker', 'netherdepthsupgrade:glowdine', 'netherdepthsupgrade:lava_pufferfish', 'netherdepthsupgrade:magmacubefish', 'netherdepthsupgrade:blazefish', 'netherdepthsupgrade:wither_bonefish', 'netherdepthsupgrade:bonefish', 'netherdepthsupgrade:searing_cod', 'netherdepthsupgrade:obsidianfish']).id('farmopolis:nether_fish_platter')
 

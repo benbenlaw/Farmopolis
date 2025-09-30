@@ -69,8 +69,15 @@ ServerEvents.recipes(event => {
         A: 'farmopolis:snow_queen_essence'
     }).id('farmopolis:ice_bomb_snow')
 
+    event.shaped('twilightforest:fiery_blood', [' A ', 'ABA', ' A '], {
+        A: 'farmopolis:ur_ghast_essence',
+        B: 'twilightforest:fiery_tears'
+    }).id('farmopolis:fiery_blood')
 
-
+    event.shaped('twilightforest:fiery_blood', [' A ', 'ABA', ' A '], {
+        A: 'farmopolis:hydra_essence',
+        B: 'twilightforest:fiery_tears'
+    }).id('farmopolis:fiery_blood_hydra')
 
     //Trophies
     event.shaped('twilightforest:ur_ghast_trophy', ['AAA', 'AAA', 'AAA'], {

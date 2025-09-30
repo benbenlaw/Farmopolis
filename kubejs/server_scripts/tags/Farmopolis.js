@@ -59,6 +59,12 @@ ServerEvents.tags('block', (event) => {
 
     //Bumblezone Teleportation
     event.get("the_bumblezone:dimension_teleportation/required_blocks_under_beehive_to_teleport").add("farmopolis:reinforced_glowstone")
+
+    //Smart Craftin
+    event.get('smartcrafting:whitelisted_storage').add([
+        '@ironchest',
+        '@functionalstorage'
+    ]) 
 })
 
 

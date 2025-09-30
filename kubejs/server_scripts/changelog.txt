@@ -1,4 +1,35 @@
 Changelog
+
+# 3.0 - The Spooky Harvest Update
+- Updated Mods
+- Added BBL Routers
+- Added BBL Shops
+- Twilight Crops in the Cloche no longer required to be in the twilight forest dimension 
+- Smart Crafting Table can now be placed in the Charm Curio slots
+- Added functional storage and Iron chest to valid smart crafting table inventories
+- Added AFK Harvest
+- Added Haunted Harvest
+- Added Trick or Treat! (Talk to villagers at night!)
+- Added Magical Vibe 
+- Added Simple Hats
+- Added Simple Planes
+- Added Moa Decor: Garden
+- Added Mobstein
+- Added Iron Spell Books
+- Added Spell Colonies (New Guard Type uses Iron Spells Books)
+- Added Player Animator
+- Added ColorWheel
+- Added Euphoria Patches
+- Twilight Forest magic beans cloche recipes now produce 2 beanstalk and magic beans
+- Added Salt recipe from water in Farming
+- Added Liveroot cloche recipe
+- Added Oh Biomes We've Gone support to the cloche 
+- Added Spooky Factory Quests
+- Added Fiery Blood recipes
+- Added update OfficialServerEvents scripts
+- Updated Main Menu for The Spooky Update
+- Updated FTB Quests Background
+
 # 2.0
 - Updated mods 
 - Updated to neoforge 21.1.208

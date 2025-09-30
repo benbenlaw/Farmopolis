@@ -1,0 +1,218 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "spooky"
+	group: "36E95858203D2717"
+	hide_quest_until_deps_complete: true
+	id: "003E3AAD422EB82C"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			id: "368F92EAC02EAB2F"
+			tasks: [{
+				id: "4FF8DE71050A6EE2"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["368F92EAC02EAB2F"]
+			id: "10DD243F79FE40C7"
+			rewards: [{
+				id: "1D017F6C9F3213BC"
+				item: {
+					count: 1
+					id: "hauntedharvest:kernels"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 64L
+				id: "3BCBCB4CDB0B4ABE"
+				item: { count: 1, id: "magic_vibe_decorations:candy" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["10DD243F79FE40C7"]
+			id: "74BFF75F4A2743C1"
+			tasks: [{
+				count: 16L
+				id: "2A25139F57CE3FB5"
+				item: { count: 1, id: "hauntedharvest:corn_on_the_cob" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["10DD243F79FE40C7"]
+			id: "25EDCE18F8BAEA68"
+			tasks: [{
+				count: 16L
+				id: "67FC10599270DC2C"
+				item: { count: 1, id: "hauntedharvest:popcorn" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["10DD243F79FE40C7"]
+			id: "5085FDE8267E23BF"
+			tasks: [{
+				count: 32L
+				id: "1E74B825681FA577"
+				item: { count: 1, id: "hauntedharvest:cornbread" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["10DD243F79FE40C7"]
+			id: "414205FD4A4136F4"
+			tasks: [{
+				count: 64L
+				id: "25EEFBD33027861A"
+				item: { count: 1, id: "hauntedharvest:candy_corn" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["368F92EAC02EAB2F"]
+			id: "55B027EDE7F596A3"
+			tasks: [{
+				count: 64L
+				id: "124DA784EF1841F3"
+				item: { count: 1, id: "hauntedharvest:rotten_apple" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["55B027EDE7F596A3"]
+			id: "6782E1EB103132EE"
+			tasks: [{
+				count: 32L
+				id: "2C3393B5E3CAB198"
+				item: { count: 1, id: "hauntedharvest:grim_apple" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["368F92EAC02EAB2F"]
+			id: "663BE272B3390251"
+			tasks: [{
+				count: 16L
+				id: "65B6174963FABE3C"
+				item: { count: 1, id: "magic_vibe_decorations:pumpkin_soup" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["368F92EAC02EAB2F"]
+			id: "16D6A790BC5899DF"
+			tasks: [{
+				count: 16L
+				id: "74C4D1268A37B70B"
+				item: { count: 1, id: "magic_vibe_decorations:pumpkinmuffin" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["368F92EAC02EAB2F"]
+			id: "71F0F64F98BBEB46"
+			tasks: [{
+				count: 16L
+				id: "4DFF99F9770671B4"
+				item: { count: 1, id: "twilightforest:magic_beans" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["71F0F64F98BBEB46"]
+			id: "72BA55CF11CDC2B2"
+			tasks: [{
+				count: 32L
+				id: "1D38C6EE522B045E"
+				item: { count: 1, id: "trickortreat:jelly_beans" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["10DD243F79FE40C7"]
+			id: "4D39F985BEF13B32"
+			tasks: [{
+				id: "767FEEE167AD0D91"
+				item: { count: 1, id: "trickortreat:stone_candy" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["368F92EAC02EAB2F"]
+			id: "48CFF2D0A2CA3D6E"
+			tasks: [{
+				count: 64L
+				id: "7BEE9152D6112778"
+				item: { count: 1, id: "trickortreat:taffy" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["10DD243F79FE40C7"]
+			id: "4591D05DFFF0D4DB"
+			tasks: [{
+				count: 64L
+				id: "1CDCB2CDD0BB53A2"
+				item: { count: 1, id: "trickortreat:lollipop" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["368F92EAC02EAB2F"]
+			id: "1A4120529EE924F9"
+			tasks: [{
+				id: "1480FC15899AD5EB"
+				item: { count: 1, id: "trickortreat:creepy_cake" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["368F92EAC02EAB2F"]
+			id: "7589411F36DC964C"
+			tasks: [{
+				id: "548F9B8ED580040E"
+				item: { count: 1, id: "trickortreat:nougat_swirl" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+	]
+}

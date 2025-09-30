@@ -1,0 +1,18 @@
+#Time in minutes before a player is considered AFK
+# Default: 5
+# Range: 1 ~ 60
+afkTriggerTimer = 5
+#Time in minutes after a player is marked AFK before they are kicked (0 to disable)
+# Default: 0
+# Range: 0 ~ 120
+afkKickTimer = 0
+#Kick message shown to players kicked for being AFK
+kickMessage = "You were kicked for being AFK too long."
+#System messages (Player is now AFK., ...)
+systemMessages = true
+#How often (in ticks) to check for AFK players (20 ticks = 1 second
+# Default: 20
+# Range: 1 ~ 1200
+checkIntervalTicks = 20
+#Color for AFK messages. Valid options: black, dark_blue, dark_green, dark_aqua, dark_red, dark_purple, gold, gray, dark_gray, blue, green, aqua, red, light_purple, yellow, white
+messageColor = "yellow"

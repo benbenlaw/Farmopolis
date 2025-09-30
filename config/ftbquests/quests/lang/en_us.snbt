@@ -1,4 +1,5 @@
 {
+	chapter.003E3AAD422EB82C.title: "Spooky "
 	chapter.02A8FC37820C8C89.title: "Resources"
 	chapter.0632FA4FFA8C7199.title: "Brewery"
 	chapter.109C9AE9256FC721.title: "Information"
@@ -77,6 +78,7 @@
 	quest.0FBE3A1DDC89AEE3.quest_desc: ["Find the Key block at the top of the &lCastle&r and activate it with &lThe Twilight Top Key&r"]
 	quest.0FBE3A1DDC89AEE3.title: "King of The Castle"
 	quest.0FE481B81661FE4E.quest_desc: ["Used as part of the &lEmpowerer&r"]
+	quest.10DD243F79FE40C7.quest_desc: ["The most simple Candy"]
 	quest.10E8BE7DF84194AA.quest_desc: ["Get that &lFactory&r moving"]
 	quest.1164C9F090D1F70A.quest_desc: ["Smelted &lLogs&r"]
 	quest.119A524BCB0367BF.quest_desc: ["Drops from &lShort Grass&r"]
@@ -134,8 +136,6 @@
 	quest.19CADED6FB65C888.quest_desc: ["From &lEssence&r "]
 	quest.1A51057C2BF27F1B.quest_desc: ["Obtained when killing a &lDeer&r"]
 	quest.1AC400A3692C5BBD.quest_desc: ["Placed next to a &lController&r to fuel it"]
-	quest.1B0CF25CA7969C76.quest_desc: ["Shows items connected to &lItem Storage Interfaces&r"]
-	quest.1B0CF25CA7969C76.quest_subtitle: "WIP"
 	quest.1B71705DA0DDBF82.quest_desc: ["Found in &lCrimson Forests&r in &lThe Nether&r"]
 	quest.1BAAA4DE34E85E54.quest_desc: ["A couple of ingots"]
 	quest.1BD05EEE677F561C.quest_desc: ["From &lEssence&r "]
@@ -146,12 +146,8 @@
 	quest.1D6A00EB0921FB29.quest_desc: ["The first of many"]
 	quest.1D7DBC62BBD33C82.quest_desc: ["A simple &lCog&r"]
 	quest.1DB675029662DE89.quest_desc: ["From &lEssence&r "]
-	quest.1DD3BE91468DB482.quest_desc: ["&lExports&r items from connected inventories to this inventory"]
-	quest.1DD3BE91468DB482.quest_subtitle: "WIP"
 	quest.1E0B0E1D28D915FA.quest_desc: ["Obtained when killing a &lShulker&r with a &lKnife&r"]
 	quest.1E4C371BD7A7347D.quest_desc: ["Converts &lMolten Fluids&r into items"]
-	quest.1E69C149BA8399B4.quest_desc: ["&lImports&r items from external inventories to this inventory"]
-	quest.1E69C149BA8399B4.quest_subtitle: "WIP"
 	quest.1EA313FE19597F5B.quest_desc: ["Can be made in the &lPress&r or through &lCasting&r"]
 	quest.1F5817FCC1E82738.quest_desc: ["Grapes can be harvested using the &lDeployer&r"]
 	quest.1FB670910F36FBB0.quest_desc: ["A farmers friend"]
@@ -251,6 +247,7 @@
 	quest.3578E5C5CD125F4B.quest_desc: ["A common &lOre&r found in the &lNether&r between &l112&r and &l-16&r"]
 	quest.35B222A419A8EBA8.quest_desc: ["There are many different types of &lBreads&r that can be made and sold to make &lBucks&r"]
 	quest.368895954C35370D.quest_desc: ["A tasty cake"]
+	quest.368F92EAC02EAB2F.quest_desc: ["Spooky Scary Foods"]
 	quest.36E291A7DA112011.quest_desc: ["Obtained when killing a &lEnderman&r with a &lKnife&r"]
 	quest.36E5262FB0F69153.quest_desc: ["Allows the creation of resource seeds"]
 	quest.370A22C3DD64972F.quest_desc: ["Spawns a &lTwilight Borer&r when broken"]
@@ -259,8 +256,6 @@
 		""
 		"This key unlocks a chest below the boss"
 	]
-	quest.37F1CA60C2A176C2.quest_desc: ["Connects to &lChests&r and other &lInventories&r to view items in the &lItem Storage Panel&r"]
-	quest.37F1CA60C2A176C2.quest_subtitle: "WIP"
 	quest.3825EC5DBCB2B661.quest_desc: ["Bready Goodness"]
 	quest.39B9757AC3F57F4B.quest_desc: ["Light the way"]
 	quest.3A21A965D18326BD.quest_desc: ["Found in &lRivers&r and &lOcean&r floors"]
@@ -328,13 +323,6 @@
 	quest.47BB73F7B1DC79DD.quest_desc: ["Allows for &lCheese&r to mature into different ones"]
 	quest.48186F9733519529.quest_desc: ["Yummy"]
 	quest.486D03EEAD8F28F4.quest_desc: ["Yummy"]
-	quest.48C45E2422615BC2.quest_desc: [
-		"&lSimple Wireless Interface Storage System&r"
-		""
-		"A brand new storage mod, simple and effective. Create a network inside an &lInterface Panel&r and connect other &lInferfaces&r to it. Currently adds simple automation by extracting and importing into connected &lInventories&r "
-		""
-		"Please give feedback this is a new mod from &lMangoRage&r and &lbenbenlaw&r"
-	]
 	quest.48DB556C52BD263D.quest_desc: ["Obtained when killing a &lStrider&r with a &lKnife&r"]
 	quest.48ECD43CCF7C4263.quest_desc: ["Found inside caves in &lThe Twilight Forest&r"]
 	quest.48F5F6F74E46315E.quest_desc: ["A pretty good generator"]
@@ -491,6 +479,7 @@
 		"Now we have looted &lThe Twilight Forest&r for all of its resources we can start to mass produce them! We have various different meals and drinks to make!"
 		" "
 	]
+	quest.71F0F64F98BBEB46.quest_desc: ["Can be found in &lThe Twilight Forest&r"]
 	quest.71F85D306B479A9D.quest_desc: ["From &lEssence&r "]
 	quest.7239CE3A97F1D1D4.quest_desc: ["So tasty"]
 	quest.732643D8C4DEAB13.quest_desc: ["A stronger obsidian that can be used to create a nether portal. The portal will spread into The Overworld!"]
@@ -566,6 +555,7 @@
 	task.46E599BF4BE2CB3E.title: "Any #minecraft:planks"
 	task.4D697DB3A3629B51.title: "Twilight Forest Portal"
 	task.4FBCB09445F01DE1.title: "Twilight Factory"
+	task.4FF8DE71050A6EE2.title: "Spooky"
 	task.564FD11CB71B2AB7.title: "Cheese Factory"
 	task.568830AEEEE1F3DB.title: "Meat Factory?"
 	task.57125A8DB108CD59.title: "Any #minecraft:logs"

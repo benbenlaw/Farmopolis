@@ -1,5 +1,8 @@
 ServerEvents.recipes(event => {
 
+  //Replace Input
+  event.replaceInput({id: 'create:filling/sweet_roll'}, 'minecraft:bread', 'minecolonies:milky_bread')
+
   //Create -  Cheese Factory - Cheese Cellar
   event.shaped('create_cheese:cheese_cellar', ['ABA', 'ACA', 'DDD'], {
       A: '#minecraft:planks',
