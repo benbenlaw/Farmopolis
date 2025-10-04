@@ -66,7 +66,7 @@ if (config != null) {
     const bannedItems = event.player.inventory.items.filter(item => item.hasTag("bbl:banned_on_servers"));
     if (bannedItems.length > 0) {
       bannedItems.forEach(item => {
-        if (bannedItemRemoved) {
+        if (bannedItemsRemoved) {
           event.player.sendSystemMessage(`A banned item has been removed from your inventory: ${item.id}`);
           item.shrink(64);
         }

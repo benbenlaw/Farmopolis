@@ -100,7 +100,7 @@
 	# Range: 0.1 ~ 10.0
 	tripleCompressedFuelMultiplier = 2.5
 
-#Extar Items List
+#Extra Items List
 [extra_items]
 
 	#Compressed Tier Settings
@@ -117,3 +117,63 @@
 	[extra_items.tripleCompressed]
 		#Chance list for extra items in triple compressed tier.
 		tripleCompressedChances = [0.125, 0.25, 0.5]
+
+#Auto Export Configuration
+[auto_export]
+
+	#Compressed Tier Settings
+	[auto_export.compressed]
+		#Item transfer rate for compressed tier furnaces.
+		# Default: 1
+		# Range: > 1
+		compressedItemTransferRate = 1
+		#Item transfer rate for compressed tier powered furnaces.
+		# Default: 2
+		# Range: > 1
+		compressedItemPoweredTransferRate = 2
+		#Auto export delay (ticks) for compressed tier furnaces (20 ticks = 1 second).
+		# Default: 60
+		# Range: > 1
+		compressedAutoItemDelay = 60
+		#Auto export delay (ticks) for compressed tier powered furnaces (20 ticks = 1 second).
+		# Default: 40
+		# Range: > 1
+		compressedPoweredAutoItemDelay = 40
+
+	#Double Compressed Tier Settings
+	[auto_export.doubleCompressed]
+		#Item transfer rate for compressed tier furnaces.
+		# Default: 2
+		# Range: > 1
+		compressedItemTransferRate = 2
+		#Item transfer rate for compressed tier powered furnaces.
+		# Default: 4
+		# Range: > 1
+		compressedItemPoweredTransferRate = 4
+		#Auto export delay (ticks) for compressed tier furnaces (20 ticks = 1 second).
+		# Default: 40
+		# Range: > 1
+		compressedAutoItemDelay = 40
+		#Auto export delay (ticks) for compressed tier powered furnaces (20 ticks = 1 second).
+		# Default: 20
+		# Range: > 1
+		compressedPoweredAutoItemDelay = 20
+
+	#Triple Compressed Tier Settings
+	[auto_export.tripleCompressed]
+		#Item transfer rate for compressed tier furnaces.
+		# Default: 4
+		# Range: > 1
+		compressedItemTransferRate = 4
+		#Item transfer rate for compressed tier powered furnaces.
+		# Default: 8
+		# Range: > 1
+		compressedItemPoweredTransferRate = 8
+		#Auto export delay (ticks) for compressed tier furnaces (20 ticks = 1 second).
+		# Default: 20
+		# Range: > 1
+		compressedAutoItemDelay = 20
+		#Auto export delay (ticks) for compressed tier powered furnaces (20 ticks = 1 second).
+		# Default: 10
+		# Range: > 1
+		compressedPoweredAutoItemDelay = 10

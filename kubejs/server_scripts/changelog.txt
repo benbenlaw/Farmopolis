@@ -3,7 +3,7 @@ Changelog
 # 3.0 - The Spooky Harvest Update
 - Updated Mods
 - Added BBL Routers
-- Added BBL Shops
+- Added BBL Shops (This may replace catalogue and market in the furture)
 - Twilight Crops in the Cloche no longer required to be in the twilight forest dimension 
 - Smart Crafting Table can now be placed in the Charm Curio slots
 - Added functional storage and Iron chest to valid smart crafting table inventories
@@ -27,7 +27,8 @@ Changelog
 - Added Spooky Factory Quests
 - Added Fiery Blood recipes
 - Added update OfficialServerEvents scripts
-- Updated Main Menu for The Spooky Update
+- Added Spooky Factory quests
+- Updated Main Menu for The Spooky Update (Thanks Yuki)
 - Updated FTB Quests Background
 
 # 2.0
