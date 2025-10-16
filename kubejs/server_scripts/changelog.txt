@@ -1,5 +1,13 @@
 Changelog
 
+# 3.1
+- Updated Mods
+- Updated to Neofore 21.1.209
+- Updated to latest alpha strainers 
+- Fixed Multiblock valave interaction with filtered Fluids
+- Multiblock Solidifier and Valve now both use the clicking on bucket method to select fluids (like the mixer)
+- Spooky quests are now consume ones 
+
 # 3.0 - The Spooky Harvest Update
 - Updated Mods
 - Added BBL Routers

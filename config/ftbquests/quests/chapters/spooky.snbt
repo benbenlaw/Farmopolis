@@ -41,6 +41,7 @@
 			dependencies: ["10DD243F79FE40C7"]
 			id: "74BFF75F4A2743C1"
 			tasks: [{
+				consume_items: true
 				count: 16L
 				id: "2A25139F57CE3FB5"
 				item: { count: 1, id: "hauntedharvest:corn_on_the_cob" }
@@ -53,6 +54,7 @@
 			dependencies: ["10DD243F79FE40C7"]
 			id: "25EDCE18F8BAEA68"
 			tasks: [{
+				consume_items: true
 				count: 16L
 				id: "67FC10599270DC2C"
 				item: { count: 1, id: "hauntedharvest:popcorn" }
@@ -65,6 +67,7 @@
 			dependencies: ["10DD243F79FE40C7"]
 			id: "5085FDE8267E23BF"
 			tasks: [{
+				consume_items: true
 				count: 32L
 				id: "1E74B825681FA577"
 				item: { count: 1, id: "hauntedharvest:cornbread" }
@@ -77,6 +80,7 @@
 			dependencies: ["10DD243F79FE40C7"]
 			id: "414205FD4A4136F4"
 			tasks: [{
+				consume_items: true
 				count: 64L
 				id: "25EEFBD33027861A"
 				item: { count: 1, id: "hauntedharvest:candy_corn" }
@@ -101,6 +105,7 @@
 			dependencies: ["55B027EDE7F596A3"]
 			id: "6782E1EB103132EE"
 			tasks: [{
+				consume_items: true
 				count: 32L
 				id: "2C3393B5E3CAB198"
 				item: { count: 1, id: "hauntedharvest:grim_apple" }
@@ -113,6 +118,7 @@
 			dependencies: ["368F92EAC02EAB2F"]
 			id: "663BE272B3390251"
 			tasks: [{
+				consume_items: true
 				count: 16L
 				id: "65B6174963FABE3C"
 				item: { count: 1, id: "magic_vibe_decorations:pumpkin_soup" }
@@ -125,6 +131,7 @@
 			dependencies: ["368F92EAC02EAB2F"]
 			id: "16D6A790BC5899DF"
 			tasks: [{
+				consume_items: true
 				count: 16L
 				id: "74C4D1268A37B70B"
 				item: { count: 1, id: "magic_vibe_decorations:pumpkinmuffin" }
@@ -149,6 +156,7 @@
 			dependencies: ["71F0F64F98BBEB46"]
 			id: "72BA55CF11CDC2B2"
 			tasks: [{
+				consume_items: true
 				count: 32L
 				id: "1D38C6EE522B045E"
 				item: { count: 1, id: "trickortreat:jelly_beans" }
@@ -161,6 +169,7 @@
 			dependencies: ["10DD243F79FE40C7"]
 			id: "4D39F985BEF13B32"
 			tasks: [{
+				consume_items: true
 				id: "767FEEE167AD0D91"
 				item: { count: 1, id: "trickortreat:stone_candy" }
 				type: "item"
@@ -172,6 +181,7 @@
 			dependencies: ["368F92EAC02EAB2F"]
 			id: "48CFF2D0A2CA3D6E"
 			tasks: [{
+				consume_items: true
 				count: 64L
 				id: "7BEE9152D6112778"
 				item: { count: 1, id: "trickortreat:taffy" }
@@ -184,6 +194,7 @@
 			dependencies: ["10DD243F79FE40C7"]
 			id: "4591D05DFFF0D4DB"
 			tasks: [{
+				consume_items: true
 				count: 64L
 				id: "1CDCB2CDD0BB53A2"
 				item: { count: 1, id: "trickortreat:lollipop" }
@@ -196,6 +207,7 @@
 			dependencies: ["368F92EAC02EAB2F"]
 			id: "1A4120529EE924F9"
 			tasks: [{
+				consume_items: true
 				id: "1480FC15899AD5EB"
 				item: { count: 1, id: "trickortreat:creepy_cake" }
 				type: "item"
@@ -207,6 +219,7 @@
 			dependencies: ["368F92EAC02EAB2F"]
 			id: "7589411F36DC964C"
 			tasks: [{
+				consume_items: true
 				id: "548F9B8ED580040E"
 				item: { count: 1, id: "trickortreat:nougat_swirl" }
 				type: "item"

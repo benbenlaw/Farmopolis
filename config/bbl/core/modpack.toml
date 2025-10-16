@@ -13,7 +13,7 @@
 	#Modpack name
 	"Modpack name" = "Farmopolis"
 	#Modpack Version
-	"Modpack Version" = "3.0"
+	"Modpack Version" = "3.1"
 
 ["Check if the modpack has any updates available"]
 	#Check if the modpack has any updates available, default = false
