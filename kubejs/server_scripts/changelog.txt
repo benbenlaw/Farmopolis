@@ -1,5 +1,13 @@
 Changelog
 
+# 4.0 (PENDING RELEASE MAYBE 30/10/25)
+- Updated Mods
+- Removed OfficialServerEvents, replaced with BBL Servers on the Server
+- Changed Shops recipe to use cobblestones not stones to fix recipe confict with Task Screen
+- Various improvements to Casting, fluid storing blocks now retain fluids when broken
+- Vanilla Seeds can now be grown in the cloche
+- Mithil Ore now drops Raw Mithril
+
 # 3.1
 - Updated Mods
 - Updated to Neofore 21.1.209

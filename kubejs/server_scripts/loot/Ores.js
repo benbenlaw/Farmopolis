@@ -5,6 +5,9 @@ LootJS.modifiers(event => {
     //Ores drop Essence
     let ores = Ingredient.of('#c:ores').itemIds
 
+    ores.remove('irons_spellbooks:mithril_ore')
+    ores.remove('irons_spellbooks:deepslate_mithril_ore')
+
     let oreToEssence = {
         'iron': 'mysticalagriculture:iron_essence',
         'gold': 'mysticalagriculture:gold_essence',

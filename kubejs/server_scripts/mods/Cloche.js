@@ -78,4 +78,10 @@ ServerEvents.recipes(event => {
       ]
     ).catalyst(Item.of(catalyst)).id(`farmopolis:cloche/${output.split(":")[1]}`)  
   }
+
+  //Vanilla Seeds
+  event.recipes.cloche.cloche('create_chocolate:vanilla_seed', '#minecraft:dirt', 1200, [
+    ['create_chocolate:vanilla_lusk'], ['1x create_chocolate:vanilla_seed', 0.25]
+  ]).id('farmopolis:cloche/vanilla_seed')
+
 })
