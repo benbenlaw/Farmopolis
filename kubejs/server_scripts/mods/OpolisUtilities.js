@@ -7,6 +7,10 @@ ServerEvents.recipes(event => {
     event.recipes.opolisutilities.resource_generator("minecraft:dirt").id("farmopolis:dirt")
     event.recipes.opolisutilities.resource_generator("minecraft:calcite").id("farmopolis:calcite")
 
+    // Opolis Utilities Fluid Generator
+    event.recipes.opolisutilities.fluid_generator("25x casting:iced_water").id("farmopolis:iced_water")
+    event.recipes.opolisutilities.fluid_generator("25x casting:chilled_water").id("farmopolis:chilled_water")
+
     // Catalogue - B Bucks
 
     let saplings = Ingredient.of('#minecraft:saplings').itemIds
@@ -14,11 +18,11 @@ ServerEvents.recipes(event => {
 
         let noNameSpace = element.toString().replace(':', '_')
 
-        event.recipes.opolisutilities.catalogue(element, "1x opolisutilities:b_bucks").id(`farmopolis:catalogue/bucks/${noNameSpace}`)
+        event.recipes.opolisutilities.catalogue(element, "1x shops:copper_coin").id(`farmopolis:catalogue/bucks/${noNameSpace}`)
     })
 
-    event.recipes.opolisutilities.catalogue("cloche:cloche", "6x opolisutilities:b_bucks").id("farmopolis:catalogue/bucks/cloche")
-    event.recipes.opolisutilities.catalogue("cookingforblockheads:cow_jar", "12x opolisutilities:b_bucks").id("farmopolis:catalogue/bucks/cow_jar")
+    event.recipes.opolisutilities.catalogue("cloche:cloche", "6x shops:copper_coin").id("farmopolis:catalogue/bucks/cloche")
+    event.recipes.opolisutilities.catalogue("cookingforblockheads:cow_jar", "12x shops:copper_coin").id("farmopolis:catalogue/bucks/cow_jar")
     
     // Catalogue - Baker Bucks
     event.recipes.opolisutilities.catalogue("cloche:cloche", "12x farmopolis:baker_bucks").id("farmopolis:catalogue/baker/cloche")

@@ -1,0 +1,315 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "christmas"
+	group: "36E95858203D2717"
+	icon: {
+		id: "merrymaking:fruitcake"
+	}
+	id: "7A2F2E5E5F25A1AF"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			id: "28BB5F060158BD5C"
+			tasks: [{
+				id: "179720603FA72E6F"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["28BB5F060158BD5C"]
+			id: "58ADDA5B11B0BA68"
+			tasks: [{
+				id: "21844DDF4B0BC8FE"
+				item: { count: 1, id: "merrymaking:mug" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["58ADDA5B11B0BA68"]
+			id: "760C5FF0D0E256A8"
+			tasks: [{
+				id: "2B911867F66C26FB"
+				item: { count: 1, id: "merrymaking:mug_cocoa" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["760C5FF0D0E256A8"]
+			id: "10852A041B94120A"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "5F8E93EC062B0B91"
+				item: { count: 1, id: "merrymaking:hot_cocoa" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"10852A041B94120A"
+				"675AD560D95BB0BE"
+			]
+			id: "37D23C177F9E93FF"
+			tasks: [{
+				consume_items: true
+				count: 32L
+				id: "0C6EDF5E2168354F"
+				item: { count: 1, id: "merrymaking:peppermint_cocoa" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["58ADDA5B11B0BA68"]
+			id: "03FF5C2ECE070CFC"
+			tasks: [{
+				consume_items: true
+				count: 32L
+				id: "7CC39E1609F5F8DA"
+				item: { count: 1, id: "merrymaking:egg_nog" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2CC6CDA2E0FC325E"]
+			id: "675AD560D95BB0BE"
+			tasks: [{
+				consume_items: true
+				count: 256L
+				id: "42D6ED437215925E"
+				item: { count: 1, id: "merrymaking:candy_cane" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["46804FDAB2422007"]
+			id: "2CC6CDA2E0FC325E"
+			tasks: [{
+				consume_items: true
+				count: 32L
+				id: "2A4290C6FF8F155F"
+				item: { count: 1, id: "merrymaking:peppermint_extract" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["28BB5F060158BD5C"]
+			id: "33760BDE4182ABEB"
+			tasks: [{
+				id: "17A9957B52DC6C64"
+				item: { count: 1, id: "herbsandharvest:mint_seeds" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["33760BDE4182ABEB"]
+			id: "425DB294849CB0B9"
+			tasks: [{
+				id: "1C0E7E3C3720BF7A"
+				item: { count: 1, id: "herbsandharvest:fresh_mint" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["425DB294849CB0B9"]
+			id: "46804FDAB2422007"
+			tasks: [{
+				id: "5F3BAD76428162AD"
+				item: { count: 1, id: "merrymaking:bottle_of_mint" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["28BB5F060158BD5C"]
+			id: "678E441A2B2E7D90"
+			tasks: [{
+				id: "0A948B89DDAB4731"
+				item: { count: 1, id: "farmers_delight_christmas_editio:raw_gingerbread_dough" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["678E441A2B2E7D90"]
+			id: "6179AC99D7144DF0"
+			tasks: [{
+				id: "3B3FF8053B717574"
+				item: { count: 1, id: "farmers_delight_christmas_editio:man_cutter" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["678E441A2B2E7D90"]
+			id: "5736A70DAB4AA81F"
+			tasks: [{
+				id: "0A2BF010E1512304"
+				item: { count: 1, id: "farmers_delight_christmas_editio:star_cookie_cutter" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["678E441A2B2E7D90"]
+			id: "76AD8ECE844541CA"
+			tasks: [{
+				id: "22C0CB37E1828E48"
+				item: { count: 1, id: "farmers_delight_christmas_editio:circle_cookie_cutter" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["678E441A2B2E7D90"]
+			id: "63443DCB054FDD62"
+			tasks: [{
+				id: "12C1EBBBF3EA4183"
+				item: { count: 1, id: "farmers_delight_christmas_editio:tree_cookie_cutter" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6179AC99D7144DF0"]
+			id: "76E5CFF08286C734"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "3615EED2D12199E8"
+				item: { count: 1, id: "farmers_delight_christmas_editio:baked_ginger_bread_ma" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5736A70DAB4AA81F"]
+			id: "6F7DF0A54DD43105"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "1BB529778235DE5B"
+				item: { count: 1, id: "farmers_delight_christmas_editio:baked_gingerbread_star" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["76AD8ECE844541CA"]
+			id: "1C3635DC85A88DCB"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "0C348709ED992FDE"
+				item: { count: 1, id: "farmers_delight_christmas_editio:baked_gingerbread_circle" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["63443DCB054FDD62"]
+			id: "45AC4ECB97B78441"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "486A35A322EA94C2"
+				item: { count: 1, id: "farmers_delight_christmas_editio:baked_gingerbread_star" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["28BB5F060158BD5C"]
+			id: "2C8057ACFF60DCC0"
+			tasks: [{
+				consume_items: true
+				id: "33B6D67720C04A9D"
+				item: { count: 1, id: "merrymaking:stuffed_poultry_dinner" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["28BB5F060158BD5C"]
+			id: "159B48993CACDE37"
+			tasks: [{
+				consume_items: true
+				count: 32L
+				id: "5DB632590598ADB3"
+				item: { count: 1, id: "merrymaking:ham_dinner" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["28BB5F060158BD5C"]
+			id: "562E273EDF494FC3"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "37DE95618C807BB8"
+				item: { count: 1, id: "farmers_delight_christmas_editio:cream_cheese_and_berry_log" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["28BB5F060158BD5C"]
+			id: "2CC45C0C926852D4"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "704C81B6AC8E5CED"
+				item: { count: 1, id: "merrymaking:fruitcake" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["28BB5F060158BD5C"]
+			id: "7730A43CCCC38834"
+			tasks: [{
+				id: "609DC7264C93CDEB"
+				item: { count: 1, id: "merrymaking:sweet_potato_pie" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+	]
+}

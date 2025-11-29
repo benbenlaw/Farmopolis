@@ -1,0 +1,35 @@
+{
+  "catalog": { 
+    "id": "farmopolis:baker_license"
+  },
+  "entries": [
+    { "stack": { "id": "create_chocolate:royal_chocolate_cake", "count": 64}, "price": 1, "mode": "player_sells"  },
+    { "stack": { "id": "create_chocolate:caramel_cake", "count": 64}, "price": 1, "mode": "player_sells"  },
+    { "stack": { "id": "create_chocolate:white_chocolate_cake", "count": 64}, "price": 1, "mode": "player_sells"  },
+    { "stack": { "id": "create_chocolate:dark_chocolate_truffle", "count": 64}, "price": 1, "mode": "player_sells"  },
+    { "stack": { "id": "create_chocolate:dark_chocolate_cake", "count": 64}, "price": 1, "mode": "player_sells"  },
+    { "stack": { "id": "create_chocolate:chocolate_cake", "count": 64}, "price": 1, "mode": "player_sells"  },
+    { "stack": { "id": "create_chocolate:vegan_chocolate_cake", "count": 64}, "price": 1, "mode": "player_sells"  },
+    { "stack": { "id": "create_chocolate:ginger_bread", "count": 64}, "price": 1, "mode": "player_sells"  },
+    { "stack": { "id": "create_chocolate:ginger_bread_man", "count": 64}, "price": 1, "mode": "player_sells"  },
+    { "stack": { "id": "create_chocolate:royal_chocolate_truffle", "count": 64}, "price": 1, "mode": "player_sells"  },
+    { "stack": { "id": "create_chocolate:caramel_truffle", "count": 64}, "price": 1, "mode": "player_sells"  },
+    { "stack": { "id": "create_chocolate:white_chocolate_truffle", "count": 64}, "price": 1, "mode": "player_sells"  },
+    { "stack": { "id": "create:sweet_roll", "count": 64}, "price": 1, "mode": "player_sells"  },
+    { "stack": { "id": "create_chocolate:vegan_chocolate_marshmallow", "count": 64}, "price": 1, "mode": "player_sells"  },
+    { "stack": { "id": "create_chocolate:chocolate_marshmallow", "count": 64}, "price": 1, "mode": "player_sells"  },
+    { "stack": { "id": "create_chocolate:dark_chocolate_marshmallow", "count": 64}, "price": 1, "mode": "player_sells"  },
+    { "stack": { "id": "create_chocolate:white_chocolate_marshmallow", "count": 64}, "price": 1, "mode": "player_sells"  },
+    { "stack": { "id": "create_chocolate:caramel_marshmallow", "count": 64}, "price": 1, "mode": "player_sells"  },
+    { "stack": { "id": "create_chocolate:royal_chocolate_marshmallow", "count": 64}, "price": 1, "mode": "player_sells"  },
+    { "stack": { "id": "create_chocolate:chocolate_truffle", "count": 64}, "price": 1, "mode": "player_sells"  },
+    { "stack": { "id": "create_chocolate:vegan_chocolate_truffle", "count": 64}, "price": 1, "mode": "player_sells"  },
+
+    { "stack": { "id": "extendedcrafting:black_iron_ingot", "count": 1}, "price": 6, "mode": "player_buys"  },
+    { "stack": { "id": "cloche:cloche", "count": 1}, "price": 12, "mode": "player_buys"  },
+    { "stack": { "id": "farmopolis:baker_bucks", "count": 1}, "price": 8, "mode": "player_buys"  }
+
+
+
+  ]
+}

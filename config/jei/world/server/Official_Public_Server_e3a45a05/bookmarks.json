@@ -14,5 +14,6 @@
   {"ingredient":{"id":"biomeswevegone:orange_amaranth"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"actuallyadditions:fermenting_barrel"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"mysticalagriculture:redstone_essence"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"biomeswevegone:green_enchanted_log"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+  {"ingredient":{"id":"biomeswevegone:green_enchanted_log"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"create:sweet_roll"},"type":"item_stack","bookmarkType":"INGREDIENT"}
 ]

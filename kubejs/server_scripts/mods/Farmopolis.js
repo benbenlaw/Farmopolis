@@ -15,6 +15,22 @@ ServerEvents.recipes(event => {
     //Bread
     event.smelting('minecraft:bread', '#c:doughs').id('farmopolis:bread')
 
+    //Catalogs
+    event.shaped('farmopolis:seed_catalog', ['AAA','ABA', 'AAA'], {
+        A: '#c:seeds',
+        B: 'minecraft:book'
+    }).id('farmopolis:seed_catalog')
+
+    event.shaped('farmopolis:sapling_catalog', ['AAA','ABA', 'AAA'], {
+        A: '#minecraft:saplings',
+        B: 'minecraft:book'
+    }).id('farmopolis:sapling_catalog')
+
+    event.shaped('farmopolis:crop_catalog', ['AAA','ABA', 'AAA'], {
+        A: '#c:crops',
+        B: 'minecraft:book'
+    }).id('farmopolis:crop_catalog')
+
     //Licenses
     event.shaped('farmopolis:baker_license', ['AAA','ABA', 'AAA'], {
         A: 'minecraft:bread', 

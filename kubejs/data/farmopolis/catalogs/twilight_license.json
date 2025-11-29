@@ -1,0 +1,20 @@
+{
+  "catalog": { 
+    "id": "farmopolis:twilight_license"
+  },
+  "entries": [
+    { "stack": { "id": "mynethersdelight:hotdog_with_nether_salad", "count": 64}, "price": 1, "mode": "player_sells"  },
+    { "stack": { "id": "mynethersdelight:breakfast_sampler", "count": 64}, "price": 1, "mode": "player_sells"  },
+    { "stack": { "id": "mynethersdelight:nether_burger", "count": 64}, "price": 1, "mode": "player_sells"  },
+    { "stack": { "id": "mynethersdelight:roast_stuffed_hoglin", "count": 64}, "price": 1, "mode": "player_sells"  },
+    { "stack": { "id": "mynethersdelight:bleeding_tartar", "count": 64}, "price": 1, "mode": "player_sells"  },
+    { "stack": { "id": "mynethersdelight:spicy_cotton", "count": 64}, "price": 1, "mode": "player_sells"  },
+    { "stack": { "id": "mynethersdelight:hot_cream_cone", "count": 64}, "price": 1, "mode": "player_sells"  },
+    { "stack": { "id": "farmopolis:nether_fish_platter", "count": 64}, "price": 1, "mode": "player_sells"  },
+
+    { "stack": { "id": "extendedcrafting:black_iron_ingot", "count": 1}, "price": 6, "mode": "player_buys"  },
+    { "stack": { "id": "cloche:cloche", "count": 1}, "price": 12, "mode": "player_buys"  },
+    { "stack": { "id": "farmopolis:twilight_bucks", "count": 1}, "price": 8, "mode": "player_buys"  }
+
+  ]
+}

@@ -7,4 +7,9 @@ ServerEvents.recipes(event => {
         B: 'minecraft:bread'
     }).id("farmopolis:golden_bread")
 
+    event.shaped('minecolonies:milky_bread', [' B ','BAB',' B '], {
+        A: ['minecraft:milk_bucket', 'ceramicbucket:ceramic_bucket[bucketlib:fluid={amount:1000,id:"minecraft:milk"}]'],
+        B: 'minecraft:bread'
+    }).id("farmopolis:milky_bread")
+
 })

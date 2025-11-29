@@ -1,0 +1,41 @@
+{
+  "catalog": { 
+    "id": "farmopolis:cheese_license"
+  },
+  "entries": [
+    { "stack": { "id": "create_cheese:brie", "count": 64}, "price": 1, "mode": "player_sells"  },
+    { "stack": { "id": "create_cheese:cabrales", "count": 64}, "price": 1, "mode": "player_sells"  },
+    { "stack": { "id": "create_cheese:camembert", "count": 64}, "price": 1, "mode": "player_sells"  },
+    { "stack": { "id": "create_cheese:cheddar", "count": 64}, "price": 1, "mode": "player_sells"  },
+    { "stack": { "id": "create_cheese:cheshire", "count": 64}, "price": 1, "mode": "player_sells"  },
+    { "stack": { "id": "create_cheese:colby_jack", "count": 64}, "price": 1, "mode": "player_sells"  },
+    { "stack": { "id": "create_cheese:comte", "count": 64}, "price": 1, "mode": "player_sells"  },
+    { "stack": { "id": "create_cheese:crottin_de_chavignol", "count": 64}, "price": 1, "mode": "player_sells"  },
+    { "stack": { "id": "create_cheese:emmentaler", "count": 64}, "price": 1, "mode": "player_sells"  },
+    { "stack": { "id": "create_cheese:mozzarella", "count": 64}, "price": 1, "mode": "player_sells"  },
+    { "stack": { "id": "create_cheese:mimolette", "count": 64}, "price": 1, "mode": "player_sells"  },
+    { "stack": { "id": "create_cheese:manchego", "count": 64}, "price": 1, "mode": "player_sells"  },
+    { "stack": { "id": "create_cheese:gruyere", "count": 64}, "price": 1, "mode": "player_sells"  },
+    { "stack": { "id": "create_cheese:grana_panado", "count": 64}, "price": 1, "mode": "player_sells"  },
+    { "stack": { "id": "create_cheese:gouda", "count": 64}, "price": 1, "mode": "player_sells"  },
+    { "stack": { "id": "create_cheese:gorgonzola", "count": 64}, "price": 1, "mode": "player_sells"  },
+    { "stack": { "id": "create_cheese:fromage_frais", "count": 64}, "price": 1, "mode": "player_sells"  },
+    { "stack": { "id": "create_cheese:feta", "count": 64}, "price": 1, "mode": "player_sells"  },
+    { "stack": { "id": "create_cheese:parmigiano_reggiano", "count": 64}, "price": 1, "mode": "player_sells"  },
+    { "stack": { "id": "create_cheese:pecorino_romano", "count": 64}, "price": 1, "mode": "player_sells"  },
+    { "stack": { "id": "create_cheese:provolone", "count": 64}, "price": 1, "mode": "player_sells"  },
+    { "stack": { "id": "create_cheese:reblochon", "count": 64}, "price": 1, "mode": "player_sells"  },
+    { "stack": { "id": "create_cheese:ricotta", "count": 64}, "price": 1, "mode": "player_sells"  },
+    { "stack": { "id": "create_cheese:roquefort", "count": 64}, "price": 1, "mode": "player_sells"  },
+    { "stack": { "id": "create_cheese:swiss", "count": 64}, "price": 1, "mode": "player_sells"  },
+    { "stack": { "id": "create_cheese:tomme_de_savoie", "count": 64}, "price": 1, "mode": "player_sells"  },
+
+    { "stack": { "id": "extendedcrafting:black_iron_ingot", "count": 1}, "price": 6, "mode": "player_buys"  },
+    { "stack": { "id": "cookingforblockheads:cow_jar", "count": 1}, "price": 12, "mode": "player_buys"  },
+    { "stack": { "id": "cloche:cloche", "count": 1}, "price": 12, "mode": "player_buys"  },
+    { "stack": { "id": "farmopolis:cheese_bucks", "count": 1}, "price": 8, "mode": "player_buys"  }
+
+
+
+  ]
+}

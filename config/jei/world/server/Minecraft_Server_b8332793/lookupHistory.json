@@ -1,0 +1,5 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"sereneseasons:calendar"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"create_chocolate:vanilla_seed"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

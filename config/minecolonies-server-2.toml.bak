@@ -84,6 +84,8 @@
 	canplayerusedeletecolonycommand = false
 	#Should players be allowed to use the /mc colony requestsystem-reset command? [Default: false]
 	canplayeruseresetcommand = false
+	#Should players be allowed to use the /mc citizens modify command? [Default: false]
+	canplayerusemodifycitizenscommand = false
 
 #All configuration related to colony claims
 [claims]
@@ -161,8 +163,6 @@
 	debuginventories = false
 	#Turn this on if you're using this world for blueprint building and scanning. [Default: false]
 	blueprintbuildmode = false
-	#Items requested by Tavern visitors.
-	configlistrecruitmentitems = ["minecraft:hay_block;3", "minecraft:book;2", "minecraft:enchanted_book;9", "minecraft:diamond;9", "minecraft:emerald;8", "minecraft:baked_potato;1", "minecraft:gold_ingot;2", "minecraft:redstone;2", "minecraft:lapis_lazuli;2", "minecraft:cake;11", "minecraft:sunflower;5", "minecraft:honeycomb;6", "minecraft:quartz;3"]
 
 #All configurations related to pathfinding
 [pathfinding]

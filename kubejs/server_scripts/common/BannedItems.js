@@ -11,6 +11,7 @@ ServerEvents.tags('item', (event) => {
     event.add("farmopolis:banned_items").add("minecolonies:supplycampdeployer")
     event.add("farmopolis:banned_items").add("minecolonies:supplychestdeployer")
     event.add("farmopolis:banned_items").add("incubation:fried_egg")
+    event.add("farmopolis:banned_items").add("farmers_delight_christmas_editio:candy_cane")
 
 })
 

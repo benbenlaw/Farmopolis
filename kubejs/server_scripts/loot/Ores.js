@@ -59,4 +59,7 @@ LootJS.modifiers(event => {
         }
     })
 
+    //Add Missing Seeds to Grass Drops
+    event.addBlockModifier('minecraft:short_grass').addLoot('herbsandharvest:mint_seeds').randomChance(0.1)
+
 })

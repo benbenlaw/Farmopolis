@@ -1,0 +1,21 @@
+{
+  "catalog": { 
+    "id": "farmopolis:crop_catalog"
+  },
+  "entries": [
+
+    { "stack": { "id": "minecraft:glow_berries", "count": 1}, "price": 10, "mode": "player_buys"  },
+    { "stack": { "id": "minecraft:crimson_fungus", "count": 1}, "price": 5, "mode": "player_buys"  },
+    { "stack": { "id": "minecraft:warped_fungus", "count": 1}, "price": 5, "mode": "player_buys"  },
+    { "stack": { "id": "minecraft:brown_mushroom", "count": 1}, "price": 3, "mode": "player_buys"  },
+    { "stack": { "id": "minecraft:red_mushroom", "count": 1}, "price": 3, "mode": "player_buys"  },
+    { "stack": { "id": "minecraft:kelp", "count": 1}, "price": 2, "mode": "player_buys"  },
+    { "stack": { "id": "minecraft:melon", "count": 1}, "price": 4, "mode": "player_buys"  },
+    { "stack": { "id": "minecraft:pumpkin", "count": 1}, "price": 4, "mode": "player_buys"  },
+    { "stack": { "id": "minecraft:big_dripleaf", "count": 1}, "price": 6, "mode": "player_buys"  },
+    { "stack": { "id": "minecraft:carrot", "count": 1}, "price": 2, "mode": "player_buys"  },
+    { "stack": { "id": "minecraft:beetroot", "count": 1}, "price": 2, "mode": "player_buys"  },
+    { "stack": { "id": "herbsandharvest:sweet_potato", "count": 1}, "price": 3, "mode": "player_buys"  }
+
+  ]
+}

@@ -1,5 +1,40 @@
 ServerEvents.recipes(event => {
 
+  //Ultimine Support for create recipes
+  
+  event.remove({id: 'create:item_application/andesite_casing_from_log'})
+  event.remove({id: 'create:item_application/andesite_casing_from_wood'})
+  event.remove({id: 'create:item_application/copper_casing_from_log'})
+  event.remove({id: 'create:item_application/copper_casing_from_wood'})
+  event.remove({id: 'create:item_application/brass_casing_from_log'})
+  event.remove({id: 'create:item_application/brass_casing_from_wood'})
+
+  createAssist("#c:stripped_logs", "create:andesite_alloy", "create:andesite_casing", false, true)
+  createAssist("#c:stripped_woods", "create:andesite_alloy", "create:andesite_casing", false, true)
+  createAssist("#c:stripped_logs", "minecraft:copper_ingot", "create:copper_casing", false, true)
+  createAssist("#c:stripped_woods", "minecraft:copper_ingot", "create:copper_casing", false, true)
+  createAssist("#c:stripped_logs", "alltheores:brass_ingot", "create:brass_casing", false, true)
+  createAssist("#c:stripped_woods", "alltheores:brass_ingot", "create:brass_casing", false, true)
+  createAssist("#c:stripped_woods", "alltheores:brass_ingot", "create:brass_casing", false, true)
+
+  function createAssist(targetBlockTag, heldItem, output, damage, consume) {
+    event.custom({
+      "type": "inworldrecipes:block_interaction",
+      "click_type": "right",
+      "target_block_state": targetBlockTag,
+      "held_item": {
+        "item": heldItem
+      },
+      "output_block_state": {
+        "Name": output
+      },
+      "damage_held_item": damage,
+      "consume_held_item": consume,
+      "pop_items": false
+    }).id(`farmopolis:inworldrecipes/${output.split(':')[1]}from_${heldItem.split(':')[1]}_on_${targetBlockTag.replace('#c:','')}`)
+  }
+
+
   //Air Seed
     event.recipes.inworldrecipes.block_interaction("right",
     "minecraft:wheat[age=0]", "mysticalagriculture:air_agglomeratio", false, true, false, false)

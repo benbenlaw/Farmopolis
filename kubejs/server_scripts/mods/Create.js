@@ -117,26 +117,6 @@ ServerEvents.recipes(event => {
     })
   }
 
-  //Event Custom
-  event.custom({
-    "type": "create:filling",
-    "ingredients": [
-      {
-        "item": "minecraft:bread"
-      },
-      {
-        "type": "fluid_stack",
-        "amount": 1000,
-        "fluid": "minecraft:milk"
-      }
-    ],
-    "results": [
-      {
-        "id": "minecolonies:milky_bread"
-      }
-    ]
-  }).id('farmopolis:milky_bread')
-
   event.custom({
     "type": "create:filling",
     "ingredients": [
