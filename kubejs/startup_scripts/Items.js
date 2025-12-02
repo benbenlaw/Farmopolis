@@ -36,9 +36,9 @@ StartupEvents.registry("item", (event) => {
     event.create('farmopolis:twilight_license').tag(['market:licenses', 'farmopolis:license'])
     event.create('farmopolis:twilight_bucks')
 
-    event.create('farmopolis:seed_catalog')
-    event.create('farmopolis:sapling_catalog')
-    event.create('farmopolis:crop_catalog')
+    event.create('farmopolis:seed_catalog').tag('shops:catalogs')
+    event.create('farmopolis:sapling_catalog').tag('shops:catalogs')
+    event.create('farmopolis:crop_catalog').tag('shops:catalogs')
 
 
     //Ultimate Food

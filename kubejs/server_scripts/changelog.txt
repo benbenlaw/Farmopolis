@@ -1,5 +1,17 @@
 Changelog
 
+# 5.1
+**---Mods---**
+- Updated Mods
+
+**---Fixes---**
+- Various missing textures are fixed
+- Fixed Nether Licence having no recipes
+- Various missing shop recipes also fixed 
+
+**---Changes---**
+- Added additional Enchanted Golden Apple recipe
+- Added information about the Shops mod
 
 # 5.0
 **---Mods---**

@@ -196,7 +196,7 @@
 				item: { count: 1, id: "minecraft:stone_pickaxe" }
 				type: "item"
 			}]
-			x: 2.0d
+			x: 1.5d
 			y: 6.0d
 		}
 		{
@@ -349,6 +349,102 @@
 			}]
 			x: -2.0d
 			y: 6.5d
+		}
+		{
+			dependencies: ["29ED4A5A46F0EE33"]
+			id: "5114C5C35F13E639"
+			rewards: [{
+				count: 8
+				id: "5E971BD09B05A521"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1904E19B7A7F1E38"
+				item: { count: 1, id: "shops:shop" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5114C5C35F13E639"]
+			id: "0117F5B48A65E659"
+			rewards: [{
+				id: "48C42F0DAB80E4BE"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "09A725CC98504333"
+				item: { count: 1, id: "farmopolis:seed_catalog" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["5114C5C35F13E639"]
+			id: "5F997DCDB8ACC7F5"
+			rewards: [{
+				id: "2747EEF1CD64743F"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "47780ED4C9FD9994"
+				item: { count: 1, id: "farmopolis:sapling_catalog" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5114C5C35F13E639"]
+			id: "4F27BC8FBE78FB4F"
+			rewards: [{
+				id: "1F8A1E0AEDBB8546"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0178201B65F52A70"
+				item: { count: 1, id: "farmopolis:crop_catalog" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["5114C5C35F13E639"]
+			id: "7E3FD0FF2B45E7A0"
+			rewards: [{
+				id: "09672E24CE745943"
+				item: {
+					count: 1
+					id: "shops:gold_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4489EC225AF2C11F"
+				item: { count: 1, id: "shops:player_balance_card" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.0d
 		}
 	]
 }

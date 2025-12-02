@@ -1,5 +1,9 @@
 ServerEvents.recipes(event => {
 
+    //Enchanted Golden Apple
+    event.recipes.casting.solidifier('minecraft:golden_apple', ' 8000x casting:molten_experience', 'minecraft:enchanted_golden_apple')
+        .id('farmopolis:casting/solidifier/enchanted_golden_apple')
+
     //Andesite Alloy
     event.recipes.casting.solidifier('minecraft:andesite', '20x casting:molten_zinc', 'create:andesite_alloy')
         .id('farmopolis:casting/solidifier/andesite_alloy_zinc')

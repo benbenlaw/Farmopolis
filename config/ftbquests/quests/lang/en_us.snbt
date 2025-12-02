@@ -26,6 +26,7 @@
 	quest.007A31CC61C62CF9.quest_desc: ["The next tier of &lEssence&r"]
 	quest.007AA16B03829939.quest_desc: ["Grown seeds"]
 	quest.00EDC4815155A180.quest_desc: ["Made from &lClay Balls&r"]
+	quest.0117F5B48A65E659.quest_desc: ["Allows you to purchase &lSeeds&r from the &lShop&r"]
 	quest.011824398E0E99CA.quest_desc: ["Yummy"]
 	quest.021A04F785146E79.quest_desc: ["Made inside the &lAltar&r"]
 	quest.0252336E5D79078D.quest_desc: ["A base dough for &lGingerbread&r"]
@@ -365,6 +366,7 @@
 	quest.4E63B50BD5FBE578.quest_desc: ["Yummy"]
 	quest.4EC4393B0D4AC565.quest_desc: ["Yummy"]
 	quest.4EF00F17A524C4F2.quest_desc: ["Yummy"]
+	quest.4F27BC8FBE78FB4F.quest_desc: ["Allows you to purchase &lCrops&r from the &lShop&r"]
 	quest.4F38D05E4B0933A6.quest_desc: [
 		"A common &lOre&r found in the &lOverworld&r between &l320&r and &l0&r"
 		""
@@ -374,6 +376,11 @@
 	quest.4FF1845E70511362.title: "Nether Fish"
 	quest.5082898A55FD0946.quest_desc: ["Sounds so good"]
 	quest.5114BEF6CDD160B1.quest_desc: ["Obtained when killing a &lHoglin&r with a &lKnife&r"]
+	quest.5114C5C35F13E639.quest_desc: [
+		"The &lShop&r is the main way to both &lBuy&r and &lSell&r items."
+		""
+		"The &lShop&r can be locked to &lAuto Buy &ritems. The &lShop&r can also be piped into to &lSell &ritems"
+	]
 	quest.513B7EB2872ACF7D.quest_desc: ["Home to loads of different foods and animals"]
 	quest.513B7EB2872ACF7D.title: "Enter The Twilight Forest"
 	quest.519F8157F329F16C.quest_desc: ["Can be used to improve your &lEssence&r"]
@@ -435,6 +442,7 @@
 	]
 	quest.5E8DCD1A6FD5B1EE.quest_desc: ["Found on &lEnd Stone&r in &lThe End&r"]
 	quest.5F5DA030BFD0D873.quest_desc: ["Found on &lEnd Boats&r"]
+	quest.5F997DCDB8ACC7F5.quest_desc: ["Allows you to purchase &lSaplings&r from the &lShop&r"]
 	quest.606B641C38C38FC9.quest_desc: ["Use an &lAndesite Alloy&r on a &lStripped Log&r"]
 	quest.607565773041AC93.quest_desc: ["Essence of &lWater&r"]
 	quest.61048D2B286B91DF.quest_desc: ["The nether has loads of tasty food to create"]
@@ -537,6 +545,7 @@
 	quest.7DEB2F9F4D6386CA.quest_desc: ["Obtained when killing a &lGhast&r with a &lKnife&r"]
 	quest.7E2D95340A6BD0A3.quest_desc: ["Obtained when killing a Wither Skeleton. Using the&l Beheading Equipment Modifier&r will help!"]
 	quest.7E3E31E5FC927C11.quest_desc: ["Made from the block"]
+	quest.7E3FD0FF2B45E7A0.quest_desc: ["Shift right click to set for your self, allows for automation within the &lShop&r"]
 	quest.7E7D60A2667D249F.quest_desc: ["Right click on a &lBlaze&r with the &lBurner&r to get a &lBlaze Burner&r, Also works on a &lBlaze Spawner&r"]
 	quest.7EE11753D10D059D.quest_desc: ["A simple way to smelt"]
 	quest.7F19C834C895302F.quest_desc: ["Allows the &lSolidifier&r to make &lGems&r"]

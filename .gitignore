@@ -47,3 +47,4 @@ patchouli_data.json
 servers.dat
 servers.dat_old
 user-prefs.json
+.mixin.out/class/net/minecraft/nbt/CompoundTag.class
