@@ -1,6 +1,6 @@
 Changelog
 
-# 5.1
+# 5.2
 **---Fixes---**
 - License now have the catlog tag
 
