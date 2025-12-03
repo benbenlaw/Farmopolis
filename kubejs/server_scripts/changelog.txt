@@ -1,6 +1,10 @@
 Changelog
 
 # 5.1
+**---Fixes---**
+- License now have the catlog tag
+
+# 5.1
 **---Mods---**
 - Updated Mods
 

@@ -25,15 +25,15 @@ StartupEvents.registry("item", (event) => {
         .keyBlock("roomopolis:room_key_block").heightAdjustment(4).consumeKey(true).removeDoor(true).blocksRequired(false).texture("minecraft:item/paper")
 
     //Licenses
-    event.create('farmopolis:baker_license').tag(['market:licenses', 'farmopolis:license'])
+    event.create('farmopolis:baker_license').tag(['market:licenses', 'farmopolis:license', 'shops:catalogs'])
     event.create('farmopolis:baker_bucks')
-    event.create('farmopolis:cheese_license').tag(['market:licenses', 'farmopolis:license'])
+    event.create('farmopolis:cheese_license').tag(['market:licenses', 'farmopolis:license', 'shops:catalogs'])
     event.create('farmopolis:cheese_bucks')
-    event.create('farmopolis:brewing_license').tag(['market:licenses', 'farmopolis:license'])
+    event.create('farmopolis:brewing_license').tag(['market:licenses', 'farmopolis:license', 'shops:catalogs'])
     event.create('farmopolis:brewing_bucks')
-    event.create('farmopolis:nether_license').tag(['market:licenses', 'farmopolis:license'])
+    event.create('farmopolis:nether_license').tag(['market:licenses', 'farmopolis:license', 'shops:catalogs'])
     event.create('farmopolis:nether_bucks')
-    event.create('farmopolis:twilight_license').tag(['market:licenses', 'farmopolis:license'])
+    event.create('farmopolis:twilight_license').tag(['market:licenses', 'farmopolis:license', 'shops:catalogs'])
     event.create('farmopolis:twilight_bucks')
 
     event.create('farmopolis:seed_catalog').tag('shops:catalogs')
