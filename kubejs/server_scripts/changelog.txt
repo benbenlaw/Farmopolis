@@ -1,5 +1,21 @@
 Changelog
 
+# 6.0
+**---Mods---**
+- Updated Mods
+
+**---Fixes---**
+- Fixed Tree Ginger Bread quest
+- Server now uses the same NeoForge version as modpack version 21.1.215
+
+**---Changes---**
+- Reverted Title Screen to default 
+- Various improvements to casting multiblock
+- Various improvements to Resource Fish 
+- Removed ProbeJS
+
+----------------------------------------------------------
+
 # 5.2
 **---Fixes---**
 - License now have the catlog tag

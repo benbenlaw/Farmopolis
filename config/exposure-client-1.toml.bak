@@ -79,7 +79,7 @@
 	# Range: 0 ~ 100
 	direct_capture_delay_frames = 0
 	#Direct capture will be used if any of these mods is installed.
-	#Format: '["mod_id", "mod_id"]'. Default: [veil]
+	#Format: '["mod_id", "mod_id"]'. Default: [veil, pmweather]
 	force_direct_capture_default_mods = ["veil"]
 
 [render]
@@ -126,4 +126,4 @@
 	attachments_show_info_toast = true
 	#Toast that teaches wiki opening will be shown when attachments menu is first opened, after info toast. Default: true.
 	#*This setting will be automatically set to false on first show.*
-	attachments_show_wiki_toast = true
+	attachments_show_wiki_toast = false

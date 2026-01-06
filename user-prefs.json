@@ -4806,14 +4806,6 @@
         "isSelected": false
       },
       {
-        "path": "data",
-        "isSelected": false
-      },
-      {
-        "path": "data\\fabricDefaultResourcePacks.dat",
-        "isSelected": false
-      },
-      {
         "path": "datapacks",
         "isSelected": false
       },
@@ -377154,10 +377146,6 @@
         "isSelected": false
       },
       {
-        "path": "logs\\2025-12-02-7.log.gz",
-        "isSelected": false
-      },
-      {
         "path": "logs\\debug-1.log.gz",
         "isSelected": false
       },
@@ -377510,7 +377498,7 @@
         "isSelected": true
       },
       {
-        "path": "mods\\Data_Anchor-neoforge-1.21.1-2.0.0.14.jar",
+        "path": "mods\\Data_Anchor-neoforge-1.21.1-2.0.0.13.jar",
         "isSelected": true
       },
       {
@@ -404687,10 +404675,6 @@
       },
       {
         "path": "minecraftinstance.json",
-        "isSelected": false
-      },
-      {
-        "path": "observable_announce",
         "isSelected": false
       },
       {

@@ -243,7 +243,7 @@
 				consume_items: true
 				count: 64L
 				id: "486A35A322EA94C2"
-				item: { count: 1, id: "farmers_delight_christmas_editio:baked_gingerbread_star" }
+				item: { count: 1, id: "farmers_delight_christmas_editio:baked_gingerbread_tree" }
 				type: "item"
 			}]
 			x: 1.0d
