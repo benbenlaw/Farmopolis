@@ -10,5 +10,865 @@
   "1230504:7163500": {
     "mod_name": "Refined Storage - Mekanism Integration",
     "version": "refinedstorage-mekanism-integration-1.1.1.jar"
+  },
+  "371813:5993450": {
+    "mod_name": "Crash Utilities",
+    "version": "crashutilities-9.0.4.jar"
+  },
+  "895919:7555622": {
+    "mod_name": "Time in a bottle [FORGE\\NEOFORGE\\FABRIC]",
+    "version": "tiab-neoforge-6.5.4.jar"
+  },
+  "326041:7263404": {
+    "mod_name": "RFTools Base",
+    "version": "rftoolsbase-1.21-6.0.10.jar"
+  },
+  "240633:7188660": {
+    "mod_name": "Inventory Sorter",
+    "version": "inventorysorter-1.21.1-24.0.24.jar"
+  },
+  "548115:5665477": {
+    "mod_name": "Alternate Current",
+    "version": "alternate_current-mc1.21-1.9.0.jar"
+  },
+  "790626:7509726": {
+    "mod_name": "ModernFix",
+    "version": "modernfix-neoforge-5.26.1+mc1.21.1.jar"
+  },
+  "532610:6785734": {
+    "mod_name": "oωo (owo-lib)",
+    "version": "owo-lib-neoforge-0.12.15.5-beta.1+1.21.jar"
+  },
+  "312353:7468997": {
+    "mod_name": "Artifacts",
+    "version": "artifacts-neoforge-13.2.0.jar"
+  },
+  "429371:7213667": {
+    "mod_name": "KubeJS Create",
+    "version": "kubejs-create-neoforge-2101.3.1-build.18.jar"
+  },
+  "1218206:7128771": {
+    "mod_name": "BBL Colors",
+    "version": "colors-1.21.1-1.4.0.jar"
+  },
+  "1315611:7585673": {
+    "mod_name": "Accessories Compatibility Layer",
+    "version": "accessories_compat_layer-neoforge-0.1.12+1.21.1.jar"
+  },
+  "445274:7586568": {
+    "mod_name": "Relics",
+    "version": "relics-1.21.1-0.10.7.8.jar"
+  },
+  "459929:7250977": {
+    "mod_name": "Applied Energistics 2 Wireless Terminals",
+    "version": "ae2wtlib-19.3.0.jar"
+  },
+  "416935:6296775": {
+    "mod_name": "Valhelsia Core",
+    "version": "valhelsia_core-neoforge-1.21.1-1.1.5.jar"
+  },
+  "248787:7517379": {
+    "mod_name": "AppleSkin",
+    "version": "appleskin-neoforge-mc1.21-3.0.8.jar"
+  },
+  "1273191:6885021": {
+    "mod_name": "Time In A Bottle Charger",
+    "version": "tiab_charger-1.21.1-1.0.5.jar"
+  },
+  "268387:7180800": {
+    "mod_name": "Extended Crafting",
+    "version": "ExtendedCrafting-1.21.1-7.0.7.jar"
+  },
+  "574300:7096962": {
+    "mod_name": "Applied Mekanistics",
+    "version": "Applied-Mekanistics-1.6.3.jar"
+  },
+  "1173950:7127444": {
+    "mod_name": "GuideME",
+    "version": "guideme-21.1.15.jar"
+  },
+  "1072905:7592856": {
+    "mod_name": "Jupiter",
+    "version": "jupiter-2.3.5-1.21.1-neoforge.jar"
+  },
+  "233019:5426792": {
+    "mod_name": "AI Improvements",
+    "version": "AI-Improvements-1.21-0.5.3.jar"
+  },
+  "559313:7402808": {
+    "mod_name": "AEInfinityBooster",
+    "version": "aeinfinitybooster-neoforge-1.21.1-1.0.0.54.jar"
+  },
+  "348521:5729127": {
+    "mod_name": "Cloth Config API (Fabric/Forge/NeoForge)",
+    "version": "cloth-config-15.0.140-neoforge.jar"
+  },
+  "904356:7317276": {
+    "mod_name": "Fast IP Ping",
+    "version": "fast-ip-ping-v1.0.8-mc1.21.1-neoforge.jar"
+  },
+  "289412:7429016": {
+    "mod_name": "FTB Quests (NeoForge)",
+    "version": "ftb-quests-neoforge-2101.1.21.jar"
+  },
+  "266515:7600395": {
+    "mod_name": "Industrial Foregoing",
+    "version": "industrialforegoing-1.21-3.6.38.jar"
+  },
+  "520110:6423863": {
+    "mod_name": "Iceberg [Neo/Forge]",
+    "version": "Iceberg-1.21.1-neoforge-1.3.2.jar"
+  },
+  "394535:5891067": {
+    "mod_name": "Trash Cans",
+    "version": "trashcans-1.0.18c-neoforge-mc1.21.jar"
+  },
+  "551894:7404415": {
+    "mod_name": "Better Compatibility Checker",
+    "version": "better-compatability-checker-neoforge-21.1.8.jar"
+  },
+  "256717:5623731": {
+    "mod_name": "Clumps",
+    "version": "Clumps-neoforge-1.21.1-19.0.0.1.jar"
+  },
+  "287342:6875285": {
+    "mod_name": "Titanium",
+    "version": "titanium-1.21-4.0.40.jar"
+  },
+  "1123257:7523966": {
+    "mod_name": "In World Recipes",
+    "version": "inworldrecipes-1.21.1-1.7.1.jar"
+  },
+  "638508:5491721": {
+    "mod_name": "EdivadLib",
+    "version": "EdivadLib-1.21-3.0.0.jar"
+  },
+  "1072209:6487994": {
+    "mod_name": "Mekanism Unleashed",
+    "version": "mekanism_unleashed-0.3.2.jar"
+  },
+  "440985:6753722": {
+    "mod_name": "Wooden Hopper",
+    "version": "woodenhopper-neoforge-1.21.1-3.2.1.0.jar"
+  },
+  "391382:6981252": {
+    "mod_name": "More Overlays Updated",
+    "version": "moreoverlays-1.24.2-mc1.21.1-neoforge.jar"
+  },
+  "250398:6368976": {
+    "mod_name": "Controlling",
+    "version": "Controlling-neoforge-1.21.1-19.0.5.jar"
+  },
+  "1459079:7604426": {
+    "mod_name": "BBL Portals",
+    "version": "portals-1.21.1-1.0.0.jar"
+  },
+  "638111:6372979": {
+    "mod_name": "Prism [Neo/Forge]",
+    "version": "Prism-1.21.1-neoforge-1.0.11.jar"
+  },
+  "841890:6669522": {
+    "mod_name": "Athena",
+    "version": "athena-neoforge-1.21-4.0.2.jar"
+  },
+  "943925:7429011": {
+    "mod_name": "FTB Filter System",
+    "version": "ftb-filter-system-neoforge-21.1.4.jar"
+  },
+  "541320:7297900": {
+    "mod_name": "Simple Discord Link Bot",
+    "version": "SimpleDiscordLink-Universal-3.3.4.jar"
+  },
+  "1143614:6771121": {
+    "mod_name": "Soulplied Energistics",
+    "version": "soulplied_energistics-1.0.2.jar"
+  },
+  "1023259:6961457": {
+    "mod_name": "Prickle",
+    "version": "prickle-neoforge-1.21.1-21.1.11.jar"
+  },
+  "233071:7530379": {
+    "mod_name": "Crafting Tweaks",
+    "version": "craftingtweaks-neoforge-1.21.1-21.1.7.jar"
+  },
+  "1040076:7524985": {
+    "mod_name": "IceAndFire Community Edition",
+    "version": "IceAndFireCE-2.0-beta.13-1.21.1-neoforge.jar"
+  },
+  "231382:7130990": {
+    "mod_name": "Brandon's Core",
+    "version": "BrandonsCore-1.21.1-3.2.1.309.jar"
+  },
+  "268560:7132168": {
+    "mod_name": "Mekanism",
+    "version": "Mekanism-1.21.1-10.7.17.83.jar"
+  },
+  "550678:6819714": {
+    "mod_name": "Too Fast",
+    "version": "toofast-1.21.0-0.4.3.6.jar"
+  },
+  "854949:7471474": {
+    "mod_name": "Fusion (Connected Textures)",
+    "version": "fusion-1.2.12-neoforge-mc1.21.1.jar"
+  },
+  "538392:7446154": {
+    "mod_name": "Modonomicon",
+    "version": "modonomicon-1.21.1-neoforge-1.117.4.jar"
+  },
+  "1391902:7467683": {
+    "mod_name": "BBL Star Forge",
+    "version": "starforge-1.21.1-1.0.3.jar"
+  },
+  "350006:7041247": {
+    "mod_name": "RFTools Storage",
+    "version": "rftoolsstorage-1.21-6.0.4.jar"
+  },
+  "1093049:7245218": {
+    "mod_name": "Custom Machinery PneumaticCraft",
+    "version": "CustomMachineryPneumaticCraft-1.21.1-1.0.6.jar"
+  },
+  "326652:6078150": {
+    "mod_name": "Cupboard",
+    "version": "cupboard-1.21-2.9.jar"
+  },
+  "536160:7312375": {
+    "mod_name": "Universal Grid",
+    "version": "universalgrid-neoforge-1.21.1-0.2.4.jar"
+  },
+  "1460013:7619109": {
+    "mod_name": "Refined Construction Sticks",
+    "version": "refinedsticks-1.21.1-1.1.3.jar"
+  },
+  "1334500:7424692": {
+    "mod_name": "BBL Routers",
+    "version": "routers-1.21.1-1.1.6.jar"
+  },
+  "1454545:7579054": {
+    "mod_name": "BBL Fixes",
+    "version": "bblfixes-1.21.1-1.0.0.jar"
+  },
+  "410811:7608733": {
+    "mod_name": "FTB Essentials (Forge & Fabric)",
+    "version": "ftb-essentials-neoforge-2101.1.9.jar"
+  },
+  "929829:6918569": {
+    "mod_name": "Mekanism: Weapons",
+    "version": "MekanismWeapons-1.21.1-3.0.jar"
+  },
+  "597669:7493113": {
+    "mod_name": "Fluid Drawers Legacy",
+    "version": "FluidDrawersLegacy-1.21-neoforge-6.2.1.jar"
+  },
+  "1228716:6410823": {
+    "mod_name": "Underwater Village - Oceanic Structures",
+    "version": "underwater_village-1.0.2-neoforge-1.21.1.jar"
+  },
+  "846168:7601078": {
+    "mod_name": "Pipe Connector",
+    "version": "pipe_connector-neoforge-0.5.23.jar"
+  },
+  "394468:6382651": {
+    "mod_name": "Sodium",
+    "version": "sodium-neoforge-0.6.13+mc1.21.1.jar"
+  },
+  "298187:6850515": {
+    "mod_name": "Building Gadgets",
+    "version": "buildinggadgets2-1.3.9.jar"
+  },
+  "237749:5622966": {
+    "mod_name": "CoroUtil",
+    "version": "coroutil-neoforge-1.21.0-1.3.8.jar"
+  },
+  "892005:7478960": {
+    "mod_name": "ExtendedAE",
+    "version": "ExtendedAE-1.21-2.2.28-neoforge.jar"
+  },
+  "284324:6630130": {
+    "mod_name": "Emojiful",
+    "version": "Emojiful-Neoforge-1.21-5.2.1-all.jar"
+  },
+  "627557:6515577": {
+    "mod_name": "Complementary Shaders - Reimagined",
+    "version": "ComplementaryReimagined_r5.5.1.zip"
+  },
+  "1091339:7398946": {
+    "mod_name": "AllTheLeaks (Memory Leak Fix)",
+    "version": "alltheleaks-1.1.6+1.21.1-neoforge.jar"
+  },
+  "386134:7188395": {
+    "mod_name": "FTB Ultimine (Forge)",
+    "version": "ftb-ultimine-neoforge-2101.1.12.jar"
+  },
+  "306935:7254808": {
+    "mod_name": "Super Factory Manager ( SFM )",
+    "version": "Super Factory Manager (SFM)-MC1.21.1-4.28.0.jar"
+  },
+  "1092048:7356762": {
+    "mod_name": "Configurable",
+    "version": "configurable-3.3.2+1.21.1-neoforge.jar"
+  },
+  "228525:7606240": {
+    "mod_name": "Bookshelf",
+    "version": "bookshelf-neoforge-1.21.1-21.1.81.jar"
+  },
+  "1060372:7225241": {
+    "mod_name": "AE2 Blackout",
+    "version": "AE2Blackout-V1.2.5.zip"
+  },
+  "889915:7429014": {
+    "mod_name": "FTB XMod Compat",
+    "version": "ftb-xmod-compat-neoforge-21.1.7.jar"
+  },
+  "237541:7126951": {
+    "mod_name": "Totemic",
+    "version": "Totemic-neoforge-1.21.1-0.12.18.jar"
+  },
+  "532127:6400660": {
+    "mod_name": "Legendary Tooltips [Neo/Forge]",
+    "version": "LegendaryTooltips-1.21.1-neoforge-1.5.5.jar"
+  },
+  "649644:6779986": {
+    "mod_name": "BBL Utility",
+    "version": "opolisutilities-1.21.1-4.12.5.jar"
+  },
+  "373014:6821633": {
+    "mod_name": "Default World Type [Forge]",
+    "version": "DefaultWorldType-1.21-5.0.4.jar"
+  },
+  "1074338:5748513": {
+    "mod_name": "AE2 JEI Integration",
+    "version": "ae2jeiintegration-1.2.0.jar"
+  },
+  "407488:5552789": {
+    "mod_name": "Illagers Wear Armor",
+    "version": "illagersweararmor-1.21-2.3.1.jar"
+  },
+  "831663:5540768": {
+    "mod_name": "Chunk Sending[Forge/Fabric]",
+    "version": "chunksending-1.21-2.8.jar"
+  },
+  "238551:7099728": {
+    "mod_name": "GraveStone Mod",
+    "version": "gravestone-neoforge-1.21.1-1.0.35.jar"
+  },
+  "1052840:7588303": {
+    "mod_name": "BBL Compat",
+    "version": "bblcompat-1.21.1-5.6.8.jar"
+  },
+  "867099:7301675": {
+    "mod_name": "CraterLib",
+    "version": "CraterLib-Neoforge-1.21-3.0.1.jar"
+  },
+  "309927:6529130": {
+    "mod_name": "Curios API (Forge/NeoForge)",
+    "version": "curios-neoforge-9.5.1+1.21.1.jar"
+  },
+  "439890:7518252": {
+    "mod_name": "Create Crafts & Additions",
+    "version": "createaddition-1.5.10.jar"
+  },
+  "446870:6487415": {
+    "mod_name": "RSInfinityBooster",
+    "version": "rsinfinitybooster-neoforge-1.21.1-1.0.0.48.jar"
+  },
+  "223852:6995432": {
+    "mod_name": "Storage Drawers",
+    "version": "StorageDrawers-neoforge-1.21.1-13.11.4.jar"
+  },
+  "935975:5814128": {
+    "mod_name": "Let's Forge Pirates",
+    "version": "[NeoForge]Lets_Forge_Pirates_[1_21_1]_4.jar"
+  },
+  "233105:7299488": {
+    "mod_name": "McJtyLib",
+    "version": "mcjtylib-1.21-9.0.20.jar"
+  },
+  "686911:7537795": {
+    "mod_name": "ImmediatelyFast",
+    "version": "ImmediatelyFast-NeoForge-1.6.10+1.21.1.jar"
+  },
+  "1346373:7523808": {
+    "mod_name": "Resource Fish",
+    "version": "resourcefish-1.21.1-1.4.2.jar"
+  },
+  "404465:7420412": {
+    "mod_name": "FTB Library (Forge)",
+    "version": "ftb-library-neoforge-2101.1.30.jar"
+  },
+  "399757:5615790": {
+    "mod_name": "Charging Gadgets",
+    "version": "charginggadgets-1.14.1.jar"
+  },
+  "916747:6932487": {
+    "mod_name": "OctoLib",
+    "version": "OctoLib-NEOFORGE-0.6.0.4+1.21.jar"
+  },
+  "1205426:7600918": {
+    "mod_name": "Advanced Loot Info",
+    "version": "AdvancedLootInfo-neoforge-1.21.1-1.7.2.jar"
+  },
+  "1329843:7202487": {
+    "mod_name": "KubeJS Draconic Evolution",
+    "version": "kubejsde-1.21.1-1.1.0.jar"
+  },
+  "363363:7469731": {
+    "mod_name": "Extreme sound muffler - (Neo)Forge",
+    "version": "ExtremeSoundMuffler-3.54_NeoForge-1.21.jar"
+  },
+  "856906:7392199": {
+    "mod_name": "Leaky - Item Lag Fix[Forge/Fabric]",
+    "version": "leaky-1.21-2.4.jar"
+  },
+  "324717:7545219": {
+    "mod_name": "Jade 🔍",
+    "version": "Jade-1.21.1-NeoForge-15.10.5.jar"
+  },
+  "609977:5637783": {
+    "mod_name": "AE2 Things [Forge]",
+    "version": "AE2-Things-1.4.2-beta.jar"
+  },
+  "1000075:7472797": {
+    "mod_name": "Roomopolis",
+    "version": "roomopolis-1.21.1-2.8.2.jar"
+  },
+  "688367:6935673": {
+    "mod_name": "ME Requester",
+    "version": "merequester-neoforge-1.21.1-1.4.1.jar"
+  },
+  "314906:7608681": {
+    "mod_name": "FTB Chunks (NeoForge)",
+    "version": "ftb-chunks-neoforge-2101.1.14.jar"
+  },
+  "574123:6470153": {
+    "mod_name": "Dark Mode Everywhere",
+    "version": "darkmodeeverywhere-1.21-1.3.5.jar"
+  },
+  "281849:7535029": {
+    "mod_name": "PneumaticCraft: Repressurized",
+    "version": "pneumaticcraft-repressurized-8.2.16+mc1.21.1.jar"
+  },
+  "834427:7410572": {
+    "mod_name": "Hybrid Aquatic",
+    "version": "[1.21.1-Neoforge] Hybrid Aquatic 1.5.4.jar"
+  },
+  "938643:5453382": {
+    "mod_name": "Melody",
+    "version": "melody_neoforge_1.0.10_MC_1.21.jar"
+  },
+  "1386843:7238406": {
+    "mod_name": "Infinity Drives",
+    "version": "infinitystorage-1.21.1-1.0.1.jar"
+  },
+  "418651:7213666": {
+    "mod_name": "KubeJS Mekanism",
+    "version": "kubejs-mekanism-neoforge-2101.1.7-build.18.jar"
+  },
+  "689467:7221528": {
+    "mod_name": "Packet Fixer",
+    "version": "packetfixer-3.3.1-1.20.5-1.21.X-merged.jar"
+  },
+  "1052163:7583510": {
+    "mod_name": "BBL Casting",
+    "version": "casting-1.21.1-2.3.9.jar"
+  },
+  "509575:6697124": {
+    "mod_name": "Observable",
+    "version": "observable-5.4.4.jar"
+  },
+  "254241:6804869": {
+    "mod_name": "Mob Grinding Utils",
+    "version": "mob_grinding_utils-1.1.10+mc1.21.1.jar"
+  },
+  "314905:6431744": {
+    "mod_name": "FTB Ranks (NeoForge)",
+    "version": "ftb-ranks-neoforge-2101.1.3.jar"
+  },
+  "511040:6833316": {
+    "mod_name": "Durability Tooltip",
+    "version": "durabilitytooltip-1.1.6-neoforge-mc1.21.jar"
+  },
+  "361276:7528375": {
+    "mod_name": "Lootr (Forge & NeoForge)",
+    "version": "lootr-neoforge-1.21.1-1.11.36.114.jar"
+  },
+  "907975:7445185": {
+    "mod_name": "WenXin's Warp Pipes",
+    "version": "warp_pipes-1.21.1-3.0.3-neoforge.jar"
+  },
+  "307788:7156196": {
+    "mod_name": "Refined Storage: Requestify",
+    "version": "rsrequestify-1.21.1-3.0.0.jar"
+  },
+  "1351127:7019227": {
+    "mod_name": "Pretty Routers",
+    "version": "Pretty Routers - RP [Oritech].zip"
+  },
+  "223565:7584459": {
+    "mod_name": "Draconic Evolution",
+    "version": "Draconic-Evolution-1.21.1-3.1.4.632.jar"
+  },
+  "511770:7248439": {
+    "mod_name": "Drippy Loading Screen",
+    "version": "drippyloadingscreen_neoforge_3.1.0_MC_1.21.1.jar"
+  },
+  "421007:7186944": {
+    "mod_name": "Aquatic  Additions",
+    "version": "aq-4.3.jar"
+  },
+  "904394:7441306": {
+    "mod_name": "Industrial Foregoing Souls",
+    "version": "industrial-foregoing-souls-1.21.1-1.10.7.jar"
+  },
+  "238222:7420587": {
+    "mod_name": "Just Enough Items (JEI)",
+    "version": "jei-1.21.1-neoforge-19.27.0.340.jar"
+  },
+  "495476:7140307": {
+    "mod_name": "Puzzles Lib",
+    "version": "PuzzlesLib-v21.1.39-1.21.1-NeoForge.jar"
+  },
+  "560156:7211879": {
+    "mod_name": "BucketLib",
+    "version": "bucketlib-neoforge-1.21-4.1.6.0.jar"
+  },
+  "661517:5902913": {
+    "mod_name": "GroovyModLoader (GML)",
+    "version": "gml-6.0.2.jar"
+  },
+  "228756:5491156": {
+    "mod_name": "Iron Chests",
+    "version": "ironchest-1.21-neoforge-16.0.7.jar"
+  },
+  "64578:7548278": {
+    "mod_name": "Ender IO",
+    "version": "enderio-8.1.1-beta.jar"
+  },
+  "60089:5637846": {
+    "mod_name": "Mouse Tweaks",
+    "version": "MouseTweaks-neoforge-mc1.21-2.26.1.jar"
+  },
+  "328085:7408951": {
+    "mod_name": "Create",
+    "version": "create-1.21.1-6.0.9.jar"
+  },
+  "1366797:7429074": {
+    "mod_name": "NanoMirai",
+    "version": "nanomirai-1.1.0.jar"
+  },
+  "579545:6958511": {
+    "mod_name": "Everything is Copper",
+    "version": "everythingcopper-1.21.1-2.4.5.jar"
+  },
+  "388172:7415496": {
+    "mod_name": "GeckoLib",
+    "version": "geckolib-neoforge-1.21.1-4.8.3.jar"
+  },
+  "627196:6426184": {
+    "mod_name": "Showcase Item",
+    "version": "showcaseitem-1.21.1-1.1.0.jar"
+  },
+  "1166026:6024643": {
+    "mod_name": "Pretty X Smart Pipez",
+    "version": "Pretty X Smart Pipez.zip"
+  },
+  "957920:5821676": {
+    "mod_name": "Glodium",
+    "version": "Glodium-1.21-2.2-neoforge.jar"
+  },
+  "276951:7515858": {
+    "mod_name": "Comforts",
+    "version": "comforts-neoforge-9.0.5+1.21.1.jar"
+  },
+  "1173919:7249956": {
+    "mod_name": "Porting Dead Libs",
+    "version": "portingdeadlibs-1.1.8-1.21.1.jar"
+  },
+  "363799:5676627": {
+    "mod_name": "Ceramic Bucket",
+    "version": "ceramicbucket-neoforge-1.21-6.1.1.0.jar"
+  },
+  "457017:7479686": {
+    "mod_name": "Custom Machinery",
+    "version": "CustomMachinery-neoforge-1.21.1-0.10.57.jar"
+  },
+  "583228:7451435": {
+    "mod_name": "Simple Backups",
+    "version": "SimpleBackups-1.21-4.0.28.jar"
+  },
+  "1084468:7205496": {
+    "mod_name": "BisectHosting Server Integration Menu [NEOFORGE]",
+    "version": "BHMenu-NeoForge-1.21-2.4.4.jar"
+  },
+  "455508:6661598": {
+    "mod_name": "Iris Shaders",
+    "version": "iris-neoforge-1.8.12+mc1.21.1.jar"
+  },
+  "1168110:6054193": {
+    "mod_name": "Cute Companions: Ducks",
+    "version": "cute_companions_ducks-0.0.2-neoforge-1.21.1.jar"
+  },
+  "936015:7395055": {
+    "mod_name": "Lithostitched",
+    "version": "lithostitched-1.5.7-neoforge-1.21.1.jar"
+  },
+  "575698:7528185": {
+    "mod_name": "Ars Creo",
+    "version": "ars_creo-1.21.1-5.2.0.jar"
+  },
+  "1306367:7516288": {
+    "mod_name": "KubeJS Tweaks",
+    "version": "kubejstweaks-1.0.6.jar"
+  },
+  "1352211:7511046": {
+    "mod_name": "BBL Shops",
+    "version": "shops-1.21.1-1.3.7.jar"
+  },
+  "909375:5426237": {
+    "mod_name": "WITS (What Is This Structure?)",
+    "version": "wits-1.3.0+1.21-neoforge.jar"
+  },
+  "367706:7256741": {
+    "mod_name": "FancyMenu",
+    "version": "fancymenu_neoforge_3.8.1_MC_1.21.1.jar"
+  },
+  "416294:7104526": {
+    "mod_name": "Rhino",
+    "version": "rhino-2101.2.7-build.81.jar"
+  },
+  "1146799:6583116": {
+    "mod_name": "Flight Blocks",
+    "version": "flightblocks-1.21.1-1.0.7.jar"
+  },
+  "1230483:6990043": {
+    "mod_name": "Refined Storage - Quartz Arsenal",
+    "version": "refinedstorage-quartz-arsenal-neoforge-1.0.6.jar"
+  },
+  "570630:7408387": {
+    "mod_name": "LootJS: KubeJS Addon",
+    "version": "lootjs-neoforge-1.21.1-3.6.1.jar"
+  },
+  "860747:6516361": {
+    "mod_name": "Custom Machinery Create",
+    "version": "CustomMachineryCreate-1.21.1-1.2.3.jar"
+  },
+  "1271095:7441335": {
+    "mod_name": "BBL Colors - Connected Textures",
+    "version": "BBL-Colors-Connected-Textures_2.0.zip"
+  },
+  "1340405:7132378": {
+    "mod_name": "More Ceremonies (Totemic)",
+    "version": "ceremonies-1.21.1-1.0.3.jar"
+  },
+  "334853:7396367": {
+    "mod_name": "Simple Discord Rich Presence (Forge /  Fabric)",
+    "version": "SimpleDiscordRichPresence-neoforge-88.0.0-build.51+mc1.21.1.jar"
+  },
+  "1139062:6555981": {
+    "mod_name": "Gravestone x Curios API Compat",
+    "version": "gravestonecurioscompat-1.21.1-NeoForge-3.0.1.jar"
+  },
+  "1230497:6359014": {
+    "mod_name": "Refined Storage - JEI Integration",
+    "version": "refinedstorage-jei-integration-neoforge-1.0.0.jar"
+  },
+  "351264:7471280": {
+    "mod_name": "Kotlin for Forge",
+    "version": "kotlinforforge-5.11.0-all.jar"
+  },
+  "1140577:7400019": {
+    "mod_name": "Cable Facades",
+    "version": "cable_facades-1.21.1-NeoForge-1.6.5.jar"
+  },
+  "1005914:7568897": {
+    "mod_name": "Fzzy Config",
+    "version": "fzzy_config-0.7.6+1.21+neoforge.jar"
+  },
+  "429235:7524151": {
+    "mod_name": "FerriteCore ((Neo)Forge)",
+    "version": "ferritecore-7.0.3-neoforge.jar"
+  },
+  "661293:7055149": {
+    "mod_name": "SmartBrainLib (Forge/Fabric/Quilt)",
+    "version": "SmartBrainLib-neoforge-1.21.1-1.16.11.jar"
+  },
+  "238086:7278501": {
+    "mod_name": "KubeJS",
+    "version": "kubejs-neoforge-2101.7.2-build.348.jar"
+  },
+  "1196449:6882233": {
+    "mod_name": "Reliquified Ars Nouveau",
+    "version": "reliquified_ars_nouveau-1.21.1-0.6.1.jar"
+  },
+  "454372:7521894": {
+    "mod_name": "SuperMartijn642's Core Lib",
+    "version": "supermartijn642corelib-1.1.20-neoforge-mc1.21.jar"
+  },
+  "1015105:6272264": {
+    "mod_name": "YUNG's Better Strongholds (NeoForge)",
+    "version": "YungsBetterStrongholds-1.21.1-NeoForge-5.1.3.jar"
+  },
+  "361579:6225208": {
+    "mod_name": "spark",
+    "version": "spark-1.10.124-neoforge.jar"
+  },
+  "454802:7272089": {
+    "mod_name": "ForceCraft",
+    "version": "forcecraft-1.21.1-6.2.8.jar"
+  },
+  "945479:6418577": {
+    "mod_name": "What Are They Up To (Watut)",
+    "version": "watut-neoforge-1.21.0-1.2.7.jar"
+  },
+  "1255120:6497205": {
+    "mod_name": "Holycube - Bedrock Breaker",
+    "version": "bedrock_breaker-1.0.0+1.21.1+neoforge.jar"
+  },
+  "368825:7613388": {
+    "mod_name": "Inventory Essentials",
+    "version": "inventoryessentials-neoforge-1.21.1-21.1.13.jar"
+  },
+  "280510:7115922": {
+    "mod_name": "AttributeFix",
+    "version": "attributefix-neoforge-1.21.1-21.1.3.jar"
+  },
+  "286098:5966530": {
+    "mod_name": "Clear Water",
+    "version": "clearwater-neoforge-1.21-3.0.0.jar"
+  },
+  "833926:7181937": {
+    "mod_name": "KubeJS Ars Nouveau",
+    "version": "kubejsarsnouveau-1.3.2.jar"
+  },
+  "1015100:6715463": {
+    "mod_name": "YUNG's API (NeoForge)",
+    "version": "YungsApi-1.21.1-NeoForge-5.1.6.jar"
+  },
+  "419699:5786327": {
+    "mod_name": "Architectury API",
+    "version": "architectury-13.0.8-neoforge.jar"
+  },
+  "1264423:7544787": {
+    "mod_name": "BaguetteLib",
+    "version": "baguettelib-1.21.1-NeoForge-1.1.6.jar"
+  },
+  "580181:6090721": {
+    "mod_name": "Slightly Improved Font (32x)",
+    "version": "Slightly-Improved-Font-1.1.5.zip"
+  },
+  "633823:6847936": {
+    "mod_name": "Almost Unified",
+    "version": "almostunified-neoforge-1.21.1-1.3.0.jar"
+  },
+  "412525:7446147": {
+    "mod_name": "LibX",
+    "version": "LibX-1.21.1-6.0.9.jar"
+  },
+  "358700:5746086": {
+    "mod_name": "More Dragon Eggs",
+    "version": "moredragoneggs-5.0.jar"
+  },
+  "306770:6842247": {
+    "mod_name": "Patchouli",
+    "version": "Patchouli-1.21.1-92-NEOFORGE.jar"
+  },
+  "1013074:7394963": {
+    "mod_name": "KubeJS Nature's Aura",
+    "version": "kubejs_naturesaura-1.0.3.jar"
+  },
+  "513689:7274625": {
+    "mod_name": "Smooth Swapping",
+    "version": "smoothswapping-0.9.3.2-1.21.1-neoforge.jar"
+  },
+  "383129:6811960": {
+    "mod_name": "Connected Glass",
+    "version": "connectedglass-1.1.14-neoforge-mc1.21.jar"
+  },
+  "441647:7584453": {
+    "mod_name": "FramedBlocks",
+    "version": "FramedBlocks-10.5.3.jar"
+  },
+  "292038:5936660": {
+    "mod_name": "Better Ping Display",
+    "version": "BetterPingDisplay-1.21.1-1.1.jar"
+  },
+  "955605:6483943": {
+    "mod_name": "CERBON's API [Forge | Fabric | NeoForge]",
+    "version": "CerbonsAPI-NeoForge-1.21-1.3.0.jar"
+  },
+  "1135181:7048684": {
+    "mod_name": "BBL Core",
+    "version": "Unknown"
+  },
+  "243076:7610477": {
+    "mod_name": "Refined Storage",
+    "version": "refinedstorage-neoforge-2.0.1.jar"
+  },
+  "1153960:7337308": {
+    "mod_name": "BBL Cloche",
+    "version": "cloche-1.21.1-1.3.7.jar"
+  },
+  "398521:7596366": {
+    "mod_name": "Farmer's Delight",
+    "version": "FarmersDelight-1.21.1-1.2.10.jar"
+  },
+  "570544:5567664": {
+    "mod_name": "Eating Animation [Neo/Forge]",
+    "version": "eatinganimation-1.21.0-6.0.1.jar"
+  },
+  "306626:6948833": {
+    "mod_name": "Nature's Aura",
+    "version": "NaturesAura-41.9.jar"
+  },
+  "882351:7293312": {
+    "mod_name": "BBL Strainers",
+    "version": "strainers-1.21.1-5.2.1.jar"
+  },
+  "1305347:7463195": {
+    "mod_name": "BBL Smart Crafting",
+    "version": "smartcrafting-1.21.1-1.2.13.jar"
+  },
+  "272335:7180790": {
+    "mod_name": "Cucumber Library",
+    "version": "Cucumber-1.21.1-8.0.15.jar"
+  },
+  "355418:6862992": {
+    "mod_name": "Atlantis",
+    "version": "atlantis-8.8.2025-1.21.1-2.3.0-neoforge.jar"
+  },
+  "1452253:7619102": {
+    "mod_name": "Applied Construction Sticks",
+    "version": "appliedsticks-1.21.1-1.1.3.jar"
+  },
+  "714059:6467772": {
+    "mod_name": "Resourceful Config",
+    "version": "Unknown"
+  },
+  "500273:6798196": {
+    "mod_name": "Visual Workbench",
+    "version": "VisualWorkbench-v21.1.1-1.21.1-NeoForge.jar"
+  },
+  "242818:7281427": {
+    "mod_name": "CodeChicken Lib 1.8.+",
+    "version": "CodeChickenLib-1.21.1-4.6.1.526.jar"
+  },
+  "1010827:6979353": {
+    "mod_name": "Uranus",
+    "version": "uranus-2.4-1.21.1-neoforge.jar"
+  },
+  "1156098:6912513": {
+    "mod_name": "Construction Sticks",
+    "version": "ConstructionSticks-1.21.1-1.2.3.jar"
+  },
+  "230976:5849090": {
+    "mod_name": "Fast Leaf Decay",
+    "version": "fastleafdecay-35.jar"
+  },
+  "1371315:7293248": {
+    "mod_name": "Industrial Forgoing Recipes",
+    "version": "ifrecipes-1.21.1-1.1.0.jar"
+  },
+  "347706:7284650": {
+    "mod_name": "RFTools Builder",
+    "version": "rftoolsbuilder-1.21-7.0.4.jar"
   }
 }
