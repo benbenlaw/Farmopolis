@@ -9,4 +9,9 @@
 - Removed Market Quest
 
 # Mods
-<!-- MODS_CHANGELOG -->
+<details>
+  <summary>Removed (1)</summary>
+
+- Refined Storage - Mekanism Integration (refinedstorage-mekanism-integration-1.1.1.jar)
+
+</details>
