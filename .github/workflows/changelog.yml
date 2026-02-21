@@ -1,34 +1,40 @@
-import os
 import json
 import requests
+import os
 import re
 
 # =====================
 # CONFIG
 # =====================
-API_KEY = os.getenv("CURSEFORGE_API_KEY")
-if not API_KEY:
-    raise RuntimeError("CURSEFORGE_API_KEY not set!")
+API_KEY = os.getenv("CURSEFORGE_API_KEY")  # must be set in GitHub Secrets
+CACHE_FILE = "cf_cache.json"
+MODS_MARKER = "<!-- MODS_CHANGELOG -->"
 
+# =====================
+# PATH SETUP
+# =====================
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))  # changelogs/
+CHANGELOG_DIR = BASE_DIR
 MANIFEST_PATH = os.path.join(BASE_DIR, "manifest.json")
 OLD_MANIFEST_PATH = os.path.join(BASE_DIR, "manifest_old.json")
-CACHE_FILE = os.path.join(BASE_DIR, "cf_cache.json")
-MODS_MARKER = "<!-- MODS_CHANGELOG -->"
+CACHE_FILE = os.path.join(BASE_DIR, CACHE_FILE)
 
 # =====================
 # HELPERS
 # =====================
 
 def find_latest_changelog(directory):
+    """Find latest versioned changelog MODPACK-x.y.md"""
     pattern = re.compile(r"^.+-(\d+(?:\.\d+)*)\.md$")
     candidates = []
+
     for f in os.listdir(directory):
         m = pattern.match(f)
         if not m:
             continue
         version = tuple(int(v) for v in m.group(1).split("."))
         candidates.append((version, f))
+
     if not candidates:
         raise RuntimeError("No versioned changelog found")
     candidates.sort(reverse=True)
@@ -39,11 +45,10 @@ def load_manifest(path):
         return {}
     with open(path, encoding="utf-8") as f:
         data = json.load(f)
-    # Normalize projectID and fileID as integers
+    # Normalize IDs as integers to avoid type mismatches
     return {int(e["projectID"]): int(e["fileID"]) for e in data.get("files", [])}
 
 def save_manifest(old_path, new_path):
-    # overwrite old manifest with new manifest contents
     with open(new_path, encoding="utf-8") as src, open(old_path, "w", encoding="utf-8") as dst:
         dst.write(src.read())
 
@@ -57,25 +62,25 @@ def get_mod_info(project_id, file_id, cache):
         return cache[key]
 
     try:
-        r = requests.get(
+        project_resp = requests.get(
             f"https://api.curseforge.com/v1/mods/{project_id}",
             headers={"x-api-key": API_KEY},
             timeout=10
         )
-        r.raise_for_status()
-        mod_name = r.json()["data"]["name"]
+        project_resp.raise_for_status()
+        mod_name = project_resp.json()["data"]["name"]
     except:
         mod_name = f"Unknown ({project_id})"
 
     try:
-        r = requests.get(
+        files_resp = requests.get(
             f"https://api.curseforge.com/v1/mods/{project_id}/files",
             headers={"x-api-key": API_KEY},
             timeout=10
         )
-        r.raise_for_status()
+        files_resp.raise_for_status()
         version = next(
-            (f["fileName"] for f in r.json()["data"] if f["id"] == file_id),
+            (f["fileName"] for f in files_resp.json()["data"] if f["id"] == file_id),
             "Unknown"
         )
     except:
@@ -101,22 +106,23 @@ def inject_mods_changelog(changelog_path, mods_content):
         f.write(new_text)
 
 # =====================
-# MAIN
+# MAIN SCRIPT
 # =====================
 
 # Find latest versioned changelog
-CHANGELOG_PATH = find_latest_changelog(BASE_DIR)
+CHANGELOG_PATH = find_latest_changelog(CHANGELOG_DIR)
 print(f"📝 Using changelog: {os.path.basename(CHANGELOG_PATH)}")
 
 # Load cache
-cache = {}
 if os.path.exists(CACHE_FILE):
     with open(CACHE_FILE, encoding="utf-8") as f:
         cache = json.load(f)
+else:
+    cache = {}
 
 # Load manifests
-old_manifest = load_manifest(OLD_MANIFEST_PATH)
-new_manifest = load_manifest(MANIFEST_PATH)
+old_manifest = load_manifest(OLD_MANIFEST_PATH)   # previous version
+new_manifest = load_manifest(MANIFEST_PATH)       # current version
 
 print(f"🟢 Old mods: {len(old_manifest)}, New mods: {len(new_manifest)}")
 print("Old keys:", list(old_manifest.keys()))
@@ -156,4 +162,4 @@ save_cache(cache)
 # Save current manifest as old for next run
 save_manifest(OLD_MANIFEST_PATH, MANIFEST_PATH)
 
-print("✅ Mods changelog generated successfully!")
+print("✅ Mods changelog generated and injected successfully!")
