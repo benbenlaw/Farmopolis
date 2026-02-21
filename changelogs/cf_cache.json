@@ -870,5 +870,29 @@
   "347706:7284650": {
     "mod_name": "RFTools Builder",
     "version": "rftoolsbuilder-1.21-7.0.4.jar"
+  },
+  "268567:7132172": {
+    "mod_name": "Mekanism Tools",
+    "version": "MekanismTools-1.21.1-10.7.17.83.jar"
+  },
+  "438332:5546996": {
+    "mod_name": "SuperMartijn642's Config Lib",
+    "version": "supermartijn642configlib-1.1.8-neoforge-mc1.21.jar"
+  },
+  "1103259:6695679": {
+    "mod_name": "FTB JEI Extras",
+    "version": "ftb-jei-extras-21.1.7.jar"
+  },
+  "945149:7534929": {
+    "mod_name": "Glassential Renewed",
+    "version": "Glassential-renewed-1.21.1-3.4.1.jar"
+  },
+  "404468:7369021": {
+    "mod_name": "FTB Teams (NeoForge)",
+    "version": "ftb-teams-neoforge-2101.1.9.jar"
+  },
+  "635427:5444189": {
+    "mod_name": "Yeetus Experimentus",
+    "version": "yeetusexperimentus-neoforge-87.0.0.jar"
   }
 }
