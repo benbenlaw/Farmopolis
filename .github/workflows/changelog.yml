@@ -15,15 +15,16 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          fetch-depth: 2  # needed for HEAD^
+          fetch-depth: 2  # needed for HEAD^ to read old manifest
 
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
-      - run: pip install requests
+      - name: Install dependencies
+        run: pip install requests
 
-      - name: Run changelog generator
+      - name: Generate changelog
         env:
           CURSEFORGE_API_KEY: ${{ secrets.CURSEFORGE_API_KEY }}
         run: python changelogs/generate_changelog.py
@@ -32,6 +33,16 @@ jobs:
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
-          git add changelogs/*.md cf_cache.json
-          git commit -m "Update mod changelog" || echo "No changes"
+
+          # Add markdown changelogs
+          git add changelogs/*.md
+
+          # Add cache file only if it exists
+          if [ -f changelogs/cf_cache.json ]; then
+              git add changelogs/cf_cache.json
+          fi
+
+          # Commit changes (safe if nothing changed)
+          git commit -m "Update mod changelog" || echo "No changes to commit"
+
           git push
