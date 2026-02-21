@@ -1,53 +1,159 @@
-name: Generate Mod Changelog
+import os
+import json
+import requests
+import re
 
-on:
-  push:
-    paths:
-      - "changelogs/manifest.json"
+# =====================
+# CONFIG
+# =====================
+API_KEY = os.getenv("CURSEFORGE_API_KEY")
+if not API_KEY:
+    raise RuntimeError("CURSEFORGE_API_KEY not set!")
 
-permissions:
-  contents: write
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))  # changelogs/
+MANIFEST_PATH = os.path.join(BASE_DIR, "manifest.json")
+OLD_MANIFEST_PATH = os.path.join(BASE_DIR, "manifest_old.json")
+CACHE_FILE = os.path.join(BASE_DIR, "cf_cache.json")
+MODS_MARKER = "<!-- MODS_CHANGELOG -->"
 
-jobs:
-  changelog:
-    runs-on: ubuntu-latest
+# =====================
+# HELPERS
+# =====================
 
-    steps:
-      # 1️⃣ Checkout repo
-      - name: Checkout repository
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0  # full history to allow commits
+def find_latest_changelog(directory):
+    pattern = re.compile(r"^.+-(\d+(?:\.\d+)*)\.md$")
+    candidates = []
+    for f in os.listdir(directory):
+        m = pattern.match(f)
+        if not m:
+            continue
+        version = tuple(int(v) for v in m.group(1).split("."))
+        candidates.append((version, f))
+    if not candidates:
+        raise RuntimeError("No versioned changelog found")
+    candidates.sort(reverse=True)
+    return os.path.join(directory, candidates[0][1])
 
-      # 2️⃣ Setup Python
-      - name: Setup Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.11"
+def load_manifest(path):
+    if not os.path.exists(path):
+        return {}
+    with open(path, encoding="utf-8") as f:
+        data = json.load(f)
+    # Normalize projectID and fileID as integers
+    return {int(e["projectID"]): int(e["fileID"]) for e in data.get("files", [])}
 
-      # 3️⃣ Install dependencies
-      - name: Install dependencies
-        run: pip install requests
+def save_manifest(old_path, new_path):
+    # overwrite old manifest with new manifest contents
+    with open(new_path, encoding="utf-8") as src, open(old_path, "w", encoding="utf-8") as dst:
+        dst.write(src.read())
 
-      # 4️⃣ Generate changelog
-      - name: Generate mods changelog
-        env:
-          CURSEFORGE_API_KEY: ${{ secrets.CURSEFORGE_API_KEY }}
-        run: python changelogs/generate_changelog.py
+def save_cache(cache):
+    with open(CACHE_FILE, "w", encoding="utf-8") as f:
+        json.dump(cache, f, indent=2, ensure_ascii=False)
 
-      # 5️⃣ Commit changes
-      - name: Commit and push changes
-        run: |
-          git config user.name "github-actions"
-          git config user.email "github-actions@github.com"
+def get_mod_info(project_id, file_id, cache):
+    key = f"{project_id}:{file_id}"
+    if key in cache:
+        return cache[key]
 
-          # Add changelogs, cache, and old manifest
-          git add changelogs/*.md
-          git add changelogs/cf_cache.json || echo "No cache file"
-          git add changelogs/manifest_old.json || echo "No old manifest yet"
+    try:
+        r = requests.get(
+            f"https://api.curseforge.com/v1/mods/{project_id}",
+            headers={"x-api-key": API_KEY},
+            timeout=10
+        )
+        r.raise_for_status()
+        mod_name = r.json()["data"]["name"]
+    except:
+        mod_name = f"Unknown ({project_id})"
 
-          # Commit safely
-          git commit -m "Update mod changelog" || echo "No changes to commit"
+    try:
+        r = requests.get(
+            f"https://api.curseforge.com/v1/mods/{project_id}/files",
+            headers={"x-api-key": API_KEY},
+            timeout=10
+        )
+        r.raise_for_status()
+        version = next(
+            (f["fileName"] for f in r.json()["data"] if f["id"] == file_id),
+            "Unknown"
+        )
+    except:
+        version = "Unknown"
 
-          # Push
-          git push
+    info = {"mod_name": mod_name, "version": version}
+    cache[key] = info
+    return info
+
+def wrap_details(title, items):
+    if not items:
+        return ""
+    lines = "\n".join(f"- {i}" for i in items)
+    return f"<details>\n  <summary>{title} ({len(items)})</summary>\n\n{lines}\n\n</details>\n\n"
+
+def inject_mods_changelog(changelog_path, mods_content):
+    with open(changelog_path, "r", encoding="utf-8") as f:
+        text = f.read()
+    if MODS_MARKER not in text:
+        raise RuntimeError(f"Marker {MODS_MARKER} not found in {changelog_path}")
+    new_text = text.replace(MODS_MARKER, mods_content.strip())
+    with open(changelog_path, "w", encoding="utf-8") as f:
+        f.write(new_text)
+
+# =====================
+# MAIN
+# =====================
+
+# Find latest versioned changelog
+CHANGELOG_PATH = find_latest_changelog(BASE_DIR)
+print(f"📝 Using changelog: {os.path.basename(CHANGELOG_PATH)}")
+
+# Load cache
+cache = {}
+if os.path.exists(CACHE_FILE):
+    with open(CACHE_FILE, encoding="utf-8") as f:
+        cache = json.load(f)
+
+# Load manifests
+old_manifest = load_manifest(OLD_MANIFEST_PATH)
+new_manifest = load_manifest(MANIFEST_PATH)
+
+print(f"🟢 Old mods: {len(old_manifest)}, New mods: {len(new_manifest)}")
+print("Old keys:", list(old_manifest.keys()))
+print("New keys:", list(new_manifest.keys()))
+
+# Compute diff
+added, removed, updated = [], [], []
+
+for pid, fid in new_manifest.items():
+    if pid not in old_manifest:
+        info = get_mod_info(pid, fid, cache)
+        added.append(f"{info['mod_name']} ({info['version']})")
+    elif old_manifest[pid] != fid:
+        old_info = get_mod_info(pid, old_manifest[pid], cache)
+        new_info = get_mod_info(pid, fid, cache)
+        updated.append(f"{new_info['mod_name']}: {old_info['version']} → {new_info['version']}")
+
+for pid, fid in old_manifest.items():
+    if pid not in new_manifest:
+        info = get_mod_info(pid, fid, cache)
+        removed.append(f"{info['mod_name']} ({info['version']})")
+
+# Build mods changelog
+mods_changelog = ""
+mods_changelog += wrap_details("Added", added)
+mods_changelog += wrap_details("Removed", removed)
+mods_changelog += wrap_details("Updated", updated)
+if not mods_changelog:
+    mods_changelog = "_No mod changes this version._\n"
+
+# Inject into changelog
+inject_mods_changelog(CHANGELOG_PATH, mods_changelog)
+
+# Save cache
+save_cache(cache)
+
+# Save current manifest as old for next run
+save_manifest(OLD_MANIFEST_PATH, MANIFEST_PATH)
+
+print("✅ Mods changelog generated successfully!")
