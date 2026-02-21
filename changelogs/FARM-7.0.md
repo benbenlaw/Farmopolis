@@ -9,4 +9,4 @@
 - Removed Market Quest
 
 # Mods
-_No mod changes this version._
+<!-- MODS_CHANGELOG -->
