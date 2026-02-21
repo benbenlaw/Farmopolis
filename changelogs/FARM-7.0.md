@@ -9,4 +9,10 @@
 - Removed Market Quest
 
 # Mods
-<!-- MODS_CHANGELOG -->
+<details>
+  <summary>Removed (2)</summary>
+
+- Unknown (1297281) (Unknown)
+- Unknown (1230729) (Unknown)
+
+</details>
