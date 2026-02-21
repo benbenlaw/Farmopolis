@@ -6,3 +6,7 @@
 	"Disable Ore Gen" = false
 	#The block tag used to determine which blocks to replace when ore removal is enabled
 	"Block Tag for Ore Removal" = "c:ores"
+	#A list of block replacements in the format 'block_to_replace, replacement_block'. E.g minecraft:iron_ore=minecraft:stone
+	"Block Replacements" = [""]
+	#Enables block replacements defined in the block replacements list
+	"Enable Block Replacements" = false

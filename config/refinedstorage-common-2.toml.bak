@@ -6,6 +6,8 @@ smoothScrolling = true
 maxRowsStretch = 256
 searchBoxAutoSelected = true
 autocraftingNotification = true
+#Allowed Values: LIST, TREE
+autocraftingPreviewStyle = "LIST"
 
 [cable]
 	# Default: 0

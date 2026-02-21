@@ -285,7 +285,7 @@
 				item: { count: 1, id: "create:millstone" }
 				type: "item"
 			}]
-			x: 4.0d
+			x: 4.5d
 			y: 1.5d
 		}
 		{
@@ -297,17 +297,6 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 1.5d
-		}
-		{
-			dependencies: ["606B641C38C38FC9"]
-			id: "28ADB027D80C9DC4"
-			tasks: [{
-				id: "635C37B67A6D2038"
-				item: { count: 1, id: "market:market" }
-				type: "item"
-			}]
-			x: 5.0d
 			y: 1.5d
 		}
 		{
