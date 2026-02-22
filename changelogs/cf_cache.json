@@ -1082,5 +1082,329 @@
   "252848:5696042": {
     "mod_name": "Nature's Compass",
     "version": "NaturesCompass-1.21.1-3.0.3-neoforge.jar"
+  },
+  "846168:7653959": {
+    "mod_name": "Pipe Connector",
+    "version": "pipe_connector-neoforge-0.5.24.jar"
+  },
+  "583228:7451435": {
+    "mod_name": "Simple Backups",
+    "version": "SimpleBackups-1.21-4.0.28.jar"
+  },
+  "243076:7610477": {
+    "mod_name": "Refined Storage",
+    "version": "refinedstorage-neoforge-2.0.1.jar"
+  },
+  "854949:7471474": {
+    "mod_name": "Fusion (Connected Textures)",
+    "version": "fusion-1.2.12-neoforge-mc1.21.1.jar"
+  },
+  "1305347:7463195": {
+    "mod_name": "BBL Smart Crafting",
+    "version": "smartcrafting-1.21.1-1.2.13.jar"
+  },
+  "429235:7524151": {
+    "mod_name": "FerriteCore ((Neo)Forge)",
+    "version": "ferritecore-7.0.3-neoforge.jar"
+  },
+  "1130473:7662147": {
+    "mod_name": "Mama's Herbs and Harvest",
+    "version": "herbsandharvest-1.21.1-4.jar"
+  },
+  "855414:7605616": {
+    "mod_name": "Iron's Spells 'n Spellbooks",
+    "version": "irons_spellbooks-1.21.1-3.15.3.jar"
+  },
+  "248787:7517379": {
+    "mod_name": "AppleSkin",
+    "version": "appleskin-neoforge-mc1.21-3.0.8.jar"
+  },
+  "245506:7643393": {
+    "mod_name": "MineColonies",
+    "version": "minecolonies-1.1.1274-1.21.1-snapshot.jar"
+  },
+  "1010066:7660380": {
+    "mod_name": "Create: Structures Arise",
+    "version": "create_structures_arise-173.46.45 Release-neoforge-1.21.1.jar"
+  },
+  "361276:7652505": {
+    "mod_name": "Lootr (Forge & NeoForge)",
+    "version": "lootr-neoforge-1.21.1-1.11.36.115.jar"
+  },
+  "790626:7509726": {
+    "mod_name": "ModernFix",
+    "version": "modernfix-neoforge-5.26.1+mc1.21.1.jar"
+  },
+  "686911:7537795": {
+    "mod_name": "ImmediatelyFast",
+    "version": "ImmediatelyFast-NeoForge-1.6.10+1.21.1.jar"
+  },
+  "827507:7524693": {
+    "mod_name": "Stylecolonies",
+    "version": "stylecolonies-1.15.47-1.21.1.jar"
+  },
+  "1193873:7547022": {
+    "mod_name": "Mobstein : Revive animals and necromancy!",
+    "version": "mobstein-5.2.4-neoforge-1.21.1.jar"
+  },
+  "289412:7429016": {
+    "mod_name": "FTB Quests (NeoForge)",
+    "version": "ftb-quests-neoforge-2101.1.21.jar"
+  },
+  "945149:7534929": {
+    "mod_name": "Glassential Renewed",
+    "version": "Glassential-renewed-1.21.1-3.4.1.jar"
+  },
+  "1052163:7583510": {
+    "mod_name": "BBL Casting",
+    "version": "casting-1.21.1-2.3.9.jar"
+  },
+  "688768:7656384": {
+    "mod_name": "Create: Enchantment Industry",
+    "version": "create-enchantment-industry-2.3.0.jar"
+  },
+  "1334500:7424692": {
+    "mod_name": "BBL Routers",
+    "version": "routers-1.21.1-1.1.6.jar"
+  },
+  "559312:7646454": {
+    "mod_name": "Easy NPC",
+    "version": "easy_npc_bundle-neoforge-1.21.1-6.8.3.jar"
+  },
+  "1205426:7600918": {
+    "mod_name": "Advanced Loot Info",
+    "version": "AdvancedLootInfo-neoforge-1.21.1-1.7.2.jar"
+  },
+  "412082:7662685": {
+    "mod_name": "Supplementaries",
+    "version": "supplementaries-1.21-3.5.22-neoforge.jar"
+  },
+  "407206:7591254": {
+    "mod_name": "Chat Heads",
+    "version": "chat_heads-0.15.0-neoforge-1.21.jar"
+  },
+  "618298:7635107": {
+    "mod_name": "Sophisticated Core",
+    "version": "sophisticatedcore-1.21.1-1.4.5.1499.jar"
+  },
+  "889915:7429014": {
+    "mod_name": "FTB XMod Compat",
+    "version": "ftb-xmod-compat-neoforge-21.1.7.jar"
+  },
+  "1123257:7658019": {
+    "mod_name": "In World Recipes",
+    "version": "inworldrecipes-1.21.1-1.8.0.jar"
+  },
+  "962544:7491150": {
+    "mod_name": "Oh The Trees You'll Grow",
+    "version": "Oh-The-Trees-Youll-Grow-neoforge-1.21.1-5.2.0.jar"
+  },
+  "422301:7645643": {
+    "mod_name": "Sophisticated Backpacks",
+    "version": "sophisticatedbackpacks-1.21.1-3.25.28.1537.jar"
+  },
+  "324717:7545219": {
+    "mod_name": "Jade 🔍",
+    "version": "Jade-1.21.1-NeoForge-15.10.5.jar"
+  },
+  "1005914:7568897": {
+    "mod_name": "Fzzy Config",
+    "version": "fzzy_config-0.7.6+1.21+neoforge.jar"
+  },
+  "351264:7471280": {
+    "mod_name": "Kotlin for Forge",
+    "version": "kotlinforforge-5.11.0-all.jar"
+  },
+  "856996:7593921": {
+    "mod_name": "Cristel Lib",
+    "version": "cristellib-neoforge-1.21.1-3.0.3.jar"
+  },
+  "1094958:7593447": {
+    "mod_name": "Create: Pillager Arise",
+    "version": "create_pillagers_arise-132.32 Release-neoforge-1.21.1.jar"
+  },
+  "896746:7461027": {
+    "mod_name": "Amendments",
+    "version": "amendments-1.21-2.0.15-neoforge.jar"
+  },
+  "527361:7585527": {
+    "mod_name": "Domum Ornamentum",
+    "version": "domum-ornamentum-1.0.228-main.jar"
+  },
+  "1460013:7619109": {
+    "mod_name": "Refined Construction Sticks",
+    "version": "refinedsticks-1.21.1-1.1.3.jar"
+  },
+  "454372:7521894": {
+    "mod_name": "SuperMartijn642's Core Lib",
+    "version": "supermartijn642corelib-1.1.20-neoforge-mc1.21.jar"
+  },
+  "1254143:7490349": {
+    "mod_name": "Colorwheel",
+    "version": "colorwheel-neoforge-1.2.1+mc1.21.1.jar"
+  },
+  "943925:7429011": {
+    "mod_name": "FTB Filter System",
+    "version": "ftb-filter-system-neoforge-21.1.4.jar"
+  },
+  "895919:7555622": {
+    "mod_name": "Time in a bottle [FORGE\\NEOFORGE\\FABRIC]",
+    "version": "tiab-neoforge-6.5.4.jar"
+  },
+  "360438:7581452": {
+    "mod_name": "Lithium (Fabric/NeoForge)",
+    "version": "lithium-neoforge-0.15.2+mc1.21.1.jar"
+  },
+  "1122260:7580743": {
+    "mod_name": "Bibliocraft Legacy",
+    "version": "bibliocraft-1.21.1-1.6.4.jar"
+  },
+  "960209:7522246": {
+    "mod_name": "Valarian Conquest",
+    "version": "valarian_conquest-4.2-neoforge-1.21.1.jar"
+  },
+  "1163890:7503072": {
+    "mod_name": "Create: Cheese Factory",
+    "version": "create_cheese_factory-1.5.0-neoforge-1.21.1.jar"
+  },
+  "1216624:7653475": {
+    "mod_name": "Create: Dragons Plus",
+    "version": "create-dragons-plus-1.8.7.jar"
+  },
+  "433760:7650365": {
+    "mod_name": "Not Enough Animations",
+    "version": "notenoughanimations-neoforge-1.11.3-mc1.21.1.jar"
+  },
+  "441647:7584453": {
+    "mod_name": "FramedBlocks",
+    "version": "FramedBlocks-10.5.3.jar"
+  },
+  "499980:7662590": {
+    "mod_name": "Moonlight Lib",
+    "version": "moonlight-1.21-2.29.17-neoforge.jar"
+  },
+  "298744:7645269": {
+    "mod_name": "Structurize",
+    "version": "structurize-1.0.813-1.21.1-snapshot.jar"
+  },
+  "522992:7541336": {
+    "mod_name": "BlockUI",
+    "version": "blockui-1.0.209-1.21.1.jar"
+  },
+  "1161283:7524960": {
+    "mod_name": "Create: Winery",
+    "version": "create_winery-2.0.1-neoforge-1.21.1.jar"
+  },
+  "233071:7530379": {
+    "mod_name": "Crafting Tweaks",
+    "version": "craftingtweaks-neoforge-1.21.1-21.1.7.jar"
+  },
+  "368825:7613388": {
+    "mod_name": "Inventory Essentials",
+    "version": "inventoryessentials-neoforge-1.21.1-21.1.13.jar"
+  },
+  "1007872:7635060": {
+    "mod_name": "Create: Let The Adventure Begin",
+    "version": "create_ltab-3.7.3.jar"
+  },
+  "1346373:7523808": {
+    "mod_name": "Resource Fish",
+    "version": "resourcefish-1.21.1-1.4.2.jar"
+  },
+  "1308987:7646445": {
+    "mod_name": "Easy NPC: Core",
+    "version": "easy_npc-neoforge-1.21.1-6.8.3.jar"
+  },
+  "362479:7616786": {
+    "mod_name": "The Bumblezone (NeoForge/Forge)",
+    "version": "the_bumblezone-7.11.9+1.21.1-neoforge.jar"
+  },
+  "938917:7583320": {
+    "mod_name": "Accessories",
+    "version": "accessories-neoforge-1.1.0-beta.53+1.21.1.jar"
+  },
+  "627557:7574259": {
+    "mod_name": "Complementary Shaders - Reimagined",
+    "version": "ComplementaryReimagined_r5.7.1.zip"
+  },
+  "363363:7469731": {
+    "mod_name": "Extreme sound muffler - (Neo)Forge",
+    "version": "ExtremeSoundMuffler-3.54_NeoForge-1.21.jar"
+  },
+  "276951:7515858": {
+    "mod_name": "Comforts",
+    "version": "comforts-neoforge-9.0.5+1.21.1.jar"
+  },
+  "1122764:7577860": {
+    "mod_name": "Bibliowoods Legacy",
+    "version": "bibliowoods-1.21.1-1.6.2.jar"
+  },
+  "410811:7608733": {
+    "mod_name": "FTB Essentials (Forge & Fabric)",
+    "version": "ftb-essentials-neoforge-2101.1.9.jar"
+  },
+  "314906:7608681": {
+    "mod_name": "FTB Chunks (NeoForge)",
+    "version": "ftb-chunks-neoforge-2101.1.14.jar"
+  },
+  "439890:7518252": {
+    "mod_name": "Create Crafts & Additions",
+    "version": "createaddition-1.5.10.jar"
+  },
+  "228525:7606240": {
+    "mod_name": "Bookshelf",
+    "version": "bookshelf-neoforge-1.21.1-21.1.81.jar"
+  },
+  "1315611:7585673": {
+    "mod_name": "Accessories Compatibility Layer",
+    "version": "accessories_compat_layer-neoforge-0.1.12+1.21.1.jar"
+  },
+  "1000075:7472797": {
+    "mod_name": "Roomopolis",
+    "version": "roomopolis-1.21.1-2.8.2.jar"
+  },
+  "1352211:7511046": {
+    "mod_name": "BBL Shops",
+    "version": "shops-1.21.1-1.3.7.jar"
+  },
+  "1271095:7441335": {
+    "mod_name": "BBL Colors - Connected Textures",
+    "version": "BBL-Colors-Connected-Textures_2.0.zip"
+  },
+  "398521:7596366": {
+    "mod_name": "Farmer's Delight",
+    "version": "FarmersDelight-1.21.1-1.2.10.jar"
+  },
+  "550678:6819714": {
+    "mod_name": "Too Fast",
+    "version": "toofast-1.21.0-0.4.3.6.jar"
+  },
+  "915902:7624100": {
+    "mod_name": "Euphoria Patches",
+    "version": "EuphoriaPatcher-1.8.6-r5.7.1-neoforge.jar"
+  },
+  "1214728:7646448": {
+    "mod_name": "Easy NPC: Config UI",
+    "version": "easy_npc_config_ui-neoforge-1.21.1-6.8.3.jar"
+  },
+  "32274:7585641": {
+    "mod_name": "JourneyMap",
+    "version": "journeymap-neoforge-1.21.1-6.0.0-beta.54.jar"
+  },
+  "871735:7592990": {
+    "mod_name": "Twilight's Flavors & Delight",
+    "version": "twilightdelight-3.1.0.jar"
+  },
+  "1052840:7588303": {
+    "mod_name": "BBL Compat",
+    "version": "bblcompat-1.21.1-5.6.8.jar"
+  },
+  "386134:7570482": {
+    "mod_name": "FTB Ultimine (Forge)",
+    "version": "ftb-ultimine-neoforge-2101.1.13.jar"
+  },
+  "1230590:7577850": {
+    "mod_name": "Bibliobiomes Legacy",
+    "version": "bibliobiomes-1.21.1-1.6.1.jar"
   }
 }
