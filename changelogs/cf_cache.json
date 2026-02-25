@@ -1406,5 +1406,61 @@
   "1230590:7577850": {
     "mod_name": "Bibliobiomes Legacy",
     "version": "bibliobiomes-1.21.1-1.6.1.jar"
+  },
+  "1130473:7673987": {
+    "mod_name": "Mama's Herbs and Harvest",
+    "version": "herbsandharvest-1.21.1-6.jar"
+  },
+  "245506:7672182": {
+    "mod_name": "MineColonies",
+    "version": "minecolonies-1.1.1281-1.21.1-snapshot.jar"
+  },
+  "361276:7666212": {
+    "mod_name": "Lootr (Forge & NeoForge)",
+    "version": "lootr-neoforge-1.21.1-1.11.36.116.jar"
+  },
+  "368293:7663509": {
+    "mod_name": "Repurposed Structures (Neoforge/Forge)",
+    "version": "repurposed_structures-7.5.18+1.21.1-neoforge.jar"
+  },
+  "412082:7663675": {
+    "mod_name": "Supplementaries",
+    "version": "supplementaries-1.21-3.5.24-neoforge.jar"
+  },
+  "1123257:7667607": {
+    "mod_name": "In World Recipes",
+    "version": "inworldrecipes-1.21.1-1.8.1.jar"
+  },
+  "499980:7669172": {
+    "mod_name": "Moonlight Lib",
+    "version": "moonlight-1.21-2.29.18-neoforge.jar"
+  },
+  "298744:7676051": {
+    "mod_name": "Structurize",
+    "version": "structurize-1.0.816-1.21.1-snapshot.jar"
+  },
+  "284324:7664299": {
+    "mod_name": "Emojiful",
+    "version": "Emojiful-Neoforge-1.21-5.2.2-all.jar"
+  },
+  "280441:7666340": {
+    "mod_name": "Mystical Customization",
+    "version": "MysticalCustomization-1.21.1-6.0.2.jar"
+  },
+  "362479:7670276": {
+    "mod_name": "The Bumblezone (NeoForge/Forge)",
+    "version": "the_bumblezone-7.11.10+1.21.1-neoforge.jar"
+  },
+  "228404:7676502": {
+    "mod_name": "Actually Additions",
+    "version": "actuallyadditions-1.3.25+mc1.21.1.jar"
+  },
+  "246640:7666363": {
+    "mod_name": "Mystical Agriculture",
+    "version": "MysticalAgriculture-1.21.1-8.0.23.jar"
+  },
+  "32274:7664744": {
+    "mod_name": "JourneyMap",
+    "version": "journeymap-neoforge-1.21.1-6.0.0-beta.55.jar"
   }
 }
