@@ -1,0 +1,6 @@
+[
+  {"version":2},
+  {"ingredient":{"id":"minecraft:stick"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"casting:molten_coal"},"type":"fluid_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"opolisutilities:item_repairer"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

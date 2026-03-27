@@ -1,0 +1,6 @@
+[
+  {"version":2},
+  {"ingredient":{"id":"merrymaking:sweet_potato_pie"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"merrymaking:latke"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"create_winery:cider"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]
