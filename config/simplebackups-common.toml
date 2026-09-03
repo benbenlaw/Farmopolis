@@ -12,7 +12,7 @@ saveAll = true
 #How often should a full backup be created if only modified files should be saved? This creates a full backup when x minutes are over and the next backup needs to be done. Once a year is default.
 # Default: 525960
 # Range: 1 ~ 5259600
-fullBackupTimer = 525960
+fullBackupTimer = 1440
 #Experimental setting available, look at 'simplebackups-common-experimental.toml' to help testing
 #The max amount of backup files to keep.
 # Default: 10
@@ -56,6 +56,8 @@ noPlayerBackupCount = 1
 # Default: 0
 # Range: > 0
 noPlayerBackupTimer = 0
+#Should log lines written to logs/latest.log during backup be stored inside the backup archive as latest.log?
+captureLatestLog = true
 
 #WARNING Please check your configuration before using permanently.
 #The backup system will ignore these paths and files.

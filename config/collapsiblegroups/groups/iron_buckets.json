@@ -1,0 +1,1140 @@
+{
+  "id": "iron_buckets",
+  "name": {
+    "translate": "collapsible_groups.group.iron_buckets",
+    "fallback": "Iron Buckets"
+  },
+  "enabled": true,
+  "filter": {
+    "any": [
+      {
+        "type": "item",
+        "id": "bigreactors:steam_bucket"
+      },
+      {
+        "type": "item",
+        "id": "bigreactors:yellorium_bucket"
+      },
+      {
+        "type": "item",
+        "id": "bigreactors:cyanite_bucket"
+      },
+      {
+        "type": "item",
+        "id": "bigreactors:blutonium_bucket"
+      },
+      {
+        "type": "item",
+        "id": "bigreactors:magentite_bucket"
+      },
+      {
+        "type": "item",
+        "id": "bigreactors:verderium_bucket"
+      },
+      {
+        "type": "item",
+        "id": "bigreactors:rossinite_bucket"
+      },
+      {
+        "type": "item",
+        "id": "bigreactors:cryomisi_bucket"
+      },
+      {
+        "type": "item",
+        "id": "bigreactors:tangerium_bucket"
+      },
+      {
+        "type": "item",
+        "id": "bigreactors:redfrigium_bucket"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"immersiveengineering:potion_bucket\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"minecraft:awkward\"}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"immersiveengineering:potion_bucket\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"minecraft:mundane\"}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"immersiveengineering:potion_bucket\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"minecraft:fire_resistance\"}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"immersiveengineering:potion_bucket\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"minecraft:long_fire_resistance\"}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"immersiveengineering:potion_bucket\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"projectvibrantjourneys:glowing\"}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"immersiveengineering:potion_bucket\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"projectvibrantjourneys:long_glowing\"}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"immersiveengineering:potion_bucket\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"minecraft:harming\"}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"immersiveengineering:potion_bucket\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"minecraft:strong_harming\"}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"immersiveengineering:potion_bucket\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"minecraft:healing\"}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"immersiveengineering:potion_bucket\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"minecraft:strong_healing\"}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"immersiveengineering:potion_bucket\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"minecraft:infested\"}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"immersiveengineering:potion_bucket\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"minecraft:invisibility\"}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"immersiveengineering:potion_bucket\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"minecraft:long_invisibility\"}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"immersiveengineering:potion_bucket\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"minecraft:leaping\"}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"immersiveengineering:potion_bucket\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"minecraft:long_leaping\"}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"immersiveengineering:potion_bucket\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"minecraft:strong_leaping\"}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"immersiveengineering:potion_bucket\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"minecraft:luck\"}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"immersiveengineering:potion_bucket\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"minecraft:night_vision\"}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"immersiveengineering:potion_bucket\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"minecraft:long_night_vision\"}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"immersiveengineering:potion_bucket\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"minecraft:oozing\"}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"immersiveengineering:potion_bucket\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"minecraft:poison\"}}}"
+      },
+      {
+        "type": "item",
+        "id": "immersiveengineering:herbicide_bucket"
+      },
+      {
+        "type": "item",
+        "id": "immersiveengineering:concrete_bucket"
+      },
+      {
+        "type": "item",
+        "id": "immersiveengineering:high_power_biodiesel_bucket"
+      },
+      {
+        "type": "item",
+        "id": "immersiveengineering:biodiesel_bucket"
+      },
+      {
+        "type": "item",
+        "id": "immersiveengineering:ethanol_bucket"
+      },
+      {
+        "type": "item",
+        "id": "immersiveengineering:plantoil_bucket"
+      },
+      {
+        "type": "item",
+        "id": "immersiveengineering:creosote_bucket"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"immersiveengineering:potion_bucket\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"minecraft:thick\"}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"immersiveengineering:potion_bucket\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"minecraft:strong_turtle_master\"}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"immersiveengineering:potion_bucket\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"minecraft:long_turtle_master\"}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"immersiveengineering:potion_bucket\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"minecraft:turtle_master\"}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"immersiveengineering:potion_bucket\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"minecraft:wind_charged\"}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"immersiveengineering:potion_bucket\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"minecraft:weaving\"}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"immersiveengineering:potion_bucket\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"minecraft:long_weakness\"}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"immersiveengineering:potion_bucket\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"minecraft:weakness\"}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"immersiveengineering:potion_bucket\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"minecraft:long_water_breathing\"}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"immersiveengineering:potion_bucket\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"minecraft:water_breathing\"}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"immersiveengineering:potion_bucket\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"minecraft:strong_swiftness\"}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"immersiveengineering:potion_bucket\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"minecraft:long_swiftness\"}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"immersiveengineering:potion_bucket\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"minecraft:swiftness\"}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"immersiveengineering:potion_bucket\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"minecraft:strong_strength\"}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"immersiveengineering:potion_bucket\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"minecraft:long_strength\"}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"immersiveengineering:potion_bucket\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"minecraft:strength\"}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"immersiveengineering:potion_bucket\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"projectvibrantjourneys:strong_sporadic_silence\"}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"immersiveengineering:potion_bucket\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"projectvibrantjourneys:long_sporadic_silence\"}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"immersiveengineering:potion_bucket\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"projectvibrantjourneys:sporadic_silence\"}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"immersiveengineering:potion_bucket\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"minecraft:strong_slowness\"}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"immersiveengineering:potion_bucket\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"minecraft:long_slowness\"}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"immersiveengineering:potion_bucket\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"minecraft:slowness\"}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"immersiveengineering:potion_bucket\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"minecraft:long_slow_falling\"}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"immersiveengineering:potion_bucket\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"minecraft:slow_falling\"}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"immersiveengineering:potion_bucket\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"minecraft:strong_regeneration\"}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"immersiveengineering:potion_bucket\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"minecraft:long_regeneration\"}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"immersiveengineering:potion_bucket\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"minecraft:regeneration\"}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"immersiveengineering:potion_bucket\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"minecraft:strong_poison\"}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"immersiveengineering:potion_bucket\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"minecraft:long_poison\"}}}"
+      },
+      {
+        "type": "item",
+        "id": "immersiveengineering:redstone_acid_bucket"
+      },
+      {
+        "type": "item",
+        "id": "immersiveengineering:acetaldehyde_bucket"
+      },
+      {
+        "type": "item",
+        "id": "immersiveengineering:phenolic_resin_bucket"
+      },
+      {
+        "type": "item",
+        "id": "mekanism:hydrogen_bucket"
+      },
+      {
+        "type": "item",
+        "id": "mekanism:oxygen_bucket"
+      },
+      {
+        "type": "item",
+        "id": "mekanism:chlorine_bucket"
+      },
+      {
+        "type": "item",
+        "id": "mekanism:sulfur_dioxide_bucket"
+      },
+      {
+        "type": "item",
+        "id": "mekanism:sulfur_trioxide_bucket"
+      },
+      {
+        "type": "item",
+        "id": "mekanism:sulfuric_acid_bucket"
+      },
+      {
+        "type": "item",
+        "id": "mekanism:hydrogen_chloride_bucket"
+      },
+      {
+        "type": "item",
+        "id": "mekanism:hydrofluoric_acid_bucket"
+      },
+      {
+        "type": "item",
+        "id": "mekanism:uranium_oxide_bucket"
+      },
+      {
+        "type": "item",
+        "id": "mekanism:uranium_hexafluoride_bucket"
+      },
+      {
+        "type": "item",
+        "id": "mekanism:ethene_bucket"
+      },
+      {
+        "type": "item",
+        "id": "mekanism:sodium_bucket"
+      },
+      {
+        "type": "item",
+        "id": "mekanism:superheated_sodium_bucket"
+      },
+      {
+        "type": "item",
+        "id": "mekanism:brine_bucket"
+      },
+      {
+        "type": "item",
+        "id": "mekanism:lithium_bucket"
+      },
+      {
+        "type": "item",
+        "id": "mekanism:steam_bucket"
+      },
+      {
+        "type": "item",
+        "id": "mekanism:heavy_water_bucket"
+      },
+      {
+        "type": "item",
+        "id": "mekanism:nutritional_paste_bucket"
+      },
+      {
+        "type": "item",
+        "id": "stellaris:fuel_bucket"
+      },
+      {
+        "type": "item",
+        "id": "stellaris:oil_bucket"
+      },
+      {
+        "type": "item",
+        "id": "stellaris:hydrogen_bucket"
+      },
+      {
+        "type": "item",
+        "id": "stellaris:diesel_bucket"
+      },
+      {
+        "type": "item",
+        "id": "techopolis:hot_water_bucket"
+      },
+      {
+        "type": "item",
+        "id": "techopolis:molten_mob_essence_bucket"
+      },
+      {
+        "type": "item",
+        "id": "techopolis:liquid_nitrogen_bucket"
+      },
+      {
+        "type": "item",
+        "id": "techopolis:molten_cheese_bucket"
+      },
+      {
+        "type": "item",
+        "id": "techopolis:oil_bucket"
+      },
+      {
+        "type": "item",
+        "id": "techopolis:molten_ender_fuel_bucket"
+      },
+      {
+        "type": "item",
+        "id": "techopolis:ender_ethanol_bucket"
+      },
+      {
+        "type": "item",
+        "id": "techopolis:chocolate_bucket"
+      },
+      {
+        "type": "item",
+        "id": "techopolis:liquid_matter_bucket"
+      },
+      {
+        "type": "item",
+        "id": "utilitarian:slime_bucket"
+      },
+      {
+        "type": "item",
+        "id": "enderio:nutrient_distillation_bucket"
+      },
+      {
+        "type": "item",
+        "id": "enderio:dew_of_the_void_bucket"
+      },
+      {
+        "type": "item",
+        "id": "enderio:vapor_of_levity_bucket"
+      },
+      {
+        "type": "item",
+        "id": "enderio:hootch_bucket"
+      },
+      {
+        "type": "item",
+        "id": "enderio:rocket_fuel_bucket"
+      },
+      {
+        "type": "item",
+        "id": "enderio:fire_water_bucket"
+      },
+      {
+        "type": "item",
+        "id": "enderio:xp_juice_bucket"
+      },
+      {
+        "type": "item",
+        "id": "enderio:liquid_sunshine_bucket"
+      },
+      {
+        "type": "item",
+        "id": "enderio:liquid_darkness_bucket"
+      },
+      {
+        "type": "item",
+        "id": "enderio:cloud_seed_bucket"
+      },
+      {
+        "type": "item",
+        "id": "enderio:cloud_seed_concentrated_bucket"
+      },
+      {
+        "type": "item",
+        "id": "sophisticatedcore:xp_bucket"
+      },
+      {
+        "type": "item",
+        "id": "pneumaticcraft:yeast_culture_bucket"
+      },
+      {
+        "type": "item",
+        "id": "pneumaticcraft:vegetable_oil_bucket"
+      },
+      {
+        "type": "item",
+        "id": "pneumaticcraft:memory_essence_bucket"
+      },
+      {
+        "type": "item",
+        "id": "pneumaticcraft:lubricant_bucket"
+      },
+      {
+        "type": "item",
+        "id": "pneumaticcraft:lpg_bucket"
+      },
+      {
+        "type": "item",
+        "id": "pneumaticcraft:kerosene_bucket"
+      },
+      {
+        "type": "item",
+        "id": "mobz:tadpole_bucket"
+      },
+      {
+        "type": "item",
+        "id": "pneumaticcraft:biodiesel_bucket"
+      },
+      {
+        "type": "item",
+        "id": "pneumaticcraft:plastic_bucket"
+      },
+      {
+        "type": "item",
+        "id": "pneumaticcraft:oil_bucket"
+      },
+      {
+        "type": "item",
+        "id": "pneumaticcraft:diesel_bucket"
+      },
+      {
+        "type": "item",
+        "id": "pneumaticcraft:etching_acid_bucket"
+      },
+      {
+        "type": "item",
+        "id": "pneumaticcraft:ethanol_bucket"
+      },
+      {
+        "type": "item",
+        "id": "pneumaticcraft:gasoline_bucket"
+      },
+      {
+        "type": "item",
+        "id": "industrialforegoing:pink_slime_bucket"
+      },
+      {
+        "type": "item",
+        "id": "industrialforegoing:sludge_bucket"
+      },
+      {
+        "type": "item",
+        "id": "industrialforegoing:essence_bucket"
+      },
+      {
+        "type": "item",
+        "id": "industrialforegoing:latex_bucket"
+      },
+      {
+        "type": "item",
+        "id": "industrialforegoing:meat_bucket"
+      },
+      {
+        "type": "item",
+        "id": "industrialforegoing:sewage_bucket"
+      },
+      {
+        "type": "item",
+        "id": "industrialforegoing:biofuel_bucket"
+      },
+      {
+        "type": "item",
+        "id": "industrialforegoing:ether_gas_bucket"
+      },
+      {
+        "type": "item",
+        "id": "industrialforegoing:raw_ore_meat_bucket"
+      },
+      {
+        "type": "item",
+        "id": "industrialforegoing:fermented_ore_meat_bucket"
+      },
+      {
+        "type": "item",
+        "id": "evolved:molten_ore_mulch_bucket"
+      },
+      {
+        "type": "item",
+        "id": "evolved:molten_void_bucket"
+      },
+      {
+        "type": "item",
+        "id": "evolved:molten_modularium_bucket"
+      },
+      {
+        "type": "item",
+        "id": "minecraft:water_bucket"
+      },
+      {
+        "type": "item",
+        "id": "minecraft:cod_bucket"
+      },
+      {
+        "type": "item",
+        "id": "minecraft:salmon_bucket"
+      },
+      {
+        "type": "item",
+        "id": "minecraft:tropical_fish_bucket"
+      },
+      {
+        "type": "item",
+        "id": "minecraft:pufferfish_bucket"
+      },
+      {
+        "type": "item",
+        "id": "minecraft:axolotl_bucket"
+      },
+      {
+        "type": "item",
+        "id": "minecraft:tadpole_bucket"
+      },
+      {
+        "type": "item",
+        "id": "minecraft:lava_bucket"
+      },
+      {
+        "type": "item",
+        "id": "minecraft:powder_snow_bucket"
+      },
+      {
+        "type": "item",
+        "id": "minecraft:milk_bucket"
+      },
+      {
+        "type": "item",
+        "id": "actuallyadditions:canola_oil_bucket"
+      },
+      {
+        "type": "item",
+        "id": "actuallyadditions:refined_canola_oil_bucket"
+      },
+      {
+        "type": "item",
+        "id": "actuallyadditions:crystallized_oil_bucket"
+      },
+      {
+        "type": "item",
+        "id": "actuallyadditions:empowered_oil_bucket"
+      },
+      {
+        "type": "item",
+        "id": "casting:molten_diamond_bucket"
+      },
+      {
+        "type": "item",
+        "id": "casting:chilled_water_bucket"
+      },
+      {
+        "type": "item",
+        "id": "casting:molten_brass_bucket"
+      },
+      {
+        "type": "item",
+        "id": "casting:molten_redstone_alloy_bucket"
+      },
+      {
+        "type": "item",
+        "id": "casting:molten_copper_bucket"
+      },
+      {
+        "type": "item",
+        "id": "casting:molten_electrum_bucket"
+      },
+      {
+        "type": "item",
+        "id": "casting:molten_uranium_bucket"
+      },
+      {
+        "type": "item",
+        "id": "casting:molten_silver_bucket"
+      },
+      {
+        "type": "item",
+        "id": "casting:molten_fluix_bucket"
+      },
+      {
+        "type": "item",
+        "id": "casting:molten_zinc_bucket"
+      },
+      {
+        "type": "item",
+        "id": "casting:molten_coal_bucket"
+      },
+      {
+        "type": "item",
+        "id": "casting:molten_black_quartz_bucket"
+      },
+      {
+        "type": "item",
+        "id": "casting:molten_glass_bucket"
+      },
+      {
+        "type": "item",
+        "id": "casting:molten_lumium_bucket"
+      },
+      {
+        "type": "item",
+        "id": "casting:molten_blaze_bucket"
+      },
+      {
+        "type": "item",
+        "id": "casting:molten_silicon_bucket"
+      },
+      {
+        "type": "item",
+        "id": "casting:molten_iron_bucket"
+      },
+      {
+        "type": "item",
+        "id": "casting:iced_water_bucket"
+      },
+      {
+        "type": "item",
+        "id": "casting:molten_quartz_enriched_iron_bucket"
+      },
+      {
+        "type": "item",
+        "id": "casting:molten_quartz_bucket"
+      },
+      {
+        "type": "item",
+        "id": "casting:molten_osmium_bucket"
+      },
+      {
+        "type": "item",
+        "id": "casting:molten_steel_bucket"
+      },
+      {
+        "type": "item",
+        "id": "casting:molten_energetic_alloy_bucket"
+      },
+      {
+        "type": "item",
+        "id": "casting:molten_black_brick_bucket"
+      },
+      {
+        "type": "item",
+        "id": "casting:super_coolant_bucket"
+      },
+      {
+        "type": "item",
+        "id": "casting:molten_emerald_bucket"
+      },
+      {
+        "type": "item",
+        "id": "casting:molten_conductive_alloy_bucket"
+      },
+      {
+        "type": "item",
+        "id": "casting:molten_dark_steel_bucket"
+      },
+      {
+        "type": "item",
+        "id": "casting:molten_lead_bucket"
+      },
+      {
+        "type": "item",
+        "id": "casting:molten_enderium_bucket"
+      },
+      {
+        "type": "item",
+        "id": "casting:molten_ruby_bucket"
+      },
+      {
+        "type": "item",
+        "id": "casting:molten_quartz_enriched_copper_bucket"
+      },
+      {
+        "type": "item",
+        "id": "casting:molten_end_steel_bucket"
+      },
+      {
+        "type": "item",
+        "id": "casting:molten_nickel_bucket"
+      },
+      {
+        "type": "item",
+        "id": "casting:molten_gold_bucket"
+      },
+      {
+        "type": "item",
+        "id": "casting:molten_certus_quartz_bucket"
+      },
+      {
+        "type": "item",
+        "id": "casting:molten_lapis_bucket"
+      },
+      {
+        "type": "item",
+        "id": "casting:molten_platinum_bucket"
+      },
+      {
+        "type": "item",
+        "id": "casting:molten_invar_bucket"
+      },
+      {
+        "type": "item",
+        "id": "casting:molten_stone_bucket"
+      },
+      {
+        "type": "item",
+        "id": "casting:molten_netherite_bucket"
+      },
+      {
+        "type": "item",
+        "id": "casting:molten_glowstone_bucket"
+      },
+      {
+        "type": "item",
+        "id": "casting:molten_soularium_bucket"
+      },
+      {
+        "type": "item",
+        "id": "casting:molten_sapphire_bucket"
+      },
+      {
+        "type": "item",
+        "id": "casting:molten_soul_bucket"
+      },
+      {
+        "type": "item",
+        "id": "casting:molten_obsidian_bucket"
+      },
+      {
+        "type": "item",
+        "id": "casting:molten_debris_bucket"
+      },
+      {
+        "type": "item",
+        "id": "casting:molten_pulsating_alloy_bucket"
+      },
+      {
+        "type": "item",
+        "id": "casting:molten_vibrant_alloy_bucket"
+      },
+      {
+        "type": "item",
+        "id": "casting:molten_peridot_bucket"
+      },
+      {
+        "type": "item",
+        "id": "casting:molten_aluminum_bucket"
+      },
+      {
+        "type": "item",
+        "id": "casting:molten_experience_bucket"
+      },
+      {
+        "type": "item",
+        "id": "casting:molten_end_stone_bucket"
+      },
+      {
+        "type": "item",
+        "id": "casting:molten_charged_certus_quartz_bucket"
+      },
+      {
+        "type": "item",
+        "id": "casting:molten_redstone_bucket"
+      },
+      {
+        "type": "item",
+        "id": "casting:molten_signalum_bucket"
+      },
+      {
+        "type": "item",
+        "id": "casting:molten_ender_bucket"
+      },
+      {
+        "type": "item",
+        "id": "casting:molten_constantan_bucket"
+      },
+      {
+        "type": "item",
+        "id": "casting:molten_tin_bucket"
+      },
+      {
+        "type": "item",
+        "id": "casting:molten_iridium_bucket"
+      },
+      {
+        "type": "item",
+        "id": "casting:molten_bronze_bucket"
+      },
+      {
+        "type": "item",
+        "id": "ratatouille:melon_juice_fluid_bucket"
+      },
+      {
+        "type": "item",
+        "id": "create_enchantment_industry:experience_bucket"
+      },
+      {
+        "type": "item",
+        "id": "herbsandharvest:goat_milk_bucket"
+      },
+      {
+        "type": "item",
+        "id": "herbsandharvest:sheep_milk_bucket"
+      },
+      {
+        "type": "item",
+        "id": "herbsandharvest:camel_milk_bucket"
+      },
+      {
+        "type": "item",
+        "id": "herbsandharvest:cream_bucket"
+      },
+      {
+        "type": "item",
+        "id": "create:honey_bucket"
+      },
+      {
+        "type": "item",
+        "id": "create:chocolate_bucket"
+      },
+      {
+        "type": "item",
+        "id": "createaddition:seed_oil_bucket"
+      },
+      {
+        "type": "item",
+        "id": "createaddition:bioethanol_bucket"
+      },
+      {
+        "type": "item",
+        "id": "create_chocolate:apple_sauce_bucket"
+      },
+      {
+        "type": "item",
+        "id": "create_chocolate:almond_milk_bucket"
+      },
+      {
+        "type": "item",
+        "id": "create_chocolate:vegan_chocolate_bucket"
+      },
+      {
+        "type": "item",
+        "id": "create_chocolate:dark_chocolate_bucket"
+      },
+      {
+        "type": "item",
+        "id": "create_chocolate:white_chocolate_bucket"
+      },
+      {
+        "type": "item",
+        "id": "create_chocolate:caramel_bucket"
+      },
+      {
+        "type": "item",
+        "id": "create_chocolate:royal_chocolate_bucket"
+      },
+      {
+        "type": "item",
+        "id": "sliceanddice:fertilizer_bucket"
+      },
+      {
+        "type": "item",
+        "id": "create_cheese:cheese_curds_bucket"
+      },
+      {
+        "type": "item",
+        "id": "create_dragons_plus:white_dye_bucket"
+      },
+      {
+        "type": "item",
+        "id": "create_dragons_plus:light_gray_dye_bucket"
+      },
+      {
+        "type": "item",
+        "id": "create_dragons_plus:gray_dye_bucket"
+      },
+      {
+        "type": "item",
+        "id": "create_dragons_plus:black_dye_bucket"
+      },
+      {
+        "type": "item",
+        "id": "create_dragons_plus:brown_dye_bucket"
+      },
+      {
+        "type": "item",
+        "id": "create_dragons_plus:red_dye_bucket"
+      },
+      {
+        "type": "item",
+        "id": "create_dragons_plus:orange_dye_bucket"
+      },
+      {
+        "type": "item",
+        "id": "create_dragons_plus:yellow_dye_bucket"
+      },
+      {
+        "type": "item",
+        "id": "create_dragons_plus:lime_dye_bucket"
+      },
+      {
+        "type": "item",
+        "id": "create_dragons_plus:green_dye_bucket"
+      },
+      {
+        "type": "item",
+        "id": "create_dragons_plus:cyan_dye_bucket"
+      },
+      {
+        "type": "item",
+        "id": "create_dragons_plus:light_blue_dye_bucket"
+      },
+      {
+        "type": "item",
+        "id": "create_dragons_plus:blue_dye_bucket"
+      },
+      {
+        "type": "item",
+        "id": "create_dragons_plus:purple_dye_bucket"
+      },
+      {
+        "type": "item",
+        "id": "create_dragons_plus:magenta_dye_bucket"
+      },
+      {
+        "type": "item",
+        "id": "create_dragons_plus:pink_dye_bucket"
+      },
+      {
+        "type": "item",
+        "id": "create_dragons_plus:dragon_breath_bucket"
+      },
+      {
+        "type": "item",
+        "id": "mysticalagradditions:molten_soulium_bucket"
+      },
+      {
+        "type": "item",
+        "id": "mysticalagradditions:molten_supremium_bucket"
+      },
+      {
+        "type": "item",
+        "id": "mysticalagradditions:molten_imperium_bucket"
+      },
+      {
+        "type": "item",
+        "id": "mysticalagradditions:molten_tertium_bucket"
+      },
+      {
+        "type": "item",
+        "id": "mysticalagradditions:molten_prudentium_bucket"
+      },
+      {
+        "type": "item",
+        "id": "mysticalagradditions:molten_inferium_bucket"
+      },
+      {
+        "type": "item",
+        "id": "ratatouille:compost_residue_fluid_bucket"
+      },
+      {
+        "type": "item",
+        "id": "ratatouille:bio_gas_bucket"
+      },
+      {
+        "type": "item",
+        "id": "ratatouille:compost_tea_bucket"
+      },
+      {
+        "type": "item",
+        "id": "ratatouille:egg_yolk_bucket"
+      },
+      {
+        "type": "item",
+        "id": "ratatouille:mince_meat_bucket"
+      },
+      {
+        "type": "item",
+        "id": "ratatouille:cake_batter_bucket"
+      },
+      {
+        "type": "item",
+        "id": "ratatouille:cocoa_liquor_bucket"
+      },
+      {
+        "type": "item",
+        "id": "the_bumblezone:honey_bucket"
+      },
+      {
+        "type": "item",
+        "id": "the_bumblezone:royal_jelly_bucket"
+      },
+      {
+        "type": "item",
+        "id": "the_bumblezone:sugar_water_bucket"
+      },
+      {
+        "type": "item",
+        "id": "supplementaries:lumisene_bucket"
+      },
+      {
+        "type": "item",
+        "id": "biomeswevegone:man_o_war_bucket"
+      },
+      {
+        "type": "item",
+        "id": "netherdepthsupgrade:eyeball_fish_bucket"
+      },
+      {
+        "type": "item",
+        "id": "netherdepthsupgrade:fortress_grouper_bucket"
+      },
+      {
+        "type": "item",
+        "id": "netherdepthsupgrade:magmacubefish_bucket"
+      },
+      {
+        "type": "item",
+        "id": "netherdepthsupgrade:blazefish_bucket"
+      },
+      {
+        "type": "item",
+        "id": "netherdepthsupgrade:searing_cod_bucket"
+      },
+      {
+        "type": "item",
+        "id": "netherdepthsupgrade:obsidianfish_bucket"
+      },
+      {
+        "type": "item",
+        "id": "netherdepthsupgrade:lava_pufferfish_bucket"
+      },
+      {
+        "type": "item",
+        "id": "netherdepthsupgrade:bonefish_bucket"
+      },
+      {
+        "type": "item",
+        "id": "netherdepthsupgrade:wither_bonefish_bucket"
+      },
+      {
+        "type": "item",
+        "id": "netherdepthsupgrade:glowdine_bucket"
+      },
+      {
+        "type": "item",
+        "id": "netherdepthsupgrade:soulsucker_bucket"
+      },
+      {
+        "type": "item",
+        "id": "mynethersdelight:hot_wings_bucket"
+      }
+    ]
+  }
+}

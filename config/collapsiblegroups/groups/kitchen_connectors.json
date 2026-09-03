@@ -1,0 +1,12 @@
+{
+  "id": "kitchen_connectors",
+  "name": {
+    "translate": "collapsible_groups.group.kitchen_connectors",
+    "fallback": "Kitchen Connectors"
+  },
+  "enabled": true,
+  "filter": {
+    "type": "item",
+    "tag": "cookingforblockheads:connectors"
+  }
+}

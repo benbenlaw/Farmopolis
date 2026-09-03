@@ -1,64 +1,64 @@
 ServerEvents.recipes(event => {
 
   //Replace Input
-  event.replaceInput({id: 'create:filling/sweet_roll'}, 'minecraft:bread', 'minecolonies:milky_bread')
+  event.replaceInput({ id: 'create:filling/sweet_roll' }, 'minecraft:bread', 'minecolonies:milky_bread')
 
   //Create -  Cheese Factory - Cheese Cellar
   event.shaped('create_cheese:cheese_cellar', ['ABA', 'ACA', 'DDD'], {
-      A: '#minecraft:planks',
-      B: '#minecraft:wooden_slabs',
-      C: 'create_cheese:soft_curd_cheese',
-      D: '#c:stones'
+    A: '#minecraft:planks',
+    B: '#minecraft:wooden_slabs',
+    C: 'create_cheese:soft_curd_cheese',
+    D: '#c:stones'
   }).id('create_cheese:cheese_cellar_recipe')
 
   //Create Remove Resources Recipes
-  event.remove({id: 'create_cheese:cheese_curds_smelting'})
-  event.remove({id: 'create_cheese:cheese_curds_smoking'})
+  event.remove({ id: 'create_cheese:cheese_curds_smelting' })
+  event.remove({ id: 'create_cheese:cheese_curds_smoking' })
 
-  event.remove({id: 'create:splashing/gravel'})
-  event.remove({id: 'create:splashing/red_sand'})
-  event.remove({id: 'create:crushing/tuff'})
-  event.remove({id: 'create:crushing/tuff_recycling'})
-  event.remove({id: 'create:crushing/ochrum'})
-  event.remove({id: 'create:crushing/ochrum_recycling'})
-  event.remove({id: 'create:crushing/veridium_recycling'})
-  event.remove({id: 'create:crafting/curiosities/cake'})
-  event.remove({id: 'create:crafting/materials/andesite_alloy_from_zinc'})
-  event.remove({id: 'create:crafting/materials/andesite_alloy'})
+  event.remove({ id: 'create:splashing/gravel' })
+  event.remove({ id: 'create:splashing/red_sand' })
+  event.remove({ id: 'create:crushing/tuff' })
+  event.remove({ id: 'create:crushing/tuff_recycling' })
+  event.remove({ id: 'create:crushing/ochrum' })
+  event.remove({ id: 'create:crushing/ochrum_recycling' })
+  event.remove({ id: 'create:crushing/veridium_recycling' })
+  event.remove({ id: 'create:crafting/curiosities/cake' })
+  event.remove({ id: 'create:crafting/materials/andesite_alloy_from_zinc' })
+  event.remove({ id: 'create:crafting/materials/andesite_alloy' })
 
-  event.remove({id: 'create:crushing/crimsite'})
-  event.remove({id: 'create:crushing/crimsite_recycling'})
-  event.remove({id: 'create:crushing/veridium'})
-  event.remove({id: 'create:crushing/veridium_recycling'})
-  event.remove({id: 'create:crushing/asurine'})
-  event.remove({id: 'create:crushing/asurine_recycling'})
-  event.remove({id: 'create:smelting/iron_ingot_from_crushed'})
-  event.remove({id: 'create:blasting/iron_ingot_from_crushed'})
-  event.remove({id: 'create:splashing/crushed_raw_iron'})
-  event.remove({id: 'create:smelting/copper_ingot_from_crushed'})
-  event.remove({id: 'create:blasting/copper_ingot_from_crushed'})
-  event.remove({id: 'create:splashing/crushed_raw_copper'})
-  event.remove({id: 'create:smelting/gold_ingot_from_crushed'})
-  event.remove({id: 'create:blasting/gold_ingot_from_crushed'})
-  event.remove({id: 'create:splashing/crushed_raw_gold'})
-  event.remove({id: 'create:smelting/zinc_ingot_from_crushed'})
-  event.remove({id: 'create:blasting/zinc_ingot_from_crushed'})
-  event.remove({id: 'create:splashing/crushed_raw_zinc'})
+  event.remove({ id: 'create:crushing/crimsite' })
+  event.remove({ id: 'create:crushing/crimsite_recycling' })
+  event.remove({ id: 'create:crushing/veridium' })
+  event.remove({ id: 'create:crushing/veridium_recycling' })
+  event.remove({ id: 'create:crushing/asurine' })
+  event.remove({ id: 'create:crushing/asurine_recycling' })
+  event.remove({ id: 'create:smelting/iron_ingot_from_crushed' })
+  event.remove({ id: 'create:blasting/iron_ingot_from_crushed' })
+  event.remove({ id: 'create:splashing/crushed_raw_iron' })
+  event.remove({ id: 'create:smelting/copper_ingot_from_crushed' })
+  event.remove({ id: 'create:blasting/copper_ingot_from_crushed' })
+  event.remove({ id: 'create:splashing/crushed_raw_copper' })
+  event.remove({ id: 'create:smelting/gold_ingot_from_crushed' })
+  event.remove({ id: 'create:blasting/gold_ingot_from_crushed' })
+  event.remove({ id: 'create:splashing/crushed_raw_gold' })
+  event.remove({ id: 'create:smelting/zinc_ingot_from_crushed' })
+  event.remove({ id: 'create:blasting/zinc_ingot_from_crushed' })
+  event.remove({ id: 'create:splashing/crushed_raw_zinc' })
 
   //Apple Sauce
   event.custom({
-      "type": "create:compacting",
-      "ingredients": [
-        {
-          "tag": "farmopolis:apples"
-        }
-      ],
-      "results": [
-        {
-          "amount": 125,
-          "id": "create_chocolate:apple_sauce_fluid"
-          }
-      ]
+    "type": "create:compacting",
+    "ingredients": [
+      {
+        "tag": "farmopolis:apples"
+      }
+    ],
+    "results": [
+      {
+        "amount": 125,
+        "id": "create_chocolate:apple_sauce_fluid"
+      }
+    ]
   }).id('who_knows_cause_i_cant_be_bothered_to_look/apple_sauce')
 
   //Crushed to Essence
@@ -101,19 +101,19 @@ ServerEvents.recipes(event => {
 
   function resourceToDust(resource, dust, count) {
     event.custom({
-    "type": "create:crushing",
-    "ingredients": [
-      {
-        "item": resource
-      }
-    ],
-    "processing_time": 100,
-    "results": [
-      {
-        "count": count,
-        "id": dust
-      }
-    ]
+      "type": "create:crushing",
+      "ingredients": [
+        {
+          "item": resource
+        }
+      ],
+      "processing_time": 100,
+      "results": [
+        {
+          "count": count,
+          "id": dust
+        }
+      ]
     })
   }
 
@@ -136,5 +136,145 @@ ServerEvents.recipes(event => {
     ]
   }).id('farmopolis:sugary_bread')
 
+  // Corn Meal
+  event.custom({
+    "type": "create:milling",
+    "ingredients": [
+      { "tag": "c:foods/corn" }
+    ],
+    "processing_time": 150,
+    "results": [
+      { "id": "minecolonies:cornmeal" },
+      {
+        "chance": 0.25,
+        "count": 2,
+        "id": "minecolonies:cornmeal"
+      },
+      {
+        "chance": 0.25,
+        "id": "hauntedharvest:kernels"
+      }
+    ]
+  }).id('farmopolis:milling/cornmeal')
 
+  // Corn dough
+  event.custom({
+    "type": "create:splashing",
+    "ingredients": [
+      {
+        "item": "minecolonies:cornmeal"
+      }
+    ],
+    "results": [
+      {
+        "id": "culturaldelights:corn_dough"
+      }
+    ]
+  }).id('farmopolis:splashing/corn_dough')
+
+  // Salt from mixing with boil_stone has a chance of producing more salt
+  event.remove({ id: 'ratatouille:mixing/salt_from_boil' })
+  event.custom({
+    'type': 'create:mixing',
+    'heat_requirement': 'heated',
+    'ingredients': [
+      {
+        'item': 'ratatouille:boil_stone'
+      },
+      {
+        'type': 'neoforge:single',
+        'amount': 1000,
+        'fluid': 'minecraft:water'
+      }
+    ],
+    'results': [
+      {
+        'id': 'alltheores:salt',
+        'count': 4
+      },
+      {
+        'chance': 0.25,
+        'id': 'alltheores:salt',
+        'count': 2
+      },
+      {
+        'id': 'ratatouille:boil_stone'
+      }
+    ]
+  }).id('ratatouille:mixing/farmopolis/salt_from_boil')
+
+  // Some of the cakes already had multiple filling recipes
+  // Remove old filling recipes and add new unified cake filling recipes
+
+  // Cake filling
+  event.remove({ id: 'createaddition:filling/cake' })
+  event.remove({ id: 'create_chocolate:filling/cake' })
+  event.remove({ id: 'ratatouille:filling/cake' })
+  event.custom({
+    'type': 'create:filling',
+    'ingredients': [
+      {
+        'tag': 'c:foods/cake_base_baked'
+      },
+      {
+        'type': 'neoforge:tag',
+        'tag': 'c:milk',
+        'amount': 1000
+      }
+    ],
+    'results': [
+      {
+        'id': 'minecraft:cake'
+      }
+    ]
+  }).id('farmopolis:filling/cake')
+
+  // Chocolate cake filling (use create_chocolate:chocolate_cake instead)
+  event.remove({ id: 'createaddition:filling/chocolate_cake' })
+
+  // Honey cake filling
+  event.remove({ id: 'ratatouille:filling/honey_cake' })
+  event.remove({ id: 'createaddition:filling/honey_cake' })
+  event.custom({
+    'type': 'create:filling',
+    'ingredients': [
+      {
+        'tag': 'c:foods/cake_base_baked'
+      },
+      {
+        'type': 'neoforge:tag',
+        'tag': 'c:honey',
+        'amount': 500
+      }
+    ],
+    'results': [
+      {
+        'id': 'createaddition:honey_cake'
+      }
+    ]
+  }).id('farmopolis:filling/honey_cake')
+
+  // Create_chocolate cakes
+  const cake_types = ['vegan_chocolate', 'chocolate', 'dark_chocolate', 'white_chocolate', 'caramel', 'royal_chocolate']
+  cake_types.forEach(cake_type => {
+    event.remove({ id: 'create_chocolate:filling/' + cake_type + '_cake' })
+    event.custom({
+      'type': 'create:filling',
+      'ingredients': [
+        {
+          'tag': 'c:foods/cake_base_baked'
+        },
+        {
+          'type': 'neoforge:single',
+          'fluid': (cake_type == 'chocolate' ? 'create:chocolate' : 'create_chocolate:' + cake_type + '_fluid'),
+          'amount': 1000
+        }
+      ],
+      'results': [
+        {
+          'id': 'create_chocolate:' + cake_type + '_cake'
+        }
+      ]
+    }).id('farmopolis:filling/' + cake_type + '_cake')
+  })
 })

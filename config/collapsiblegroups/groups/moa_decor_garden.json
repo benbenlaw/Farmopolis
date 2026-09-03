@@ -1,0 +1,12 @@
+{
+  "id": "moa_decor_garden",
+  "name": {
+    "translate": "collapsible_groups.group.moa_decor_garden",
+    "fallback": "Moa Decor: Garden "
+  },
+  "enabled": true,
+  "filter": {
+    "type": "item",
+    "namespace": "moa_garden"
+  }
+}

@@ -1,5 +1,5 @@
 #Only enable if you want to test the experimental backup system.
-enabled = false
+enabled = true
 #Defines the backup type.
 #- FULL_BACKUPS - every backup is a full backup.
 #- INCREMENTAL  - backup only files changed since the last backup

@@ -1,0 +1,12 @@
+{
+  "id": "valarian_conquest",
+  "name": {
+    "translate": "collapsible_groups.group.valarian_conquest",
+    "fallback": "Valarian Conquest"
+  },
+  "enabled": true,
+  "filter": {
+    "type": "item",
+    "namespace": "valarian_conquest"
+  }
+}

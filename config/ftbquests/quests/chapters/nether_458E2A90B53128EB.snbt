@@ -8,6 +8,7 @@
 		id: "farmopolis:nether_fish_platter"
 	}
 	id: "458E2A90B53128EB"
+	images: [ ]
 	order_index: 3
 	quest_links: [ ]
 	quests: [
@@ -412,17 +413,27 @@
 			]
 			hide_dependency_lines: true
 			icon: {
-				id: "farmopolis:brewing_license"
+				id: "farmopolis:nether_license"
 			}
 			id: "17CC8592E88ACCBD"
-			rewards: [{
-				id: "79B8EA3A8911A11E"
-				item: {
-					count: 1
-					id: "farmopolis:nether_license"
+			rewards: [
+				{
+					id: "79B8EA3A8911A11E"
+					item: {
+						count: 1
+						id: "farmopolis:nether_license"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "40517B5F5C682651"
+					item: {
+						count: 1
+						id: "shops:copper_coin"
+					}
+					type: "item"
+				}
+			]
 			size: 2.0d
 			tasks: [{
 				id: "4878AFC9DE6583F7"
@@ -434,6 +445,14 @@
 		{
 			dependencies: ["17CC8592E88ACCBD"]
 			id: "793840112F2EF4F8"
+			rewards: [{
+				id: "384AA5E03AA15D28"
+				item: {
+					count: 1
+					id: "shops:iron_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "5B98DA137D8EFFA5"
 				item: { count: 1, id: "farmopolis:nether_bucks" }
@@ -441,6 +460,28 @@
 			}]
 			x: -0.5d
 			y: -8.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["17CC8592E88ACCBD"]
+			icon: {
+				id: "farmopolis:nether_license"
+			}
+			id: "0235A0836A41331D"
+			rewards: [{
+				id: "5A8943FA67C397ED"
+				item: {
+					count: 1
+					id: "farmopolis:nether_license"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4CF7689E03701840"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -7.0d
 		}
 	]
 }

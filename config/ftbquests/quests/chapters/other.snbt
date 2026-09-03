@@ -7,6 +7,7 @@
 		id: "minecraft:chorus_fruit"
 	}
 	id: "36223C32372BA321"
+	images: [ ]
 	order_index: 1
 	quest_links: [ ]
 	quests: [

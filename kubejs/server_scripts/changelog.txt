@@ -1,6 +1,87 @@
-Changelog
+Changelogs
+
+# Farmopolis 8.2
+
+### Changes
+- Quests are now FLEXIBLE not LINEAR, basically quest will complete even if you haven't unlocked them
+- Added Discord Rich Presence
+- Added Collapsible Groups mod to organize JEI bit with some custom groups
+- Halloween (October) and Christmas (December) mod recipes are now disabled outside their season
+
+# Farmopolis 8.1
+
+## Changes
+- Updated Mods to the latest versions
+- Removed the uncraftable Chocolate Cake from the Ultimate Chocolate recipe
+
+## Mods
+<!-- MODS_CHANGELOG -->
+
+# Farmopolis 8.0
+
+## Changes
+- Updated NeoForge 21.1.235
+- Updated Mods to the latest versions
+- Removed the public server ip being auto added to the multiplayer menu because public server retired
+- Removed Sodium Dynamic Lights, Extras and Options API because they are not updated to work with the latest version of Sodium
+- Exploit related to NBT Editing with FTBLib was fixed
+
+## Mods
+<!-- MODS_CHANGELOG -->
+
+# Farmopolis 7.5
+
+## Changes
+- Updated NeoForge 21.1.228
+- Updated Mods to the latest versions
+- Added More Delight and Cultural Delights
+- Added more Create Deco and Create: Design 'n' Decor
+- Removed StructureOverlapless because it was preventing some large structures from being placed
+- Removed Mobstein because it was causing lag and crashes
+
+## Mods
+<!-- MODS_CHANGELOG -->
+
+# Farmopolis 7.4
+
+## Changes
+
+- Updated NeoForge 21.1.227
+- Updated Mods to the latest versions
+- Fully removed Spell Colonies
+- Added Rechisel
+
+## Mods
+<!-- MODS_CHANGELOG -->
+
+# Farmopolis 7.3
+
+## Changes
+
+- Updated NeoForge 21.1.226
+- Updated Mods to the latest versions
+- Removed Spell Colonies so that Iron's Spells 'n Spellbooks can be updated to the latest version and will be added back in the future if it gets updated
+- Added StructureOverlapless mod to reduce overlapping structure generation
+- Added Pipez Lag Fix
+- Removed Catalogue and BBL Market since BBL Shops is used now
+- Removed SWISS
+- Added a Repeatable Quest for the Licenses so if you lost yours you can claim it to get a new one
+
+## Mods
+<!-- MODS_CHANGELOG -->
+
+# Farmopolis 7.2
+
+## Changes
+
+- Updated Mods
+- Updated NeoForge 21.1.221
+
+## Mods
+<!-- MODS_CHANGELOG -->
 
 
+----------------------------------------------------------
 
 # 6.1
 **---Mods---**

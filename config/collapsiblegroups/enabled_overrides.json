@@ -1,0 +1,7 @@
+{
+  "overrides": {
+    "__default_irons_spellbooks_scroll_cloud_of_regeneration": false,
+    "__default_irons_spellbooks_scroll_sacrifice": true,
+    "__default_irons_spellbooks_scroll_thunder_step": false
+  }
+}

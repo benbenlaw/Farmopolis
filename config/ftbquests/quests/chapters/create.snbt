@@ -7,6 +7,7 @@
 		id: "actuallyadditions:crystallized_canola_seed"
 	}
 	id: "155D8844F84DD181"
+	images: [ ]
 	order_index: 3
 	quest_links: [ ]
 	quests: [
@@ -295,6 +296,7 @@
 					id: "mysticalagriculture:air_seeds"
 				}
 				id: "121F7D648C0E6BBF"
+				observation_type: "block"
 				observe_type: 0
 				timer: 0L
 				to_observe: "mysticalagriculture:air_crop"
@@ -314,6 +316,7 @@
 					id: "mysticalagriculture:water_seeds"
 				}
 				id: "177AB8F358F86BE8"
+				observation_type: "block"
 				observe_type: 0
 				timer: 0L
 				to_observe: "mysticalagriculture:water_crop"
@@ -333,6 +336,7 @@
 					id: "mysticalagriculture:fire_seeds"
 				}
 				id: "06ED0E23174E427B"
+				observation_type: "block"
 				observe_type: 0
 				timer: 0L
 				to_observe: "mysticalagriculture:fire_crop"
@@ -352,6 +356,7 @@
 					id: "mysticalagriculture:earth_seeds"
 				}
 				id: "3108B74F5348179D"
+				observation_type: "block"
 				observe_type: 0
 				timer: 0L
 				to_observe: "mysticalagriculture:earth_crop"

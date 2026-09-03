@@ -1,0 +1,12 @@
+{
+  "id": "fridges",
+  "name": {
+    "translate": "collapsible_groups.group.fridges",
+    "fallback": "Fridges"
+  },
+  "enabled": true,
+  "filter": {
+    "type": "item",
+    "tag": "cookingforblockheads:fridges"
+  }
+}

@@ -29,6 +29,8 @@
 	quest.0117F5B48A65E659.quest_desc: ["Allows you to purchase &lSeeds&r from the &lShop&r"]
 	quest.011824398E0E99CA.quest_desc: ["Yummy"]
 	quest.021A04F785146E79.quest_desc: ["Made inside the &lAltar&r"]
+	quest.0235A0836A41331D.quest_desc: ["Lost your license? Heres another one"]
+	quest.0235A0836A41331D.title: "Nether License"
 	quest.0252336E5D79078D.quest_desc: ["A base dough for &lGingerbread&r"]
 	quest.029CB44DEDA9A496.quest_desc: ["Finding the &lQuesting Raw&r and feeding it one of every &lWool&r will provide you with some useful loot, including the &lTwilight Top Key&r!"]
 	quest.02AC8EA55668AFFB.quest_desc: ["The &lAltar&r requires 4 &lPedestals&r around it"]
@@ -58,12 +60,13 @@
 	quest.098015E19F777CE6.quest_desc: ["Now we have some automation we can start making a &lBakery&r to make all the Baked Goods we need"]
 	quest.09C00C40F921F8E7.quest_desc: ["After killing the &lHydra&r in the &lHydra Lair&r you will get the &lTrophy&r"]
 	quest.09E8030E26664078.quest_desc: ["Drops from &lShort Grass&r"]
+	quest.09E8030E26664078.title: "Onion"
 	quest.09E9FF8F07AA19D7.quest_desc: ["From &lEssence&r "]
 	quest.0A17BAA81ABA4BC9.quest_desc: ["Places an invisible light source"]
 	quest.0A59701E807678EE.quest_desc: ["Yummy"]
 	quest.0AC90376D8487F1A.quest_desc: ["After killing the &lKnight Phantom&r in the &lKnight Stronghold&r you will get the &lTrophy&r"]
 	quest.0B5FCC1DDCC4FF50.quest_desc: ["Can be used to purchase items from the &lCatalogue&r"]
-	quest.0B9301F71E654783.quest_desc: ["Wow your really good at making &lBread&r"]
+	quest.0B9301F71E654783.quest_desc: ["Wow you're really good at making &lBread&r"]
 	quest.0B9301F71E654783.title: "Baker License"
 	quest.0BDCC8428E21DDEF.quest_desc: ["From &lEssence&r "]
 	quest.0BF29A778542CC05.quest_desc: ["Yummy"]
@@ -74,8 +77,10 @@
 		""
 		"Can be &lMelted&r in a &lController&r"
 	]
+	quest.0E01A6000914B5FE.quest_desc: ["Lost your license? Heres another one"]
+	quest.0E01A6000914B5FE.title: "Brewing License"
 	quest.0E55D41593E93F21.quest_desc: ["The base of all &lCheese&r"]
-	quest.0F387908069C9863.quest_desc: ["The &lFactories Quest Line&r provides &lB Bucks&r which can be used in the &lCatalogue&r to buy items"]
+	quest.0F387908069C9863.quest_desc: ["The &lFactories Quest Line&r provides &lCoins&r which can be used in the &lShops&r to buy items"]
 	quest.0F4F8CB6586DC128.quest_desc: ["Using the &lAgglomeratio&r on a &lFreshly&r planted &lWheat Crop&r will create this seed."]
 	quest.0F4F8CB6586DC128.title: "Water Seeds"
 	quest.0FBE3A1DDC89AEE3.quest_desc: ["Find the Key block at the top of the &lCastle&r and activate it with &lThe Twilight Top Key&r"]
@@ -86,8 +91,10 @@
 	quest.10E8BE7DF84194AA.quest_desc: ["Get that &lFactory&r moving"]
 	quest.1164C9F090D1F70A.quest_desc: ["Smelted &lLogs&r"]
 	quest.119A524BCB0367BF.quest_desc: ["Drops from &lShort Grass&r"]
+	quest.119A524BCB0367BF.title: "Tomato"
 	quest.11DC7224E7F546A0.quest_desc: ["From &lEssence&r "]
 	quest.1224A39C077A22CA.quest_desc: ["Drops from &lShort Grass&r"]
+	quest.1224A39C077A22CA.title: "Corn"
 	quest.1244633DBF3F9DBB.quest_desc: ["Drops from &lShort Grass&r"]
 	quest.128CD75516C9AB87.quest_desc: ["Has a chance to spawn in the boss loot chest"]
 	quest.129C4477C62EAA5F.quest_desc: ["Obtained from &lBees&r"]
@@ -104,6 +111,8 @@
 		"Can be &lSmelted&r into &lNugget&r or &lMelted&r in a &lController&r"
 	]
 	quest.159B48993CACDE37.quest_desc: ["Yummy Yummy"]
+	quest.15FF6E0275F1A08E.quest_desc: ["Lost your license? Heres another one"]
+	quest.15FF6E0275F1A08E.title: "Baker License"
 	quest.1604A86A6CB3646A.quest_desc: ["After killing the &lLich&r in the &lLich Tower&r you will get the &lTrophy&r"]
 	quest.1714EB7218BD35D7.quest_desc: [
 		"A rare &lOre&r found in the &lOverworld&r only in Mountain Biomes between &l320&r and &l-16&r"
@@ -162,8 +171,14 @@
 	quest.20BFBA1A1CE5CBFA.quest_desc: ["Yummy"]
 	quest.20D319488B0ACD49.quest_desc: ["Yummy"]
 	quest.2156B6260EF6E5BD.quest_desc: ["A tasty cake"]
-	quest.21B78033BAE33EC9.quest_desc: ["To unlock the portal to &lThe End&r you require various different &lEyes&r from &lEnd Remastered&r. You need at least 12 different &lEyes&r"]
+	quest.21B78033BAE33EC9.quest_desc: [
+		"To unlock the portal to &lThe End&r you require various different &lEyes&r from &lEnd Remastered&r. "
+		""
+		"You need at least 12 different &lEyes&r"
+	]
 	quest.21B78033BAE33EC9.title: "Enter The End"
+	quest.21BF9D21B4B0B1C6.quest_desc: ["Drops from &lAvocado Trees&l"]
+	quest.21BF9D21B4B0B1C6.title: "Avocado"
 	quest.222E5CECB2ABF915.quest_desc: ["Made from &lIron Ingots&r"]
 	quest.225AD209B20C6A92.quest_desc: ["The base for most &lDoughs&r"]
 	quest.2266D712116D6637.quest_desc: ["A main ingredient in a lot of foods"]
@@ -187,11 +202,16 @@
 	quest.252D1A7A3F056C65.quest_desc: ["Yummy"]
 	quest.25D4D7FACF33CA1F.quest_desc: ["Found in &lJungles&r"]
 	quest.25DCA177C34A3B42.quest_desc: ["One of the main features of &lCreate&r"]
+	quest.263E0C59B2B460AD.title: "Cucumber"
 	quest.26648EDDA51415EC.quest_desc: ["A block of &lSupremium&r"]
 	quest.27ACF20D26B82AB9.quest_desc: ["Wow your really good at making &lCheese&r"]
 	quest.2856B47AE015B4C0.quest_desc: ["Made from &lEnroi Crystals&r or &lIron Blocks&r"]
 	quest.2867FBE9920A8A18.quest_desc: ["Can be used to purchase items from the &lCatalogue&r"]
-	quest.28BB5F060158BD5C.quest_desc: ["Its always &lChristmas&r at the &lNorth Pole&r"]
+	quest.28BB5F060158BD5C.quest_desc: [
+		"Its always &lChristmas&r at the &lNorth Pole&r"
+		""
+		"The recipes in this chapter are only available during December"
+	]
 	quest.28CDD31902BCEAC1.quest_desc: [
 		"Find and kill &lValkyrie Queen&r in the &lSilver Dungeon&r"
 		""
@@ -224,6 +244,8 @@
 	quest.2D9E23BDF5C92FC0.quest_desc: ["From killing &lThe Wither&r"]
 	quest.2DA5A3FD52CD7ACF.quest_desc: ["Found in &lThe Nether&r"]
 	quest.2E1A297559F3C47D.quest_desc: ["With &lEnder Pearl Fragments&r and &lDiamonds&r you can make a &lFueled Quarry&r. Place a &lChest&r above to collect items"]
+	quest.2E28A25FC9892A7F.quest_desc: ["Lost your license? Heres another one"]
+	quest.2E28A25FC9892A7F.title: "Cheese License"
 	quest.2E5C7D536AB35919.quest_desc: ["Found on &lEnd Stone&r in &lThe End&r"]
 	quest.2EEBDBC34F8503E5.quest_desc: [
 		"&l/modpack&r - Shows you the version of the Modpack you are running"
@@ -256,8 +278,14 @@
 	quest.356E1D38FCEF1D1C.quest_desc: ["From &lEssence&r "]
 	quest.3578E5C5CD125F4B.quest_desc: ["A common &lOre&r found in the &lNether&r between &l112&r and &l-16&r"]
 	quest.35B222A419A8EBA8.quest_desc: ["There are many different types of &lBreads&r that can be made and sold to make &lBucks&r"]
+	quest.3613A77070C1C4F8.quest_desc: ["??????"]
+	quest.3613A77070C1C4F8.title: "Avocado Sapling"
 	quest.368895954C35370D.quest_desc: ["A tasty cake"]
-	quest.368F92EAC02EAB2F.quest_desc: ["Spooky Scary Foods"]
+	quest.368F92EAC02EAB2F.quest_desc: [
+		"Spooky Scary Foods"
+		""
+		"The recipes in this chapter are only available during October"
+	]
 	quest.36E291A7DA112011.quest_desc: ["Obtained when killing a &lEnderman&r with a &lKnife&r"]
 	quest.36E5262FB0F69153.quest_desc: ["Allows the creation of resource seeds"]
 	quest.370A22C3DD64972F.quest_desc: ["Spawns a &lTwilight Borer&r when broken"]
@@ -355,7 +383,6 @@
 		""
 		"Can be &lMelted&r in a &lController&r"
 	]
-	quest.4DD8189E032A1012.quest_desc: ["The &lOfficial Public Server&r can be found in the multiplayer menu"]
 	quest.4E221F278DDB1E58.quest_desc: ["Obtained when killing a &lStrider&r with a &lKnife&r"]
 	quest.4E45177FD2B9F5B6.quest_desc: [
 		"A less common &lOre&r found in the &lOverworld&r between &l320&r and &l-64&r"
@@ -433,6 +460,7 @@
 	quest.5D03DB5A6E5F057B.quest_desc: ["Spawns rarely after an &lEnder Pearl&r is thrown"]
 	quest.5DCCEA26D1B43364.quest_desc: ["Made inside the &lSolidifier&r, casting Experience is obtained when melting &lAncient Debris&r in the &lMultiblock Controller&r"]
 	quest.5E44030313799E08.quest_desc: ["Wow your really good at making &lTwilight Foods&r"]
+	quest.5E44030313799E08.title: "Twilight License"
 	quest.5E663A2FAC0D2650.quest_desc: ["After killing the &lNaga&r in the &lNaga Maze&r you will get the &lTrophy&r"]
 	quest.5E84F707BAA28FA1.quest_desc: [
 		"A common &lOre&r found in the &lOverworld&r between &l16&r and &l-64&r"
@@ -452,6 +480,8 @@
 	quest.619FD3B3906A56DA.quest_desc: ["The next tier of &lEssence&r"]
 	quest.624C8725124F6A11.quest_desc: ["Carful breaking"]
 	quest.62CA57CB19A14124.quest_desc: ["The &lPepper&r have a chance to spawn on the &lPowdery Cannon&r. When you see the &lPeppers&r on the &lCannon&r use a knife to harvest"]
+	quest.6313E1A3ADA8A9CB.quest_desc: ["Lost your license? Heres another one"]
+	quest.6313E1A3ADA8A9CB.title: "Twilight License"
 	quest.64A401563AE1EF41.quest_desc: ["A simple crop that grows &lInferium&r"]
 	quest.653CECD546CDB473.quest_desc: ["Using the &lAgglomeratio&r on a &lFreshly&r planted &lWheat Crop&r will create this seed."]
 	quest.653CECD546CDB473.title: "Air Seeds"
@@ -506,7 +536,11 @@
 	quest.71F0F64F98BBEB46.quest_desc: ["Can be found in &lThe Twilight Forest&r"]
 	quest.71F85D306B479A9D.quest_desc: ["From &lEssence&r "]
 	quest.7239CE3A97F1D1D4.quest_desc: ["So tasty"]
-	quest.732643D8C4DEAB13.quest_desc: ["A stronger obsidian that can be used to create a nether portal. The portal will spread into The Overworld!"]
+	quest.732643D8C4DEAB13.quest_desc: [
+		"A stronger obsidian that can be used to create a nether portal. Just like regular portal."
+		""
+		"&l&4The Nether&r will spread into &lThe Overworld&r if not stopped with &l&04 Block of Coal&r in 30 block radius!"
+	]
 	quest.732A0E2CB64EC47F.quest_desc: ["Naming &lThings&r"]
 	quest.7396D4367A262C1B.quest_desc: ["A simple &lCompoment&r"]
 	quest.73C226322FA2D9E5.quest_desc: ["Simple Food"]
@@ -556,9 +590,11 @@
 	task.01A7E2AD6073255F.title: "modifier (new name)"
 	task.01B74AA39367EFBD.title: "Hoglin"
 	task.02539EED118BC04C.title: "Any #minecraft:signs"
+	task.02B516AA0EA5B84A.title: "Any #c:foods/corn"
 	task.02CFE83B16C17D5D.title: "Brewer License"
 	task.077A8E1AE162AAA7.title: "Cheese License"
 	task.0B820FEB567B295D.title: "The Bakery"
+	task.0BC61285291D1369.title: "Any #c:foods/avocado"
 	task.0DFC7C0F75E2A077.title: "GG"
 	task.1077A3E1F3B4CFAE.title: "Endermite"
 	task.11188600F0EF02D7.title: "Brewery"
@@ -566,15 +602,17 @@
 	task.16578D81868CBE37.title: "Enderman"
 	task.1689209336C819F7.title: "Any #c:player_workstations/crafting_tables"
 	task.179720603FA72E6F.title: "Festive Treats"
+	task.17B701E1E21317C4.title: "Any #c:saplings/avocado"
 	task.1B1F0D348422B565.title: "The World"
-	task.1C388068FD8F6D5E.title: "Server"
 	task.1E73587E96718153.title: "SWISS"
 	task.1F6136E5AAA7E3D4.title: "Shulker"
 	task.20C2CE945122CA06.title: "Any #minecraft:soul_fire_base_blocks"
+	task.219C1A0E0AB9A985.title: "Any #c:foods/cucumber"
 	task.2483B1C059925F22.title: "Welcome To Farmopolis"
 	task.26CEBBB887A1E976.title: "Ores"
 	task.2B8C1AC9493FC880.title: "Welcome To Farmopolis"
 	task.302B2CEE3D736D90.title: "Any #minecraft:beds"
+	task.32B9E245251E9355.title: "Any #c:foods/corn"
 	task.354DB5DAA123E42D.title: "Ghast"
 	task.3CCFEA4045A16861.title: "Cow"
 	task.3CD8CDE4B853F963.title: "Minotour"
@@ -591,6 +629,7 @@
 	task.58B77CBBC39256D1.title: "Resources"
 	task.5D909492BE6840CD.title: "Nether Factory"
 	task.6550E8BA1E18BD6F.title: "Strider"
+	task.7155ECDCC357A1C0.title: "Any #c:vegetables/corn"
 	task.72225E48BC96B942.title: "Chicken"
 	task.7337103E1D58F282.title: "Any #minecraft:leaves"
 	task.738EB276E3DFCB0A.title: "Any #c:foods/tomato"

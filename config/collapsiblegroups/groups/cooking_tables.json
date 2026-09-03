@@ -1,0 +1,12 @@
+{
+  "id": "cooking_tables",
+  "name": {
+    "translate": "collapsible_groups.group.cooking_tables",
+    "fallback": "Cooking Tables"
+  },
+  "enabled": true,
+  "filter": {
+    "type": "item",
+    "tag": "cookingforblockheads:cooking_tables"
+  }
+}

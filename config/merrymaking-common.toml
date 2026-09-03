@@ -6,3 +6,5 @@ mob_drop_christmas_armor = true
 christmas_creeper_spawn = true
 #Enable all versions of Ugly Christmas Armor to show in the Creative Tab. Set to False to disable
 show_all_armors_in_tab = true
+#Enable falling snow to change stairs. Set to False to disable
+change_stairs_with_snowfall = true

@@ -1,7 +1,4 @@
 [
   {"version":1},
-  {"ingredient":{"id":"minecraft:leather"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"create:sweet_roll"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"minecraft:bread"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"biomeswevegone:ironwood_log"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+  {"ingredient":{"id":"minecraft:lingering_potion","components":{"minecraft:potion_contents":{"potion":"minecraft:strong_regeneration"}}},"type":"item_stack","bookmarkType":"INGREDIENT"}
 ]

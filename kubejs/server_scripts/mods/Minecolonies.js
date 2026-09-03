@@ -12,4 +12,10 @@ ServerEvents.recipes(event => {
         B: 'minecraft:bread'
     }).id("farmopolis:milky_bread")
 
+    //Cornmeal recipe will be replaced by milling/crushing recipes
+    event.remove('minecolonies:cornmeal')
+
+    // Use cultural delights tortillas instead
+    event.remove('minecolonies:tortillas')
+
 })

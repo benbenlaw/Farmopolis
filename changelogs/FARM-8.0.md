@@ -1,0 +1,131 @@
+# Farmopolis 8.0
+
+## Changes
+- Updated NeoForge 21.1.235
+- Updated Mods to the latest versions
+- Removed the public server ip being auto added to the multiplayer menu because public server retired
+- Removed Sodium Dynamic Lights, Extras and Options API because they are not updated to work with the latest version of Sodium
+- Exploit related to NBT Editing with FTBLib was fixed
+- Spell Colonies was re-added because it was updated to work with the newer version of Iron's Spells 'n Spellbooks
+
+## Mods
+### Added (7)
+- Better Ping Display (BetterPingDisplay-1.21.1-1.1.jar)
+- ProbeJS (ProbeJS-8.0.3.jar)
+- Delight Lib (delightlib-26.05.18-1.21-neoforge.jar)
+- Fast IP Ping (fast-ip-ping-v1.0.11-mc1.21.1-neoforge.jar)
+- MineColonies: Jade crops addon (mcjadecrops-1.1.1300.jar)
+- MouseTweaks x Accessories Fix (mousetweaks-x-accessories-fix-1.4.0.jar)
+- Spell Colonies (spell_colonies-2101.1.2-fix1.jar)
+
+### Removed (3)
+- Sodium/Embeddium Dynamic Lights (sodiumdynamiclights-neoforge-1.0.10-1.21.1.jar)
+- Sodium/Embeddium Options API (sodiumoptionsapi-neoforge-1.0.10-1.21.1.jar)
+- Sodium/Embeddium Extras (sodiumextras-neoforge-1.0.8-1.21.1.jar)
+
+### Updated (105)
+- Advanced Loot Info (ALI): AdvancedLootInfo-neoforge-1.21.1-1.10.0.jar → AdvancedLootInfo-neoforge-1.21.1-1.12.0.jar
+- Byzantine Styles Pack for Minecolonies: Byzantine-1.21.1-50.jar → Byzantine-1.21.1-51.jar
+- Construction Sticks: ConstructionSticks-1.21.1-1.3.0.jar → ConstructionSticks-1.21.1-1.4.1.jar
+- CraterLib: CraterLib-Neoforge-1.21-3.1.1.jar → CraterLib-Neoforge-1.21-3.1.2.jar
+- Create: Dragons Plus: CreateDragonsPlus-1.10.0b.jar → CreateDragonsPlus-1.11.2b.jar
+- Create: Design n' Decor: Design-n-Decor-1.21.1-2.1.0.jar → Design-n-Decor-1.21.1-2.2b.jar
+- Emojiful: Emojiful-Neoforge-1.21-5.2.2-all.jar → Emojiful-Neoforge-1.21-5.2.3-all.jar
+- Euphoria Patches: EuphoriaPatcher-1.8.6-r5.7.1-neoforge.jar → EuphoriaPatcher-1.9.3-r5.8.1-neoforge.jar
+- ExtraStorage: ExtraStorage-1.21.1-5.0.9.jar → ExtraStorage-1.21.1-5.0.10.jar
+- Farmer's Delight: FarmersDelight-1.21.1-1.3.1.jar → FarmersDelight-1.21.1-1.3.2.jar
+- Farmers Structures: FarmersStructures-1.0.2-1.21.1_neoforge.jar → FarmersStructures-1.0.6-1.21.1_neoforge.jar
+- FramedBlocks: FramedBlocks-10.5.3.jar → FramedBlocks-10.6.1.jar
+- Glassential Renewed: Glassential-renewed-1.21.1-3.4.1.jar → Glassential-renewed-1.21.1-3.4.4.jar
+- GlitchCore: GlitchCore-neoforge-1.21.1-2.1.0.0.jar → GlitchCore-neoforge-1.21.1-2.1.0.2.jar
+- ImmediatelyFast: ImmediatelyFast-NeoForge-1.6.10+1.21.1.jar → ImmediatelyFast-NeoForge-1.6.11+1.21.1.jar
+- MES - Moog's End Structures: MoogsEndStructures-1.21-2.0.2.jar → MoogsEndStructures-1.21-2.0.3.jar
+- Mystical Agriculture: MysticalAgriculture-1.21.1-8.0.26.jar → MysticalAgriculture-1.21.1-8.0.27.jar
+- Mystical Automation: MysticalAutomation-1.21.1-1.0.5.jar → MysticalAutomation-1.21.1-1.0.6.jar
+- Oh The Biomes We've Gone: Oh-The-Biomes-Weve-Gone-NeoForge-2.5.5.jar → Oh-The-Biomes-Weve-Gone-NeoForge-2.6.0.jar
+- Oh The Trees You'll Grow: Oh-The-Trees-Youll-Grow-neoforge-1.21.1-5.3.1.jar → Oh-The-Trees-Youll-Grow-neoforge-1.21.1-5.3.2.jar
+- Puzzles Lib: PuzzlesLib-v21.1.39-1.21.1-NeoForge.jar → PuzzlesLib-v21.1.52-1.21.1-NeoForge.jar
+- Simple Discord Link Bot: SimpleDiscordLink-Universal-3.4.1.jar → SimpleDiscordLink-Universal-3.4.3.jar
+- Actually Additions: actuallyadditions-1.3.25+mc1.21.1.jar → actuallyadditions-1.3.26+mc1.21.1.jar
+- AllTheLeaks (Memory Leak Fix): alltheleaks-1.1.8+1.21.1-neoforge.jar → alltheleaks-1.1.9+1.21.1-neoforge.jar
+- Almost Unified: almostunified-neoforge-1.21.1-1.4.1.jar → almostunified-neoforge-1.21.1-1.4.2.jar
+- Amendments: amendments-1.21-2.0.15-neoforge.jar → amendments-neoforge-1.21-2.1.5.jar
+- Balm: balm-neoforge-1.21.1-21.0.56.jar → balm-neoforge-1.21.1-21.0.60.jar
+- Bibliowoods Legacy: bibliowoods-1.21.1-1.6.3.jar → bibliowoods-1.21.1-1.6.5.jar
+- BucketLib: bucketlib-neoforge-1.21-4.1.7.1.jar → bucketlib-neoforge-1.21-4.1.7.2.jar
+- Bad Wither No Cookie - Reloaded: bwncr-neoforge-1.21.1-3.20.4.jar → bwncr-neoforge-1.21.1-3.20.4.jar
+- Cable Facades: cable_facades-1.21.1-NeoForge-2.0.2.jar → cable_facades-1.21.1-NeoForge-2.1.3.jar
+- BBL Casting: casting-1.21.1-2.3.11.jar → casting-1.21.1-2.3.13.jar
+- Chat Heads: chat_heads-0.15.1-neoforge-1.21.jar → chat_heads-0.15.2-neoforge-1.21.jar
+- Collective: collective-1.21.1-8.22.jar → collective-1.21.1-8.39.jar
+- Colorwheel: colorwheel-neoforge-1.2.4+mc1.21.1.jar → colorwheel-neoforge-1.2.9+mc1.21.1.jar
+- Compressed Furnace: compressedfurnace-1.21.1-neoforge-0.2.0.jar → compressedfurnace-1.21.1-neoforge-0.2.1.jar
+- Create: Central Kitchen: create-central-kitchen-2.4.0.jar → create-central-kitchen-2.5.0.jar
+- Create: Enchantment Industry: create-enchantment-industry-2.3.1.jar → create-enchantment-industry-2.5.0-preview-alpha1.jar
+- Create: Integrated Farming: create-integrated-farming-1.2.2.jar → create-integrated-farming-1.2.6.jar
+- Create: Let The Adventure Begin: create_ltab-3.9.2.jar → create_ltab-4.0.3.jar
+- Create: Pillager Arise: create_pillagers_arise-132.32 Release-neoforge-1.21.1.jar → create_pillagers_arise NeoForge 1.21.1-132.36.jar
+- Create: Structures Arise: create_structures_arise-174.47.46 Release-neoforge-1.21.1.jar → create_structures_arise-176.49.48 NeoForge 1.21.1.jar
+- Create Crafts & Additions: createaddition-1.5.10.jar → createaddition-1.6.0.jar
+- Cristel Lib: cristellib-neoforge-1.21.1-3.0.3.jar → cristellib-neoforge-1.21.1-3.1.7.jar
+- Cultural Delights: culturaldelights-0.17.8.jar → culturaldelights-0.17.8.jar
+- Cupboard: cupboard-1.21-3.5.jar → cupboard-1.21.1-3.8.jar
+- Dark Mode Everywhere: darkmodeeverywhere-1.21-1.3.5.jar → darkmodeeverywhere-neoforge-1.21.1-1.4.0.jar
+- Domum Ornamentum: domum-ornamentum-1.0.233-snapshot-main.jar → domum-ornamentum-1.0.234-snapshot-main.jar
+- Easy NPC: Core: easy_npc-neoforge-1.21.1-6.13.0.jar → easy_npc-neoforge-1.21.1-6.25.0.jar
+- Easy NPC: Config UI: easy_npc_config_ui-neoforge-1.21.1-6.13.0.jar → easy_npc_config_ui-neoforge-1.21.1-6.25.0.jar
+- Enchantment Descriptions: enchdesc-neoforge-1.21.1-21.1.9.jar → enchdesc-neoforge-1.21.1-21.1.10.jar
+- Entity Culling Fabric/Forge: entityculling-neoforge-1.10.2-mc1.21.1.jar → entityculling-neoforge-1.10.5-mc1.21.1.jar
+- Exposure: exposure-neoforge-1.21.1-1.9.16.jar → exposure-neoforge-1.21.1-1.9.18.jar
+- FancyMenu: fancymenu_neoforge_3.9.0_MC_1.21.1.jar → fancymenu_neoforge_3.9.6_MC_1.21.1.jar
+- FindMe: findme-3.3.3-neoforge.jar → findme-3.3.4-neoforge.jar
+- FTB Chunks (NeoForge): ftb-chunks-neoforge-2101.1.14.jar → ftb-chunks-neoforge-2101.1.20.jar
+- FTB Library (NeoForge): ftb-library-neoforge-2101.1.31.jar → ftb-library-neoforge-2101.1.32.jar
+- FTB Quests (NeoForge): ftb-quests-neoforge-2101.1.24.jar → ftb-quests-neoforge-2101.1.27.jar
+- FTB Ultimine (NeoForge): ftb-ultimine-neoforge-2101.1.13.jar → ftb-ultimine-neoforge-2101.1.15.jar
+- Functional Storage: functionalstorage-1.21.1-1.5.5.jar → functionalstorage-1.21.1-1.5.7.jar
+- Fusion (Connected Textures): fusion-1.2.12-neoforge-mc1.21.1.jar → fusion-1.3.5-neoforge-mc1.21.1.jar
+- GeckoLib: geckolib-neoforge-1.21.1-4.8.4.jar → geckolib-neoforge-1.21.1-4.9.2.jar
+- GuideME: guideme-21.1.15.jar → guideme-21.1.16.jar
+- Haunted Harvest: hauntedharvest-1.21-3.3.9-neoforge.jar → hauntedharvest-neoforge-1.21-3.4.0.jar
+- Mama's Herbs and Harvest: herbsandharvest-1.21.1-12.jar → herbsandharvest-1.21.1-16.jar
+- Inventory Essentials: inventoryessentials-neoforge-1.21.1-21.1.15.jar → inventoryessentials-neoforge-1.21.1-21.1.17.jar
+- Iris Shaders: iris-neoforge-1.8.12+mc1.21.1.jar → iris-neoforge-1.8.14-beta.1+mc1.21.1.jar
+- Iron's Lib: irons_lib-1.21.1-1.0.2.jar → irons_lib-1.21.1-1.1.0.jar
+- Iron's Spells 'n Spellbooks: irons_spellbooks-1.21.1-3.15.6.jar → irons_spellbooks-1.21.1-3.16.1.jar
+- Just Enough Items (JEI): jei-1.21.1-neoforge-19.27.0.340.jar → jei-1.21.1-neoforge-19.27.0.346.jar
+- JourneyMap: journeymap-neoforge-1.21.1-6.0.0-beta.67.jar → journeymap-neoforge-1.21.1-6.0.0.jar
+- Kotlin for Forge: kotlinforforge-5.11.0-all.jar → kotlinforforge-5.12.0-all.jar
+- KubeJS: kubejs-neoforge-2101.7.2-build.363.jar → kubejs-neoforge-2101.7.2-build.368.jar
+- Lithium (Fabric/NeoForge): lithium-neoforge-0.15.3+mc1.21.1.jar → lithium-neoforge-0.15.4+mc1.21.1.jar
+- Lootr (Forge & NeoForge): lootr-neoforge-1.21.1-1.11.37.120.jar → lootr-neoforge-1.21.1-1.11.37.121.jar
+- Mech Trowel: mechtrowel-1.3.1.jar → mechtrowel-1.3.2.1.jar
+- Mama's Merrymaking - A Minecraft Christmas and Winter Holiday Mod: merrymaking-1.21.1-14.jar → merrymaking-1.21.1-16.jar
+- MineColonies: minecolonies-1.1.1307-1.21.1-snapshot.jar → minecolonies-1.1.1345-1.21.1-snapshot.jar
+- ModernFix: modernfix-neoforge-5.27.7+mc1.21.1.jar → modernfix-neoforge-5.27.15+mc1.21.1.jar
+- Moog's Structure Lib (moogs_structures): moogs_structures-neoforge-1.21.1-2.0.2.jar → moogs_structures-neoforge-1.21.1-3.0.0.jar
+- Moonlight Lib: moonlight-neoforge-1.21.1-3.0.6.jar → moonlight-neoforge-1.21.1-3.0.22.jar
+- More Delight (Forge & Neoforge): moredelight-26.04.30-1.21-neoforge.jar → moredelight-26.05.20a-1.21-neoforge.jar
+- Neruina - Ticking Entity Fixer: neruina-3.3.1+1.21.1-neoforge.jar → neruina-3.3.2+1.21.1-neoforge.jar
+- Not Enough Animations: notenoughanimations-neoforge-1.12.2-mc1.21.1.jar → notenoughanimations-neoforge-1.12.4-mc1.21.1.jar
+- Pipez: pipez-neoforge-1.21.1-1.2.19.jar → pipez-neoforge-1.21.1-1.2.31.jar
+- Pipez Lag Fix: pipezlagfix-1.0.jar → pipezlagfix-1.21.1-1.1.0.jar
+- Rechiseled: rechiseled-1.2.4-neoforge-mc1.21.jar → rechiseled-1.2.5-neoforge-mc1.21.jar
+- Rechiseled: Create: rechiseledcreate-1.1.0-neoforge-mc1.21.jar → rechiseledcreate-1.1.1-neoforge-mc1.21.jar
+- Reese's Sodium Options: reeses-sodium-options-neoforge-1.8.3+mc1.21.4.jar → reeses-sodium-options-neoforge-2.2.2+mc1.21.1.jar
+- Refined Construction Sticks: refinedsticks-1.21.1-1.2.0.jar → refinedsticks-1.21.1-1.2.1.jar
+- Refined Storage: refinedstorage-neoforge-2.0.5.jar → refinedstorage-neoforge-2.0.9.jar
+- Refined Storage - Quartz Arsenal: refinedstorage-quartz-arsenal-neoforge-1.0.7.jar → refinedstorage-quartz-arsenal-neoforge-1.0.8.jar
+- Repurposed Structures (Neoforge/Forge): repurposed_structures-7.5.20+1.21.1-neoforge.jar → repurposed_structures-7.5.21+1.21.1-neoforge.jar
+- Rhino: rhino-2101.2.7-build.81.jar → rhino-2101.2.7-build.85.jar
+- SeasonHud: seasonhud-neoforge-1.21.1-2.0.5.jar → seasonhud-neoforge-1.21.1-2.0.6.jar
+- Create Slice & Dice: sliceanddice-forge-4.2.4.jar → sliceanddice-neoforge-4.3.2.jar
+- Sodium: sodium-neoforge-0.6.13+mc1.21.1.jar → sodium-neoforge-0.8.12-beta.2+mc1.21.1.jar
+- Sophisticated Backpacks: sophisticatedbackpacks-1.21.1-3.25.44.1736.jar → sophisticatedbackpacks-1.21.1-3.25.66.1958.jar
+- Sophisticated Core: sophisticatedcore-1.21.1-1.4.38.1847.jar → sophisticatedcore-1.21.1-1.4.63.2092.jar
+- BBL Strainers: strainers-1.21.1-5.2.1.jar → strainers-1.21.1-5.2.3.jar
+- Structurize: structurize-1.0.823-1.21.1-snapshot.jar → structurize-1.0.831-1.21.1-snapshot.jar
+- Stylecolonies: stylecolonies-1.15.51-1.21.1.jar → stylecolonies-1.15.54-1.21.1.jar
+- Supplementaries: supplementaries-neoforge-1.21.1-3.6.4.jar → supplementaries-neoforge-1.21.1-3.7.7.jar
+- The Bumblezone (NeoForge/Forge): the_bumblezone-7.13.2+1.21.1-neoforge.jar → the_bumblezone-7.15.0+1.21.1-neoforge.jar
+- Twilight's Flavors & Delight: twilightdelight-3.2.1.jar → twilightdelight-3.2.2.jar

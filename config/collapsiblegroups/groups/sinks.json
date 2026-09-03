@@ -1,0 +1,12 @@
+{
+  "id": "sinks",
+  "name": {
+    "translate": "collapsible_groups.group.sinks",
+    "fallback": "Sinks"
+  },
+  "enabled": true,
+  "filter": {
+    "type": "item",
+    "tag": "cookingforblockheads:sinks"
+  }
+}

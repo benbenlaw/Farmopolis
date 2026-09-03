@@ -7,6 +7,7 @@
 		id: "casting:controller"
 	}
 	id: "17A8103A34CA81F7"
+	images: [ ]
 	order_index: 2
 	quest_links: [ ]
 	quests: [

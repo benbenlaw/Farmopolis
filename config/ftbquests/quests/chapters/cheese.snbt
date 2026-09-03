@@ -8,6 +8,7 @@
 		id: "create_cheese:soft_curd_cheese"
 	}
 	id: "7E43826BFF022505"
+	images: [ ]
 	order_index: 1
 	quest_links: [ ]
 	quests: [
@@ -669,14 +670,24 @@
 				id: "farmopolis:cheese_license"
 			}
 			id: "27ACF20D26B82AB9"
-			rewards: [{
-				id: "0B97E6EB9F35FEFF"
-				item: {
-					count: 1
-					id: "farmopolis:cheese_license"
+			rewards: [
+				{
+					id: "0B97E6EB9F35FEFF"
+					item: {
+						count: 1
+						id: "farmopolis:cheese_license"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "7EB30F52727FCA31"
+					item: {
+						count: 1
+						id: "shops:copper_coin"
+					}
+					type: "item"
+				}
+			]
 			size: 2.0d
 			tasks: [{
 				id: "077A8E1AE162AAA7"
@@ -688,6 +699,14 @@
 		{
 			dependencies: ["27ACF20D26B82AB9"]
 			id: "06AC673B5AD15229"
+			rewards: [{
+				id: "01749B16352EAB7D"
+				item: {
+					count: 1
+					id: "shops:iron_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "3D681C02128CA711"
 				item: { count: 1, id: "farmopolis:cheese_bucks" }
@@ -695,6 +714,28 @@
 			}]
 			x: 1.0d
 			y: -3.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["27ACF20D26B82AB9"]
+			icon: {
+				id: "farmopolis:cheese_license"
+			}
+			id: "2E28A25FC9892A7F"
+			rewards: [{
+				id: "7CAFF89F24311D6F"
+				item: {
+					count: 1
+					id: "farmopolis:cheese_license"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6229E21F1AABD6FF"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: -2.0d
 		}
 	]
 }

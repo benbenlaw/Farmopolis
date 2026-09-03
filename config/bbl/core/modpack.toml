@@ -1,9 +1,9 @@
 #Modpack Configuration Settings
 ["Custom server in multiplayer Screen"]
-	#Name of the server
-	"Server Name" = "Official Public Server"
 	#IP of the server
-	"Server IP" = "farmopolis.benbenlaw.com"
+	"Server IP" = ""
+	#Name of the server
+	"Server Name" = ""
 
 ["Discord URL use /discord command to get the link"]
 	#Add a URL to link your discord, BBL Discord = https://discord.gg/benbenlaw
@@ -13,7 +13,7 @@
 	#Modpack name
 	"Modpack name" = "Farmopolis"
 	#Modpack Version
-	"Modpack Version" = "7.1"
+	"Modpack Version" = "8.2"
 
 ["Check if the modpack has any updates available"]
 	#Check if the modpack has any updates available, default = false

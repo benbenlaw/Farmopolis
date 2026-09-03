@@ -1,0 +1,12 @@
+{
+  "id": "trick_or_treat",
+  "name": {
+    "translate": "collapsible_groups.group.trick_or_treat",
+    "fallback": "Trick or Treat"
+  },
+  "enabled": true,
+  "filter": {
+    "type": "item",
+    "namespace": "trickortreat"
+  }
+}

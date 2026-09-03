@@ -13,7 +13,7 @@ ServerEvents.recipes(event => {
     }).id('bblcore:upgrade_base')
 
     //Bread
-    event.smelting('minecraft:bread', '#c:doughs').id('farmopolis:bread')
+    event.smelting('minecraft:bread', '#c:foods/dough').id('farmopolis:bread')
 
     //Catalogs
     event.shaped('farmopolis:seed_catalog', ['AAA','ABA', 'AAA'], {

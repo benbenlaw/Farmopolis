@@ -4,18 +4,27 @@
 	filename: "information"
 	group: ""
 	id: "109C9AE9256FC721"
+	images: [ ]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["6CDB919F3ABC2FCF"]
 			id: "0F387908069C9863"
+			rewards: [{
+				id: "229E344847F91F26"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "2B8C1AC9493FC880"
 				type: "checkmark"
 			}]
-			x: 0.0d
-			y: 0.0d
+			x: -1.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["6CDB919F3ABC2FCF"]
@@ -76,16 +85,6 @@
 			}]
 			x: -1.0d
 			y: -2.5d
-		}
-		{
-			dependencies: ["6CDB919F3ABC2FCF"]
-			id: "4DD8189E032A1012"
-			tasks: [{
-				id: "1C388068FD8F6D5E"
-				type: "checkmark"
-			}]
-			x: -1.0d
-			y: -0.5d
 		}
 		{
 			id: "6CDB919F3ABC2FCF"

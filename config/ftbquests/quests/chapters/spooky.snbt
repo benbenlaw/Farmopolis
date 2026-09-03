@@ -8,6 +8,7 @@
 		id: "trickortreat:lollipop"
 	}
 	id: "003E3AAD422EB82C"
+	images: [ ]
 	order_index: 5
 	quest_links: [ ]
 	quests: [
@@ -38,13 +39,21 @@
 				item: { count: 1, id: "magic_vibe_decorations:candy" }
 				type: "item"
 			}]
-			x: 0.0d
+			x: 0.5d
 			y: 1.0d
 		}
 		{
-			dependencies: ["10DD243F79FE40C7"]
+			dependencies: ["6E2937BB0EB66C05"]
 			id: "74BFF75F4A2743C1"
 			optional: true
+			rewards: [{
+				id: "7B0C341696A7E3AB"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				consume_items: true
 				count: 16L
@@ -56,9 +65,17 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["10DD243F79FE40C7"]
+			dependencies: ["6E2937BB0EB66C05"]
 			id: "25EDCE18F8BAEA68"
 			optional: true
+			rewards: [{
+				id: "3E50B45D3BBD8894"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				consume_items: true
 				count: 16L
@@ -66,13 +83,21 @@
 				item: { count: 1, id: "hauntedharvest:popcorn" }
 				type: "item"
 			}]
-			x: 0.5d
-			y: 3.0d
+			x: 0.0d
+			y: 2.5d
 		}
 		{
-			dependencies: ["10DD243F79FE40C7"]
+			dependencies: ["6E2937BB0EB66C05"]
 			id: "5085FDE8267E23BF"
 			optional: true
+			rewards: [{
+				id: "50CD9F7D2D48CD44"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				consume_items: true
 				count: 32L
@@ -80,13 +105,21 @@
 				item: { count: 1, id: "hauntedharvest:cornbread" }
 				type: "item"
 			}]
-			x: -1.5d
+			x: -2.0d
 			y: 2.0d
 		}
 		{
-			dependencies: ["10DD243F79FE40C7"]
+			dependencies: ["6E2937BB0EB66C05"]
 			id: "414205FD4A4136F4"
 			optional: true
+			rewards: [{
+				id: "64B3595FD813F599"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				consume_items: true
 				count: 64L
@@ -94,8 +127,8 @@
 				item: { count: 1, id: "hauntedharvest:candy_corn" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: 2.0d
+			x: -1.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["368F92EAC02EAB2F"]
@@ -114,6 +147,14 @@
 			dependencies: ["55B027EDE7F596A3"]
 			id: "6782E1EB103132EE"
 			optional: true
+			rewards: [{
+				id: "256BB0CF47D5760E"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				consume_items: true
 				count: 32L
@@ -128,6 +169,14 @@
 			dependencies: ["368F92EAC02EAB2F"]
 			id: "663BE272B3390251"
 			optional: true
+			rewards: [{
+				id: "0501D71C409AFD07"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				consume_items: true
 				count: 16L
@@ -142,6 +191,14 @@
 			dependencies: ["368F92EAC02EAB2F"]
 			id: "16D6A790BC5899DF"
 			optional: true
+			rewards: [{
+				id: "3DC9C8694A6A81EE"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				consume_items: true
 				count: 16L
@@ -169,6 +226,14 @@
 			dependencies: ["71F0F64F98BBEB46"]
 			id: "72BA55CF11CDC2B2"
 			optional: true
+			rewards: [{
+				id: "1B632ECACEF05828"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				consume_items: true
 				count: 32L
@@ -183,8 +248,17 @@
 			dependencies: ["10DD243F79FE40C7"]
 			id: "4D39F985BEF13B32"
 			optional: true
+			rewards: [{
+				id: "62BF2CC6A2ED89A7"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				consume_items: true
+				count: 64L
 				id: "767FEEE167AD0D91"
 				item: { count: 1, id: "trickortreat:stone_candy" }
 				type: "item"
@@ -196,6 +270,14 @@
 			dependencies: ["368F92EAC02EAB2F"]
 			id: "48CFF2D0A2CA3D6E"
 			optional: true
+			rewards: [{
+				id: "36C069DC00E0AC6E"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				consume_items: true
 				count: 64L
@@ -210,6 +292,14 @@
 			dependencies: ["10DD243F79FE40C7"]
 			id: "4591D05DFFF0D4DB"
 			optional: true
+			rewards: [{
+				id: "3574DB69190290D6"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				consume_items: true
 				count: 64L
@@ -217,15 +307,24 @@
 				item: { count: 1, id: "trickortreat:lollipop" }
 				type: "item"
 			}]
-			x: -0.5d
-			y: 3.0d
+			x: 1.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["368F92EAC02EAB2F"]
 			id: "1A4120529EE924F9"
 			optional: true
+			rewards: [{
+				id: "4CE6435092F12F6C"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				consume_items: true
+				count: 16L
 				id: "1480FC15899AD5EB"
 				item: { count: 1, id: "trickortreat:creepy_cake" }
 				type: "item"
@@ -237,14 +336,34 @@
 			dependencies: ["368F92EAC02EAB2F"]
 			id: "7589411F36DC964C"
 			optional: true
+			rewards: [{
+				id: "454BD9D2334BFDED"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				consume_items: true
+				count: 16L
 				id: "548F9B8ED580040E"
 				item: { count: 1, id: "trickortreat:nougat_swirl" }
 				type: "item"
 			}]
 			x: -1.5d
 			y: -1.0d
+		}
+		{
+			dependencies: ["368F92EAC02EAB2F"]
+			id: "6E2937BB0EB66C05"
+			tasks: [{
+				id: "02B516AA0EA5B84A"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:foods/corn)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.0d
 		}
 	]
 }

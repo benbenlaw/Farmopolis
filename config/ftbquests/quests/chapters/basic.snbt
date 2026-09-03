@@ -8,6 +8,7 @@
 		id: "create_chocolate:ginger_bread"
 	}
 	id: "72898911BC733B2E"
+	images: [ ]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
@@ -592,14 +593,24 @@
 				id: "farmopolis:baker_license"
 			}
 			id: "0B9301F71E654783"
-			rewards: [{
-				id: "1D5EDB64E67AD393"
-				item: {
-					count: 1
-					id: "farmopolis:baker_license"
+			rewards: [
+				{
+					id: "1D5EDB64E67AD393"
+					item: {
+						count: 1
+						id: "farmopolis:baker_license"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "34735CE5A3B0D365"
+					item: {
+						count: 1
+						id: "shops:copper_coin"
+					}
+					type: "item"
+				}
+			]
 			size: 2.0d
 			tasks: [{
 				id: "0EA163C447E38251"
@@ -611,6 +622,14 @@
 		{
 			dependencies: ["0B9301F71E654783"]
 			id: "7FDAAF5E6D97B312"
+			rewards: [{
+				id: "44894526EA426CCF"
+				item: {
+					count: 1
+					id: "shops:iron_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "51E8EA8EF6F21A32"
 				item: { count: 1, id: "farmopolis:baker_bucks" }
@@ -639,6 +658,28 @@
 			}]
 			x: -2.5d
 			y: -6.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0B9301F71E654783"]
+			icon: {
+				id: "farmopolis:baker_license"
+			}
+			id: "15FF6E0275F1A08E"
+			rewards: [{
+				id: "7456D404F16EC012"
+				item: {
+					count: 1
+					id: "farmopolis:baker_license"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "23AB19502FB66F41"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -8.0d
 		}
 	]
 }

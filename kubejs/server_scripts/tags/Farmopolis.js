@@ -3,17 +3,14 @@
 ServerEvents.tags('item', (event) => {
 
     //Apples
-    colors.forEach(color => {
-        event.get(`farmopolis:apples`).add([`colors:${color}_apple`])
-    })
+    colors.forEach(color => { event.get(`farmopolis:apples`).add([`colors:${color}_apple`]) })
     event.get("farmopolis:apples").add(['minecraft:apple'])
 
     //Nether Portal Frames
     event.get("bblcore:nether_portal_frame").remove("minecraft:obsidian")
 
     //Twilight Forest Portal Activator
-    event.get("twilightforest:portal/activator")
-        .add("mysticalagriculture:awakened_supremium_gemstone").remove("#c:gems/diamond")
+    event.get("twilightforest:portal/activator").add("mysticalagriculture:awakened_supremium_gemstone").remove("#c:gems/diamond")
 
     //Aether Portal Frames
     event.get("aether:aether_portal_blocks").remove("minecraft:glowstone")
@@ -60,11 +57,6 @@ ServerEvents.tags('block', (event) => {
     //Bumblezone Teleportation
     event.get("the_bumblezone:dimension_teleportation/required_blocks_under_beehive_to_teleport").add("farmopolis:reinforced_glowstone")
 
-    //Smart Craftin
-    event.get('smartcrafting:whitelisted_storage').add([
-        '@ironchest',
-        '@functionalstorage'
-    ]) 
 })
 
 

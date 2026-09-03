@@ -1,0 +1,12 @@
+{
+  "id": "christmas_delight",
+  "name": {
+    "translate": "collapsible_groups.group.christmas_delight",
+    "fallback": "Christmas Delight "
+  },
+  "enabled": true,
+  "filter": {
+    "type": "item",
+    "namespace": "farmers_delight_christmas_editio"
+  }
+}

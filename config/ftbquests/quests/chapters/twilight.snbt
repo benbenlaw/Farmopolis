@@ -8,6 +8,7 @@
 		id: "cloche:twilight_forest_upgrade"
 	}
 	id: "405B048D7B63C770"
+	images: [ ]
 	order_index: 4
 	quest_links: [ ]
 	quests: [
@@ -324,6 +325,7 @@
 			y: -8.5d
 		}
 		{
+			dependencies: ["59EAE20AA9894E8A"]
 			id: "557BC5376165091F"
 			rewards: [{
 				id: "64AEC4A3BC46CCB0"
@@ -635,17 +637,27 @@
 			]
 			hide_dependency_lines: true
 			icon: {
-				id: "farmopolis:brewing_license"
+				id: "farmopolis:twilight_license"
 			}
 			id: "5E44030313799E08"
-			rewards: [{
-				id: "534D37F3FFC8B7D3"
-				item: {
-					count: 1
-					id: "farmopolis:twilight_license"
+			rewards: [
+				{
+					id: "534D37F3FFC8B7D3"
+					item: {
+						count: 1
+						id: "farmopolis:twilight_license"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "464F7B093E253A1E"
+					item: {
+						count: 1
+						id: "shops:copper_coin"
+					}
+					type: "item"
+				}
+			]
 			size: 2.0d
 			tasks: [{
 				id: "682A772FC1AF25A3"
@@ -657,6 +669,14 @@
 		{
 			dependencies: ["5E44030313799E08"]
 			id: "2867FBE9920A8A18"
+			rewards: [{
+				id: "59AA0A2C40542A42"
+				item: {
+					count: 1
+					id: "shops:iron_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "5C80391A53973AFC"
 				item: { count: 1, id: "farmopolis:twilight_bucks" }
@@ -664,6 +684,28 @@
 			}]
 			x: -6.0d
 			y: -11.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["5E44030313799E08"]
+			icon: {
+				id: "farmopolis:twilight_license"
+			}
+			id: "6313E1A3ADA8A9CB"
+			rewards: [{
+				id: "1A8D6CD6602841DD"
+				item: {
+					count: 1
+					id: "farmopolis:twilight_license"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2134D67FCBE94CDE"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: -10.0d
 		}
 	]
 }

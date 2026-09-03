@@ -7,6 +7,7 @@
 		id: "minecraft:crafting_table"
 	}
 	id: "60A7C79A629E5753"
+	images: [ ]
 	order_index: 1
 	quest_links: [ ]
 	quests: [

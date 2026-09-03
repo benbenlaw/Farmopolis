@@ -1,0 +1,12 @@
+{
+  "id": "ovens",
+  "name": {
+    "translate": "collapsible_groups.group.ovens",
+    "fallback": "Ovens"
+  },
+  "enabled": true,
+  "filter": {
+    "type": "item",
+    "tag": "cookingforblockheads:ovens"
+  }
+}

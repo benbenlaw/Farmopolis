@@ -122,6 +122,9 @@
   "hammerlib": {
     "root": true
   },
+  "mcjadecrops": {
+    "crop_stage": true
+  },
   "jadeaddons.lootr": {
     "info": true
   },

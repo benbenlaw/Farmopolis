@@ -7,6 +7,7 @@
 		id: "minecraft:grass_block"
 	}
 	id: "41618172C27E3EF1"
+	images: [ ]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
@@ -184,7 +185,7 @@
 				item: { count: 1, id: "minecraft:sugar" }
 				type: "item"
 			}]
-			x: -0.5d
+			x: 0.5d
 			y: -2.5d
 		}
 		{
@@ -202,7 +203,7 @@
 				item: { count: 1, id: "minecraft:sugar_cane" }
 				type: "item"
 			}]
-			x: -1.0d
+			x: 0.0d
 			y: -3.5d
 		}
 		{
@@ -220,7 +221,7 @@
 				item: { count: 1, id: "minecraft:honey_bottle" }
 				type: "item"
 			}]
-			x: 0.0d
+			x: 1.0d
 			y: -3.5d
 		}
 		{
@@ -230,7 +231,7 @@
 				item: { count: 1, id: "minecraft:honeycomb" }
 				type: "item"
 			}]
-			x: 1.0d
+			x: 2.0d
 			y: -3.5d
 		}
 		{
@@ -314,7 +315,7 @@
 				item: { count: 1, id: "create_chocolate:vanilla_seed" }
 				type: "item"
 			}]
-			x: 3.0d
+			x: 4.0d
 			y: -3.5d
 		}
 		{
@@ -333,7 +334,7 @@
 				item: { count: 1, id: "create_chocolate:vanilla_lusk" }
 				type: "item"
 			}]
-			x: 3.0d
+			x: 4.0d
 			y: -2.5d
 		}
 		{
@@ -583,7 +584,7 @@
 				item: { count: 1, id: "minecraft:bamboo" }
 				type: "item"
 			}]
-			x: -2.0d
+			x: -1.0d
 			y: -3.5d
 		}
 		{
@@ -706,7 +707,7 @@
 			}]
 			tasks: [{
 				id: "32B9E245251E9355"
-				item: { count: 1, id: "minecolonies:corn" }
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:foods/corn)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 0.5d
@@ -719,7 +720,7 @@
 				item: { count: 1, id: "minecraft:wheat_seeds" }
 				type: "item"
 			}]
-			x: 2.0d
+			x: 3.0d
 			y: -3.5d
 		}
 		{
@@ -738,7 +739,54 @@
 				item: { count: 1, id: "minecraft:wheat" }
 				type: "item"
 			}]
-			x: 2.0d
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			id: "263E0C59B2B460AD"
+			rewards: [{
+				id: "0EC6FE9EA1529289"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "219C1A0E0AB9A985"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:foods/cucumber)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -7.5d
+		}
+		{
+			id: "3613A77070C1C4F8"
+			tasks: [{
+				id: "17B701E1E21317C4"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:saplings/avocado)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3613A77070C1C4F8"]
+			id: "21BF9D21B4B0B1C6"
+			rewards: [{
+				id: "26F0E89FE7A80BD3"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0BC61285291D1369"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:foods/avocado)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -2.0d
 			y: -2.5d
 		}
 	]

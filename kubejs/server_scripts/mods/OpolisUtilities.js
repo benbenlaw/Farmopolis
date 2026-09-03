@@ -11,6 +11,11 @@ ServerEvents.recipes(event => {
     event.recipes.opolisutilities.fluid_generator("25x casting:iced_water").id("farmopolis:iced_water")
     event.recipes.opolisutilities.fluid_generator("25x casting:chilled_water").id("farmopolis:chilled_water")
 
+    event.remove({ id: 'opolisutilities:catalogue' })
+    event.remove({ id: 'opolisutilities:catalogue_book' })
+    event.remove({ id: 'opolisutilities:basic_loot_box' })
+
+    /*
     // Catalogue - B Bucks
 
     let saplings = Ingredient.of('#minecraft:saplings').itemIds
@@ -44,5 +49,5 @@ ServerEvents.recipes(event => {
     // Catalogue - Twilight Bucks
     event.recipes.opolisutilities.catalogue("cloche:cloche", "12x farmopolis:twilight_bucks").id("farmopolis:catalogue/twilight/cloche")
     event.recipes.opolisutilities.catalogue("extendedcrafting:black_iron_ingot", "6x farmopolis:twilight_bucks").id("farmopolis:catalogue/twilight/black_iron")
-
+    */
 })

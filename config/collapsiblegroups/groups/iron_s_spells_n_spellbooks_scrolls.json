@@ -1,0 +1,12 @@
+{
+  "id": "iron_s_spells_n_spellbooks_scrolls",
+  "name": {
+    "translate": "collapsible_groups.group.iron_s_spells_n_spellbooks_scrolls",
+    "fallback": "Iron\u0027s Spells \u0027n Spellbooks: Scrolls"
+  },
+  "enabled": true,
+  "filter": {
+    "type": "item",
+    "id": "irons_spellbooks:scroll"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "mama_s_merrymaking",
+  "name": {
+    "translate": "collapsible_groups.group.mama_s_merrymaking",
+    "fallback": "Mama\u0027s Merrymaking "
+  },
+  "enabled": true,
+  "filter": {
+    "type": "item",
+    "namespace": "merrymaking"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "kitchen_counters",
+  "name": {
+    "translate": "collapsible_groups.group.kitchen_counters",
+    "fallback": "Kitchen Counters"
+  },
+  "enabled": true,
+  "filter": {
+    "type": "item",
+    "tag": "cookingforblockheads:counters"
+  }
+}

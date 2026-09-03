@@ -1,10 +1,6 @@
-#Whether to log the dirt block on common setup
-logDirtBlock = true
-#A magic number
-# Default: 42
-# Range: > 0
-magicNumber = 42
-#What you want the introduction message to be for the magic number
-magicNumberIntroduction = "The magic number is... "
-#A list of items to log on common setup.
-items = ["minecraft:iron_ingot"]
+#Whether to add grape trellis structures to villages
+add_trellis = true
+#Whether to add h&h crops to village gardens
+crops_in_gardens = true
+#Whether to spawn the guide book into the player's inventory
+give_book_on_join = true

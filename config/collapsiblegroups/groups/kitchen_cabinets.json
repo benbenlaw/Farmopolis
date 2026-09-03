@@ -1,0 +1,12 @@
+{
+  "id": "kitchen_cabinets",
+  "name": {
+    "translate": "collapsible_groups.group.kitchen_cabinets",
+    "fallback": "Kitchen Cabinets"
+  },
+  "enabled": true,
+  "filter": {
+    "type": "item",
+    "tag": "cookingforblockheads:cabinets"
+  }
+}

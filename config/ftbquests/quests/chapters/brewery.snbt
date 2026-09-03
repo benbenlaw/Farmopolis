@@ -8,6 +8,7 @@
 		id: "drinkbeer:empty_beer_mug"
 	}
 	id: "0632FA4FFA8C7199"
+	images: [ ]
 	order_index: 2
 	quest_links: [ ]
 	quests: [
@@ -75,24 +76,14 @@
 		{
 			dependencies: ["797606D71AC4EE5E"]
 			id: "53A81ED54038DEF1"
-			rewards: [
-				{
-					id: "6CA697C1AFC435E7"
-					item: {
-						count: 1
-						id: "shops:copper_coin"
-					}
-					type: "item"
+			rewards: [{
+				id: "40CBA22753014CF1"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
 				}
-				{
-					id: "5F534623C5EBFF89"
-					item: {
-						count: 1
-						id: "shops:copper_coin"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				consume_items: true
 				count: 16L
@@ -106,24 +97,14 @@
 		{
 			dependencies: ["797606D71AC4EE5E"]
 			id: "52AB03DBB5AAA297"
-			rewards: [
-				{
-					id: "0CA244E9772581D9"
-					item: {
-						count: 1
-						id: "shops:copper_coin"
-					}
-					type: "item"
+			rewards: [{
+				id: "2E03D91C0E96224F"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
 				}
-				{
-					id: "5FA412086B2C9301"
-					item: {
-						count: 1
-						id: "shops:copper_coin"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				consume_items: true
 				count: 16L
@@ -137,24 +118,14 @@
 		{
 			dependencies: ["797606D71AC4EE5E"]
 			id: "1E85E73FDDC2C87F"
-			rewards: [
-				{
-					id: "312B604AADC49019"
-					item: {
-						count: 1
-						id: "shops:copper_coin"
-					}
-					type: "item"
+			rewards: [{
+				id: "7A36E3D2BE441ED1"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
 				}
-				{
-					id: "6CD6657AD30E822A"
-					item: {
-						count: 1
-						id: "shops:copper_coin"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				consume_items: true
 				count: 16L
@@ -168,24 +139,14 @@
 		{
 			dependencies: ["797606D71AC4EE5E"]
 			id: "794489E687115CFD"
-			rewards: [
-				{
-					id: "125A7D08CA9294E8"
-					item: {
-						count: 1
-						id: "shops:copper_coin"
-					}
-					type: "item"
+			rewards: [{
+				id: "38316509B29A51BB"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
 				}
-				{
-					id: "4C97F6867542C950"
-					item: {
-						count: 1
-						id: "shops:copper_coin"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				consume_items: true
 				count: 16L
@@ -199,24 +160,14 @@
 		{
 			dependencies: ["797606D71AC4EE5E"]
 			id: "73F87EC16ED8B3A0"
-			rewards: [
-				{
-					id: "254EB5D055660A78"
-					item: {
-						count: 1
-						id: "shops:copper_coin"
-					}
-					type: "item"
+			rewards: [{
+				id: "3C223982BD2852F3"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
 				}
-				{
-					id: "789C8E3C9EC2D52C"
-					item: {
-						count: 1
-						id: "shops:copper_coin"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				consume_items: true
 				count: 16L
@@ -233,24 +184,14 @@
 				id: "drinkbeer:beer_mug_blaze_stout"
 			}
 			id: "33D37EC1F86EC683"
-			rewards: [
-				{
-					id: "11A4AA6F81BEB8EF"
-					item: {
-						count: 1
-						id: "shops:copper_coin"
-					}
-					type: "item"
+			rewards: [{
+				id: "1F433449A047F47A"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
 				}
-				{
-					id: "4711876289E852DE"
-					item: {
-						count: 1
-						id: "shops:copper_coin"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				consume_items: true
 				count: 16L
@@ -264,24 +205,14 @@
 		{
 			dependencies: ["797606D71AC4EE5E"]
 			id: "03C7F3CB01E9894C"
-			rewards: [
-				{
-					id: "5128602C7C96CBDB"
-					item: {
-						count: 1
-						id: "shops:copper_coin"
-					}
-					type: "item"
+			rewards: [{
+				id: "48A08D864A2B02F6"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
 				}
-				{
-					id: "06BD2B6F89F57256"
-					item: {
-						count: 1
-						id: "shops:copper_coin"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				consume_items: true
 				count: 16L
@@ -295,24 +226,14 @@
 		{
 			dependencies: ["797606D71AC4EE5E"]
 			id: "6171F8DB01C648FF"
-			rewards: [
-				{
-					id: "642B38EA2B47E0E3"
-					item: {
-						count: 1
-						id: "shops:copper_coin"
-					}
-					type: "item"
+			rewards: [{
+				id: "0178915CFFB10887"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
 				}
-				{
-					id: "21ED7AD56F64BF0C"
-					item: {
-						count: 1
-						id: "shops:copper_coin"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				consume_items: true
 				count: 16L
@@ -326,24 +247,14 @@
 		{
 			dependencies: ["797606D71AC4EE5E"]
 			id: "5BC20AFD503E09A6"
-			rewards: [
-				{
-					id: "1DE550468339A58F"
-					item: {
-						count: 1
-						id: "shops:copper_coin"
-					}
-					type: "item"
+			rewards: [{
+				id: "62DEC14ED1C40512"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
 				}
-				{
-					id: "368D7D64E7DE9E6B"
-					item: {
-						count: 1
-						id: "shops:copper_coin"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				consume_items: true
 				count: 16L
@@ -394,24 +305,14 @@
 			]
 			dependency_requirement: "one_completed"
 			id: "18625D82C27EFF84"
-			rewards: [
-				{
-					id: "10B2CCCA717162F9"
-					item: {
-						count: 1
-						id: "shops:copper_coin"
-					}
-					type: "item"
+			rewards: [{
+				id: "2AF65AC84EC8239B"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
 				}
-				{
-					id: "2E2DE2BAB5417C6D"
-					item: {
-						count: 1
-						id: "shops:copper_coin"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				consume_items: true
 				count: 64L
@@ -425,24 +326,14 @@
 		{
 			dependencies: ["67AC3C0E41F80EA7"]
 			id: "3F5BA943E60CD502"
-			rewards: [
-				{
-					id: "4C5489D7C6C5F7A5"
-					item: {
-						count: 1
-						id: "shops:copper_coin"
-					}
-					type: "item"
+			rewards: [{
+				id: "16607E981F65958F"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
 				}
-				{
-					id: "4405B0F3EB0729C9"
-					item: {
-						count: 1
-						id: "shops:copper_coin"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				consume_items: true
 				count: 64L
@@ -456,24 +347,14 @@
 		{
 			dependencies: ["67AC3C0E41F80EA7"]
 			id: "0B4DA4E1E77938E4"
-			rewards: [
-				{
-					id: "03E5F0CFB444688A"
-					item: {
-						count: 1
-						id: "shops:copper_coin"
-					}
-					type: "item"
+			rewards: [{
+				id: "4B7E435FB0A9DBC4"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
 				}
-				{
-					id: "4E5FE91342FEE9E9"
-					item: {
-						count: 1
-						id: "shops:copper_coin"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				consume_items: true
 				count: 64L
@@ -487,24 +368,14 @@
 		{
 			dependencies: ["08226FF760A8F81C"]
 			id: "07E9B7A565AED63B"
-			rewards: [
-				{
-					id: "1C9CF48E33DD29B8"
-					item: {
-						count: 1
-						id: "shops:copper_coin"
-					}
-					type: "item"
+			rewards: [{
+				id: "225096FA6D539FEA"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
 				}
-				{
-					id: "56BB81522EF47435"
-					item: {
-						count: 1
-						id: "shops:copper_coin"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				consume_items: true
 				count: 32L
@@ -518,24 +389,14 @@
 		{
 			dependencies: ["08226FF760A8F81C"]
 			id: "75709A3A33F14B06"
-			rewards: [
-				{
-					id: "2761478F8B463433"
-					item: {
-						count: 1
-						id: "shops:copper_coin"
-					}
-					type: "item"
+			rewards: [{
+				id: "024B7D99F0BB503E"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
 				}
-				{
-					id: "634BD8DC8A6C45AE"
-					item: {
-						count: 1
-						id: "shops:copper_coin"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				consume_items: true
 				count: 32L
@@ -549,24 +410,14 @@
 		{
 			dependencies: ["08226FF760A8F81C"]
 			id: "5412EF42DC478CF2"
-			rewards: [
-				{
-					id: "7D2DA64404B82BC3"
-					item: {
-						count: 1
-						id: "shops:copper_coin"
-					}
-					type: "item"
+			rewards: [{
+				id: "5F1276C8141142C6"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
 				}
-				{
-					id: "033D9381CB214CF9"
-					item: {
-						count: 1
-						id: "shops:copper_coin"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				consume_items: true
 				count: 32L
@@ -580,24 +431,14 @@
 		{
 			dependencies: ["051E295BE1E9DA33"]
 			id: "1A9A66FCE5ED1C01"
-			rewards: [
-				{
-					id: "6BD355891FA90770"
-					item: {
-						count: 1
-						id: "shops:copper_coin"
-					}
-					type: "item"
+			rewards: [{
+				id: "5DB3A082ED5FBFA5"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
 				}
-				{
-					id: "68AFE964AF572C65"
-					item: {
-						count: 1
-						id: "shops:copper_coin"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				consume_items: true
 				count: 24L
@@ -611,24 +452,14 @@
 		{
 			dependencies: ["051E295BE1E9DA33"]
 			id: "39CFDD3C67752C45"
-			rewards: [
-				{
-					id: "186D43B0FCBDD1FB"
-					item: {
-						count: 1
-						id: "shops:copper_coin"
-					}
-					type: "item"
+			rewards: [{
+				id: "52AC3A345A73C8B6"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
 				}
-				{
-					id: "27CE6FCEEB1FB7E8"
-					item: {
-						count: 1
-						id: "shops:copper_coin"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				consume_items: true
 				count: 24L
@@ -642,24 +473,14 @@
 		{
 			dependencies: ["051E295BE1E9DA33"]
 			id: "541E76C13E471FA7"
-			rewards: [
-				{
-					id: "3EA6A216CD8AB2F0"
-					item: {
-						count: 1
-						id: "shops:copper_coin"
-					}
-					type: "item"
+			rewards: [{
+				id: "52DA54EC37F4E329"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
 				}
-				{
-					id: "102385D40176783D"
-					item: {
-						count: 1
-						id: "shops:copper_coin"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				consume_items: true
 				count: 24L
@@ -673,24 +494,14 @@
 		{
 			dependencies: ["051E295BE1E9DA33"]
 			id: "4611F2891A23330A"
-			rewards: [
-				{
-					id: "768106D6F9F55A14"
-					item: {
-						count: 1
-						id: "shops:copper_coin"
-					}
-					type: "item"
+			rewards: [{
+				id: "49A63B40FB7E60E4"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
 				}
-				{
-					id: "326429E5CFAF691E"
-					item: {
-						count: 1
-						id: "shops:copper_coin"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				consume_items: true
 				count: 24L
@@ -704,24 +515,14 @@
 		{
 			dependencies: ["051E295BE1E9DA33"]
 			id: "6C03D77EC3024FC2"
-			rewards: [
-				{
-					id: "3DCB4BC798580E7E"
-					item: {
-						count: 1
-						id: "shops:copper_coin"
-					}
-					type: "item"
+			rewards: [{
+				id: "0A4ABE8A1E0B6130"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
 				}
-				{
-					id: "49E6E814A5D221CD"
-					item: {
-						count: 1
-						id: "shops:copper_coin"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				consume_items: true
 				count: 24L
@@ -738,24 +539,14 @@
 				"08226FF760A8F81C"
 			]
 			id: "492861C5BF4E85B8"
-			rewards: [
-				{
-					id: "7DB9C27CBB0AECD4"
-					item: {
-						count: 1
-						id: "shops:copper_coin"
-					}
-					type: "item"
+			rewards: [{
+				id: "30D3BA3C81C92735"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
 				}
-				{
-					id: "7DAA79886A36E235"
-					item: {
-						count: 1
-						id: "shops:copper_coin"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				consume_items: true
 				count: 64L
@@ -795,14 +586,24 @@
 				id: "farmopolis:brewing_license"
 			}
 			id: "12C4EEBE99D13FCD"
-			rewards: [{
-				id: "0C0FCF409FF0963D"
-				item: {
-					count: 1
-					id: "farmopolis:brewing_license"
+			rewards: [
+				{
+					id: "0C0FCF409FF0963D"
+					item: {
+						count: 1
+						id: "farmopolis:brewing_license"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "7F4AA02E3D9937D5"
+					item: {
+						count: 1
+						id: "shops:copper_coin"
+					}
+					type: "item"
+				}
+			]
 			size: 2.0d
 			tasks: [{
 				id: "02CFE83B16C17D5D"
@@ -814,6 +615,14 @@
 		{
 			dependencies: ["12C4EEBE99D13FCD"]
 			id: "0B5FCC1DDCC4FF50"
+			rewards: [{
+				id: "611260C08F4288D8"
+				item: {
+					count: 1
+					id: "shops:iron_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "6F487DD6F67BE4E9"
 				item: { count: 1, id: "farmopolis:brewing_bucks" }
@@ -821,6 +630,28 @@
 			}]
 			x: 0.5d
 			y: -2.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["12C4EEBE99D13FCD"]
+			icon: {
+				id: "farmopolis:brewing_license"
+			}
+			id: "0E01A6000914B5FE"
+			rewards: [{
+				id: "33FC3F843EDFA28A"
+				item: {
+					count: 1
+					id: "farmopolis:brewing_license"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "50A576954880F8F7"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -2.0d
 		}
 	]
 }

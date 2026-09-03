@@ -1,0 +1,12 @@
+{
+  "id": "mystical_agriculture_essences",
+  "name": {
+    "translate": "collapsible_groups.group.mystical_agriculture_essences",
+    "fallback": "Mystical Agriculture: Essences"
+  },
+  "enabled": true,
+  "filter": {
+    "type": "item",
+    "tag": "mysticalagriculture:essences"
+  }
+}

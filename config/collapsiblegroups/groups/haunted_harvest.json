@@ -1,0 +1,12 @@
+{
+  "id": "haunted_harvest",
+  "name": {
+    "translate": "collapsible_groups.group.haunted_harvest",
+    "fallback": "Haunted Harvest"
+  },
+  "enabled": true,
+  "filter": {
+    "type": "item",
+    "namespace": "hauntedharvest"
+  }
+}
